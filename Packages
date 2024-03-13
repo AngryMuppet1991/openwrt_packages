@@ -42,6 +42,21 @@ Description:  Extended attributes support
  - getfattr
  - setfattr
 
+Package: bash
+Version: 5.2.15-1
+Depends: libc, libncurses6, libreadline8
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:bash
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 487175
+Filename: bash_5.2.15-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 485804
+SHA256sum: 4e965b24752c5be4d64117321af3afeea41d245428a34abf9d9276f17d446765
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
 Package: bcp38
 Version: 5-11
 Depends: libc
@@ -221,6 +236,1473 @@ Size: 36096489
 SHA256sum: cc05054cb286b86d502a9717cda99b78c1608173db59f3df64ad9a876495fdcc
 Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
 
+Package: coreutils-b2sum
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 31839
+Filename: coreutils-b2sum_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 32576
+SHA256sum: 88cb13ebeecc87e4ef84c5483a6d6bbcac096a8e64871b9bfe5a4736a4568575
+Description:  Full version of standard GNU b2sum utility.
+
+Package: coreutils-base32
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 22516
+Filename: coreutils-base32_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23295
+SHA256sum: aa40e7bf718c677d2b9dc957dd8bea4c0daac544c3616741e3aac1b9ad4fddf3
+Description:  Full version of standard GNU base32 utility.
+
+Package: coreutils-base64
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 22507
+Filename: coreutils-base64_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23318
+SHA256sum: 574aa8cd3ba11f3341b09349a90005ceed579c4ed7776c1bdbb5bb4d50ce4564
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-basename
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/basename:/usr/libexec/basename-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19667
+Filename: coreutils-basename_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20444
+SHA256sum: 1712aa8b4bab12cebcf1c84bac5d9d3838e53ca084f06f4837565e26a694ca09
+Description:  Full version of standard GNU basename utility.
+
+Package: coreutils-basenc
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 25713
+Filename: coreutils-basenc_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26456
+SHA256sum: 35627970747113e2a78baa517ae8a9b832ebe6ce22373a9739527ff2e30e1140
+Description:  Full version of standard GNU basenc utility.
+
+Package: coreutils-cat
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/cat:/usr/libexec/cat-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21967
+Filename: coreutils-cat_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22755
+SHA256sum: 4bd31a22ab71e1b746b85893eed8ce742afa71e79b2b23e8958a38e5a8e251e6
+Description:  Full version of standard GNU cat utility.
+
+Package: coreutils-chcon
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/chcon:/usr/libexec/chcon-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 31333
+Filename: coreutils-chcon_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 32122
+SHA256sum: 0a7a72fac6152060b991f15e7d1243a4e47a988704291962618e305dcd0190e8
+Description:  Full version of standard GNU chcon utility.
+
+Package: coreutils-chgrp
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/chgrp:/usr/libexec/chgrp-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 33535
+Filename: coreutils-chgrp_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 34362
+SHA256sum: 0ed8301fea852eb536d86f960926bf99ac1600bd9a3dece96618cdb97995f1b3
+Description:  Full version of standard GNU chgrp utility.
+
+Package: coreutils-chmod
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/chmod:/usr/libexec/chmod-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 30610
+Filename: coreutils-chmod_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 31353
+SHA256sum: 1e6e75d16ec49d92a82b4458d23c24d04441686605a3202c54196dc6b56c0c52
+Description:  Full version of standard GNU chmod utility.
+
+Package: coreutils-chown
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/chown:/usr/libexec/chown-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 34516
+Filename: coreutils-chown_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 35341
+SHA256sum: b13a3f27d4126b16b8ecb8264bd9e1c65ce0b416a9786bc52ab1937afe251651
+Description:  Full version of standard GNU chown utility.
+
+Package: coreutils-chroot
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/sbin/chroot:/usr/libexec/chroot-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 27881
+Filename: coreutils-chroot_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 28683
+SHA256sum: a684846067dd64dcd7cb7566309d016514fcda92b1d46080ea15b4af7b059a7d
+Description:  Full version of standard GNU chroot utility.
+
+Package: coreutils-cksum
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cksum:/usr/libexec/cksum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 78997
+Filename: coreutils-cksum_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 79620
+SHA256sum: 89d14662321df7d29216103c01642e2ab5d49673c5fed30565ef7b091f98925c
+Description:  Full version of standard GNU cksum utility.
+
+Package: coreutils-comm
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/comm:/usr/libexec/comm-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 22359
+Filename: coreutils-comm_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23171
+SHA256sum: dfede0e538e728454ca341c841753871376f7914db8aee426b65668c3ea53348
+Description:  Full version of standard GNU comm utility.
+
+Package: coreutils-cp
+Version: 9.3-1
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/cp:/usr/libexec/cp-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 52613
+Filename: coreutils-cp_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 53437
+SHA256sum: 3bb322e0ac3c009986363a28efb5bde6a2c3bf85e3d98f45ba1ca83e8ecd34c5
+Description:  Full version of standard GNU cp utility.
+
+Package: coreutils-csplit
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 54667
+Filename: coreutils-csplit_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 55402
+SHA256sum: a487966236246ff1a414b478343c40a3a34a7cbedde320b2081d06469b4eb0c3
+Description:  Full version of standard GNU csplit utility.
+
+Package: coreutils-cut
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cut:/usr/libexec/cut-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23863
+Filename: coreutils-cut_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24641
+SHA256sum: 53c7c61699c9a63dcd07c42c6fc7d4eaf6fcbe7a057c75b7128f91bcb2301bd8
+Description:  Full version of standard GNU cut utility.
+
+Package: coreutils-date
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/date:/usr/libexec/date-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 46272
+Filename: coreutils-date_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 47043
+SHA256sum: d3efe7456a29da55b2844fcd5b16938eed93c45a92402b866c61df4469724151
+Description:  Full version of standard GNU date utility.
+
+Package: coreutils-dd
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/dd:/usr/libexec/dd-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 35718
+Filename: coreutils-dd_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 36498
+SHA256sum: f902f1a870051ec6c9c136b7f6dec77a0a7c4b5df76d79e2f12357ba29600fa4
+Description:  Full version of standard GNU dd utility.
+
+Package: coreutils-df
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/df:/usr/libexec/df-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 40823
+Filename: coreutils-df_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 41726
+SHA256sum: 38bf1c977900e4225209b7e67b33c4d1956e98016119bfedaf3dff365e0550b0
+Description:  Full version of standard GNU df utility.
+
+Package: coreutils-dir
+Version: 9.3-1
+Depends: libc, coreutils, libacl, libcap
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 66397
+Filename: coreutils-dir_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 67112
+SHA256sum: 2d81acf7da132f421f87f58761cb4a55d024d7756218bd1f67fdb55f97c8f355
+Description:  Full version of standard GNU dir utility.
+
+Package: coreutils-dircolors
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 30477
+Filename: coreutils-dircolors_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 31222
+SHA256sum: 52e236b40afdffdc355a6d23ef2f99c94cc6219635d73643b4a831b4eeac014d
+Description:  Full version of standard GNU dircolors utility.
+
+Package: coreutils-dirname
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/dirname:/usr/libexec/dirname-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19352
+Filename: coreutils-dirname_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20136
+SHA256sum: 65afde60d76ae23499fa62eb3aac073b0686db413000e1515c818c4d950fb66f
+Description:  Full version of standard GNU dirname utility.
+
+Package: coreutils-du
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/du:/usr/libexec/du-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 81486
+Filename: coreutils-du_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 82286
+SHA256sum: c0ec08ff420d2dfe671e670a449041d47e1d250d7124e298899e63e1a7b91308
+Description:  Full version of standard GNU du utility.
+
+Package: coreutils-echo
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/echo:/usr/libexec/echo-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 18016
+Filename: coreutils-echo_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 18870
+SHA256sum: e9ead7fcd982da3a8b4aeabfbe683a3f1030301ed7c60555defaa3f5f43aa49d
+Description:  Full version of standard GNU echo utility.
+
+Package: coreutils-env
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/env:/usr/libexec/env-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 24929
+Filename: coreutils-env_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 25717
+SHA256sum: 5a32b4c14032297d2cd2c9eb5e46de5129aec7e0d3bbf13faf5a683ef054eb75
+Description:  Full version of standard GNU env utility.
+
+Package: coreutils-expand
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/expand:/usr/libexec/expand-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21502
+Filename: coreutils-expand_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22242
+SHA256sum: 812e7495067cc0bedcd3809fdadbb734b9ac02fbbf2251d8c1aa23fe3a2f4015
+Description:  Full version of standard GNU expand utility.
+
+Package: coreutils-expr
+Version: 9.3-1
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/expr:/usr/libexec/expr-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 52009
+Filename: coreutils-expr_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 52876
+SHA256sum: b96a68cab251f2b5a1c3bb0e1aebd2f7f0393a775c60016d9d40a21d64fb2e1f
+Description:  Full version of standard GNU expr utility.
+
+Package: coreutils-factor
+Version: 9.3-1
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/factor:/usr/libexec/factor-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 45209
+Filename: coreutils-factor_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 46050
+SHA256sum: 441789a0c6f307967bc74999d6af1072315a677525c5afda9dcdf62e4bee6811
+Description:  Full version of standard GNU factor utility.
+
+Package: coreutils-false
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/false:/usr/libexec/false-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16893
+Filename: coreutils-false_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17732
+SHA256sum: 52abc0935f9e44b24a7e036e16eee2ef05acf76bcd1a950ab6570f13f2ccf398
+Description:  Full version of standard GNU false utility.
+
+Package: coreutils-fmt
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23543
+Filename: coreutils-fmt_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24333
+SHA256sum: f605ea60dcbaa928fcb82dc6a9fceee9ba249f60b13ed3f1d076f957c0ac7079
+Description:  Full version of standard GNU fmt utility.
+
+Package: coreutils-fold
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/fold:/usr/libexec/fold-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21007
+Filename: coreutils-fold_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21751
+SHA256sum: ccaebee536b61c77abf412eed62279f25f0a027aec90abacd1cff3cf3545101e
+Description:  Full version of standard GNU fold utility.
+
+Package: coreutils-groups
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/groups:/usr/libexec/groups-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20074
+Filename: coreutils-groups_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20893
+SHA256sum: b3325c348dfb13e795ecf6bb3bf47756a6d4a03445d2b7d62c94a2da167acced
+Description:  Full version of standard GNU groups utility.
+
+Package: coreutils-head
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/head:/usr/libexec/head-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 24514
+Filename: coreutils-head_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 25293
+SHA256sum: 742d4f3f1a141573991666e40f764aae18fedf9dfa9fb7d266ae764559854852
+Description:  Full version of standard GNU head utility.
+
+Package: coreutils-hostid
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/hostid:/usr/libexec/hostid-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19059
+Filename: coreutils-hostid_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19919
+SHA256sum: 6776b3554ce6762ec24003b8e79de837669bc67fc50616d41c0888a55e2fe7e4
+Description:  Full version of standard GNU hostid utility.
+
+Package: coreutils-id
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/id:/usr/libexec/id-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 22825
+Filename: coreutils-id_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23637
+SHA256sum: 793a84230a65dc24e07b38009c89d145ea717d4c4c51185a40587047fd57a63f
+Description:  Full version of standard GNU id utility.
+
+Package: coreutils-install
+Version: 9.3-1
+Depends: libc, coreutils, libacl
+Alternatives: 300:/usr/bin/install:/usr/libexec/install-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 54486
+Filename: coreutils-install_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 55315
+SHA256sum: 29cd01d950a03409682deb703ce48aeed9d7df62a92087e7a78108653fe9d2e7
+Description:  Full version of standard GNU install utility.
+
+Package: coreutils-join
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 26270
+Filename: coreutils-join_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 27008
+SHA256sum: 882fa4588d0eb2843a3f56ab41cf2b1a4dedfc6f615783c0b5fb449782415d51
+Description:  Full version of standard GNU join utility.
+
+Package: coreutils-kill
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/kill:/usr/libexec/kill-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21234
+Filename: coreutils-kill_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22059
+SHA256sum: f06c2f902719b0b7996a766159c48b0f34282bdf3a339b6de65e8068ce845955
+Description:  Full version of standard GNU kill utility.
+
+Package: coreutils-link
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/link:/usr/libexec/link-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19272
+Filename: coreutils-link_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20050
+SHA256sum: f2e2e4c1f68eb9d4c5c58cf9ef4d5b51788201e94e44ff3fc2f3d5c00c9822cf
+Description:  Full version of standard GNU link utility.
+
+Package: coreutils-ln
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/ln:/usr/libexec/ln-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 32946
+Filename: coreutils-ln_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 33760
+SHA256sum: 23dc8e93b24fbee1dfb544c4ac0b3836f1e817ab8b2b7453e169e6b7fc98cdd6
+Description:  Full version of standard GNU ln utility.
+
+Package: coreutils-logname
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/logname:/usr/libexec/logname-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19047
+Filename: coreutils-logname_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19859
+SHA256sum: e81940ae36a00526f1568a689884de4b2959a49f753d7a1f2c3ce1fc31e383d7
+Description:  Full version of standard GNU logname utility.
+
+Package: coreutils-ls
+Version: 9.3-1
+Depends: libc, coreutils, libacl, libcap
+Alternatives: 300:/bin/ls:/usr/libexec/ls-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 66400
+Filename: coreutils-ls_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 67165
+SHA256sum: d345df86b1bc46d5787681376fce3aefa8d6aba487fe18d0504b46a088aec3d5
+Description:  Full version of standard GNU ls utility.
+
+Package: coreutils-md5sum
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/md5sum:/usr/libexec/md5sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 25676
+Filename: coreutils-md5sum_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26456
+SHA256sum: 823d458f8f4f264a4b2f2bc58d78030e48b5dd0cc6efc2f955ba04945684aead
+Description:  Full version of standard GNU md5sum utility.
+
+Package: coreutils-mkdir
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/mkdir:/usr/libexec/mkdir-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 22830
+Filename: coreutils-mkdir_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23651
+SHA256sum: a31579d2aa25f14a5865e1894ff8ea785e0dee5948bd679f1ab68f6988797837
+Description:  Full version of standard GNU mkdir utility.
+
+Package: coreutils-mkfifo
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/mkfifo:/usr/libexec/mkfifo-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20304
+Filename: coreutils-mkfifo_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21120
+SHA256sum: 3981f5bed4224abccb0c818d3b388c40913962fd65c7442bb7e44bc0dd4cc61c
+Description:  Full version of standard GNU mkfifo utility.
+
+Package: coreutils-mknod
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/mknod:/usr/libexec/mknod-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21812
+Filename: coreutils-mknod_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22623
+SHA256sum: 33cf626778a44b4201a6ecf04a9e944e213a884405cd83611601a6bf8e0950f0
+Description:  Full version of standard GNU mknod utility.
+
+Package: coreutils-mktemp
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/mktemp:/usr/libexec/mktemp-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21414
+Filename: coreutils-mktemp_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22223
+SHA256sum: 122cdc6d9d9fab3ab097b35eaee2e9b015b10f8434c0121c45071b5af7ca9bd4
+Description:  Full version of standard GNU mktemp utility.
+
+Package: coreutils-mv
+Version: 9.3-1
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/mv:/usr/libexec/mv-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 56207
+Filename: coreutils-mv_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 57015
+SHA256sum: 26248d388f8268c828647ba21090d6b84acd9a7fc15583dc1605723974fcf10a
+Description:  Full version of standard GNU mv utility.
+
+Package: coreutils-nice
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/nice:/usr/libexec/nice-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20423
+Filename: coreutils-nice_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21235
+SHA256sum: 3b56ded74cdfd336d7d4ef3f7c0d887b4e1a70cb14a4dfdc256cd8b862b112c6
+Description:  Full version of standard GNU nice utility.
+
+Package: coreutils-nl
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nl:/usr/libexec/nl-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 51132
+Filename: coreutils-nl_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 52002
+SHA256sum: 0677cf723f05a5257085a9e28146033a9b3891560d00d8f1a759d9e812a09ac3
+Description:  Full version of standard GNU nl utility.
+
+Package: coreutils-nohup
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/libexec/nohup-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20802
+Filename: coreutils-nohup_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21615
+SHA256sum: 1ca29f6674f2a6fde5fdf28a179d9d40fa8c89757ee7cca2ec772c94b1f22f76
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils-nproc
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nproc:/usr/libexec/nproc-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20488
+Filename: coreutils-nproc_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21234
+SHA256sum: 3f41328aede33a529e33fce2ddd8050b27b20e7a4dded6ef20d35e4b2387798b
+Description:  Full version of standard GNU nproc utility.
+
+Package: coreutils-numfmt
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 30863
+Filename: coreutils-numfmt_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 31623
+SHA256sum: 5c2726d8025807185eb3e0e62b3e3ecb699732355b60a84af50bc7e1427440ef
+Description:  Full version of standard GNU numfmt utility.
+
+Package: coreutils-od
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/od:/usr/libexec/od-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 31327
+Filename: coreutils-od_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 32133
+SHA256sum: 8931a00ae7ea9a72beabc24194972209e922ec6e13cd4bf4cfef3a4dc4e12fa6
+Description:  Full version of standard GNU od utility.
+
+Package: coreutils-paste
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/paste:/usr/libexec/paste-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20703
+Filename: coreutils-paste_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21440
+SHA256sum: 008f1f52ef7c5822e065679d0341a99d7943965150fb217d71debbf79f222035
+Description:  Full version of standard GNU paste utility.
+
+Package: coreutils-pathchk
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19995
+Filename: coreutils-pathchk_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20778
+SHA256sum: a5fa8f7a036fbd3e6af13a20b85fa01eec680a11b0d8b9540dcc1515f1bb5efa
+Description:  Full version of standard GNU pathchk utility.
+
+Package: coreutils-pinky
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21903
+Filename: coreutils-pinky_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22640
+SHA256sum: 795da2c5542a9cbb87366b6b5e5be1f11d26b95c2d85bfccf2025714f0fd9cb2
+Description:  Full version of standard GNU pinky utility.
+
+Package: coreutils-pr
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 37323
+Filename: coreutils-pr_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 38198
+SHA256sum: 16aea1454841bcf5057bef18e072709e00f14afbfaa47dc2251a19322c5bdda2
+Description:  Full version of standard GNU pr utility.
+
+Package: coreutils-printenv
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/printenv:/usr/libexec/printenv-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19306
+Filename: coreutils-printenv_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20113
+SHA256sum: 1e4119ff75e17547f50429748733be63776c350b53cd2679bb5b0438345d5270
+Description:  Full version of standard GNU printenv utility.
+
+Package: coreutils-printf
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/printf:/usr/libexec/printf-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 22869
+Filename: coreutils-printf_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23702
+SHA256sum: ee840cfc68e035800ef9b3084cc9a87fd8df9f82bdc44abaa195b368a898d9b0
+Description:  Full version of standard GNU printf utility.
+
+Package: coreutils-ptx
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 57686
+Filename: coreutils-ptx_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 58492
+SHA256sum: 399b5a6e3ac5cd4674a9c5f73f0f6c452406237a8f18c3cd394253678f3c665e
+Description:  Full version of standard GNU ptx utility.
+
+Package: coreutils-pwd
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/pwd:/usr/libexec/pwd-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23056
+Filename: coreutils-pwd_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23885
+SHA256sum: 962b5e5a1176e67969b28b6754d9840b230e8c21205669873d676e4f2469d1be
+Description:  Full version of standard GNU pwd utility.
+
+Package: coreutils-readlink
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/readlink:/usr/libexec/readlink-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 25095
+Filename: coreutils-readlink_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 25866
+SHA256sum: 666218c7fe7375d30d3bc5c05b7f18309f968cd15ed2e1ddf95fd7d9ec04544e
+Description:  Full version of standard GNU readlink utility.
+
+Package: coreutils-realpath
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/realpath:/usr/libexec/realpath-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 25763
+Filename: coreutils-realpath_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26519
+SHA256sum: a43cd0446d763b77f7dea9aabb9b22517f01bc4a531d758abc0e4c8318e4454e
+Description:  Full version of standard GNU realpath utility.
+
+Package: coreutils-rm
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/rm:/usr/libexec/rm-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 32026
+Filename: coreutils-rm_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 32857
+SHA256sum: b157814f493ce827cab50910685322099f2866f9eaa24fe4f2e1c7667ed04fd2
+Description:  Full version of standard GNU rm utility.
+
+Package: coreutils-rmdir
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/rmdir:/usr/libexec/rmdir-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20078
+Filename: coreutils-rmdir_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20890
+SHA256sum: 69d61ec130604eb65b94bfab3ad030098c8308b1e87a69e228f166d6e6db6a9c
+Description:  Full version of standard GNU rmdir utility.
+
+Package: coreutils-runcon
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/runcon:/usr/libexec/runcon-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19622
+Filename: coreutils-runcon_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20436
+SHA256sum: 7f8b5fb6db8cf4f486a0a827152e27201187ec7324a807f5893ae98b641a0eb8
+Description:  Full version of standard GNU runcon utility.
+
+Package: coreutils-seq
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/seq:/usr/libexec/seq-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 24612
+Filename: coreutils-seq_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 25379
+SHA256sum: 33183a25801d2145f568eab140a9bfba7fe0e7d8fad84d4b7da099fc36b50f42
+Description:  Full version of standard GNU seq utility.
+
+Package: coreutils-sha1sum
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha1sum:/usr/libexec/sha1sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 27694
+Filename: coreutils-sha1sum_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 28536
+SHA256sum: 65c8618284627afb17d8194b2d745dff62260d2b609582f7e514f4cc57eeb671
+Description:  Full version of standard GNU sha1sum utility.
+
+Package: coreutils-sha224sum
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 28878
+Filename: coreutils-sha224sum_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 29710
+SHA256sum: 6f01bef11ec378c5fbd5eba1ec77c3dcee650ff2d595d8fdd24bf89c25cab5f1
+Description:  Full version of standard GNU sha224sum utility.
+
+Package: coreutils-sha256sum
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha256sum:/usr/libexec/sha256sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 28891
+Filename: coreutils-sha256sum_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 29760
+SHA256sum: 7c4278c1de723e140686d58377f12ee5140fd0f2f2632f27a9264d95232f3ad8
+Description:  Full version of standard GNU sha256sum utility.
+
+Package: coreutils-sha384sum
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 38127
+Filename: coreutils-sha384sum_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 38889
+SHA256sum: 780c6cae7dd27603591f0167ed5512fc50299b454f117b8d706778abd5a4592e
+Description:  Full version of standard GNU sha384sum utility.
+
+Package: coreutils-sha512sum
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha512sum:/usr/libexec/sha512sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 38138
+Filename: coreutils-sha512sum_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 38925
+SHA256sum: 6eb2da9d84519e103febd044893eb053eba077e772a1ef469c06c00fc490a238
+Description:  Full version of standard GNU sha512sum utility.
+
+Package: coreutils-shred
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shred:/usr/libexec/shred-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 30242
+Filename: coreutils-shred_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 31078
+SHA256sum: a2207cf0d6e5c7c89e2aa57420d8ac672069f217e69394552561f47b6f77d05c
+Description:  Full version of standard GNU shred utility.
+
+Package: coreutils-shuf
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shuf:/usr/libexec/shuf-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 27831
+Filename: coreutils-shuf_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 28654
+SHA256sum: 595733a495fd48b5e6b0c3d6eade92d097ebe282e39f13c9b1b7ecab726c66d0
+Description:  Full version of standard GNU shuf utility.
+
+Package: coreutils-sleep
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/sleep:/usr/libexec/sleep-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21866
+Filename: coreutils-sleep_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22672
+SHA256sum: 146ae5597b77069d6569b3f5c7926540372fb581896b8a94d823052fcaa13ded
+Description:  Full version of standard GNU sleep utility.
+
+Package: coreutils-sort
+Version: 9.3-1
+Depends: libc, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 52712
+Filename: coreutils-sort_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 53410
+SHA256sum: 72b5800f37addf0a0962df554d01dec48cab46c8f58522f0e1dc92549bcc7289
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils-split
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/split:/usr/libexec/split-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 31450
+Filename: coreutils-split_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 32240
+SHA256sum: 859b6e64a4b640682d0dc115b2e21d3ac678032b069d64bac80ef7b8dac2628e
+Description:  Full version of standard GNU split utility.
+
+Package: coreutils-stat
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 44454
+Filename: coreutils-stat_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 45299
+SHA256sum: 8e4d02733f12d7ff69475b3db265c4e87760cdc8a026514f007449a141f28a23
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-stdbuf
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23852
+Filename: coreutils-stdbuf_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24617
+SHA256sum: 78d16d592785040bd8e95de93429fd0e7b722503363f7b81de86d6386fec08e1
+Description:  Full version of standard GNU stdbuf utility.
+
+Package: coreutils-stty
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/stty:/usr/libexec/stty-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 30837
+Filename: coreutils-stty_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 31659
+SHA256sum: ff5dc754d75ae6fe750514de2e4c7f51085e1cee0b6f49d07bdce28308958e0f
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils-sum
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sum:/usr/libexec/sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23958
+Filename: coreutils-sum_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24727
+SHA256sum: e87d228f6bf85e209fc2f42eb6963919fc28008506b4a500e575b9495fc420cd
+Description:  Full version of standard GNU sum utility.
+
+Package: coreutils-sync
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/sync:/usr/libexec/sync-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19782
+Filename: coreutils-sync_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20583
+SHA256sum: 36cb3f7a103132e98738acb965d441848e1766354365c41578e6ad7740a20e4d
+Description:  Full version of standard GNU sync utility.
+
+Package: coreutils-tac
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tac:/usr/libexec/tac-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 50249
+Filename: coreutils-tac_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 51096
+SHA256sum: eb10b8a4c24f26f97271b9c18348fdaa287528aa41afac7c07595dd9ad4fdbed
+Description:  Full version of standard GNU tac utility.
+
+Package: coreutils-tail
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tail:/usr/libexec/tail-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 37701
+Filename: coreutils-tail_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 38596
+SHA256sum: a05177c834e5081d7fa74397a3657482e3b252053af3819a98a085e8131bd2e5
+Description:  Full version of standard GNU tail utility.
+
+Package: coreutils-tee
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tee:/usr/libexec/tee-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21991
+Filename: coreutils-tee_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22801
+SHA256sum: 1f766456d4a00d3162b7681a505fdcd4c64a7553ab56f1658dff289b7f59fccf
+Description:  Full version of standard GNU tee utility.
+
+Package: coreutils-test
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/test:/usr/libexec/test-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21057
+Filename: coreutils-test_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21875
+SHA256sum: 5d1e14215ecc08d5a9353679a455c93265e8121fe366e73dd3decceabbdd9303
+Description:  Full version of standard GNU test utility.
+
+Package: coreutils-timeout
+Version: 9.3-1
+Depends: libc, coreutils, librt
+Alternatives: 300:/usr/bin/timeout:/usr/libexec/timeout-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 24692
+Filename: coreutils-timeout_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 25474
+SHA256sum: 50a7c976039252c5bf4d8664a0f057a1606bcfe4a4bb325b34f1b38eca6dacff
+Description:  Full version of standard GNU timeout utility.
+
+Package: coreutils-touch
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/touch:/usr/libexec/touch-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 41878
+Filename: coreutils-touch_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 42718
+SHA256sum: 2d94a1d318b072a4a35c219b7506505b5af049879fa70e684cddfe7a5d189717
+Description:  Full version of standard GNU touch utility.
+
+Package: coreutils-tr
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tr:/usr/libexec/tr-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 25844
+Filename: coreutils-tr_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26596
+SHA256sum: b91a383e0763587f241643ec474a2af0a1233b558a365b1898d180c16e5de910
+Description:  Full version of standard GNU tr utility.
+
+Package: coreutils-true
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/true:/usr/libexec/true-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16889
+Filename: coreutils-true_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17721
+SHA256sum: bcdc1c74bfeda1dc8472aadcdb5f760ca99ca2dd0fcb607b87463bf995221ac6
+Description:  Full version of standard GNU true utility.
+
+Package: coreutils-truncate
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/truncate:/usr/libexec/truncate-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 22092
+Filename: coreutils-truncate_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22913
+SHA256sum: dd7316a9efc4454b6eb9b0aae6be85dad531666bda4e87bee0a92c7a75229e2a
+Description:  Full version of standard GNU truncate utility.
+
+Package: coreutils-tsort
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21292
+Filename: coreutils-tsort_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22073
+SHA256sum: 3906e2909db6dd31f5a201e34e752c89a9c60d9ea14ab0e4f3c4c6e592917404
+Description:  Full version of standard GNU tsort utility.
+
+Package: coreutils-tty
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tty:/usr/libexec/tty-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 18967
+Filename: coreutils-tty_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19835
+SHA256sum: 393f31422784dd7c40c4e81bad0bf1533e02be64106a012240dbfa6698d7d035
+Description:  Full version of standard GNU tty utility.
+
+Package: coreutils-uname
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/uname:/usr/libexec/uname-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19843
+Filename: coreutils-uname_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20660
+SHA256sum: 57118c8797499d9862fe9c3ce808114f4044cf8a3898c37332529ac95c0c4f28
+Description:  Full version of standard GNU uname utility.
+
+Package: coreutils-unexpand
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unexpand:/usr/libexec/unexpand-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21752
+Filename: coreutils-unexpand_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22515
+SHA256sum: dd48c5554836192c83d557370ce910623c748ea61d4ed143cd263546f1114bbb
+Description:  Full version of standard GNU unexpand utility.
+
+Package: coreutils-uniq
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uniq:/usr/libexec/uniq-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23817
+Filename: coreutils-uniq_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24590
+SHA256sum: e0fa329048157749769ce3c0d9920d9e290c33c16047c247cb4642d25992c90e
+Description:  Full version of standard GNU uniq utility.
+
+Package: coreutils-unlink
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unlink:/usr/libexec/unlink-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19193
+Filename: coreutils-unlink_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19997
+SHA256sum: b102c99ff0ee6f2a72dbc9f51fd606ff02a762972b5de86652e0578ec22f2af8
+Description:  Full version of standard GNU unlink utility.
+
+Package: coreutils-uptime
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uptime:/usr/libexec/uptime-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 26078
+Filename: coreutils-uptime_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26812
+SHA256sum: 62bff1ff58c6ba4ce8489c6c3a2065bcb75eea7e43b626c3ae81dab9a1b588d4
+Description:  Full version of standard GNU uptime utility.
+
+Package: coreutils-users
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/users:/usr/libexec/users-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19857
+Filename: coreutils-users_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20665
+SHA256sum: 162a55a05fcde3d33b3a63c0cfe14fe6ac870d73f4ff402d6da88c735f8e787c
+Description:  Full version of standard GNU users utility.
+
+Package: coreutils-vdir
+Version: 9.3-1
+Depends: libc, coreutils, libacl, libcap
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 66398
+Filename: coreutils-vdir_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 67150
+SHA256sum: e55076b28e63db8da1ba36e66ddf740553a3bcb1614f7343c69cc0f6ad43a7a0
+Description:  Full version of standard GNU vdir utility.
+
+Package: coreutils-wc
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/wc:/usr/libexec/wc-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 26435
+Filename: coreutils-wc_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 27203
+SHA256sum: 7b497f088368d0d420349ff9c109e9ddd96a0dc3fb41691407e5fe8104a1a214
+Description:  Full version of standard GNU wc utility.
+
+Package: coreutils-who
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/who:/usr/libexec/who-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23343
+Filename: coreutils-who_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24165
+SHA256sum: 16c562c0117a3828c413d6bea206fd16b90f6cebacdc4bccb7ed601452acb3b1
+Description:  Full version of standard GNU who utility.
+
+Package: coreutils-whoami
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/whoami:/usr/libexec/whoami-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19253
+Filename: coreutils-whoami_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20062
+SHA256sum: f00352e7bb2207631972b54a737ef1a3e8d53fdf1ebb461e79f542bee8ba061e
+Description:  Full version of standard GNU whoami utility.
+
+Package: coreutils-yes
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/yes:/usr/libexec/yes-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19455
+Filename: coreutils-yes_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20260
+SHA256sum: 8e8eb4101f8c131d4d6c0ea403e0bfceba2f928bfd0372ac8d3db17f681e1f43
+Description:  Full version of standard GNU yes utility.
+
+Package: coreutils
+Version: 9.3-1
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 95
+Filename: coreutils_9.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 976
+SHA256sum: 4ea84f07fe652f5cd38aa721bcb5cdd42121def24fdf6e20fc14a22f5c8abe87
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
 Package: crowdsec-firewall-bouncer
 Version: 0.0.28-2
 Depends: libc
@@ -358,6 +1840,72 @@ Description:  external protocol is a general protocol for assisting
  it can be used on so many other things, naming became
  mis-leading and it was renamed to external protocol.
 
+Package: file
+Version: 5.44-1
+Depends: libc, libmagic
+License: BSD-2-Clause
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7625
+Filename: file_5.44-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8435
+SHA256sum: cf45349eddb4058473364aa334d3d937591f468cabfbf65bcf86d17cf7478d9c
+Description:  File type determination utility
+
+Package: findutils-find
+Version: 4.9.0-1
+Depends: libc
+Alternatives: 300:/usr/bin/find:/usr/libexec/find-findutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:findutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 117368
+Filename: findutils-find_4.9.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 117830
+SHA256sum: 980b49a8136ac302716945bff7c6827f3b76cf1c442c65d4bb41d6d82c8ee374
+Description:  GNU Find Utilities - find utility
+
+Package: findutils-locate
+Version: 4.9.0-1
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:findutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 78601
+Filename: findutils-locate_4.9.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 79369
+SHA256sum: 9401783486a5b5efd7fd47d1acc9b5c7f552ce4e58d93c415498fafb15d167f2
+Description:  GNU Find Utilities - locate and updatedb utility
+
+Package: findutils-xargs
+Version: 4.9.0-1
+Depends: libc
+Alternatives: 300:/usr/bin/xargs:/usr/libexec/xargs-findutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:findutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 26730
+Filename: findutils-xargs_4.9.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 27501
+SHA256sum: e9f3dd397664958086a099c772bed2b1c6d8b4f91daaefbb37f9ccf45d4e6576
+Description:  GNU Find Utilities - xargs utility
+
+Package: findutils
+Version: 4.9.0-1
+Depends: libc, findutils-find, findutils-xargs, findutils-locate
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:findutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 95
+Filename: findutils_4.9.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 842
+SHA256sum: db870600e1772f00af41e8c740b4bda928e1b5927af4498d685d5d3de29a5f04
+Description:  GNU Find Utilities (all)
+
 Package: giflib-utils
 Version: 5.2.1-1
 Depends: libc
@@ -448,6 +1996,22 @@ Description:  The Go programming language is an open source project to make
  
  This package provides an assembler, compiler, linker, and compiled
  libraries for the Go programming language.
+
+Package: grep
+Version: 3.8-2
+Depends: libc, libpcre2
+Alternatives: 300:/bin/egrep:/usr/libexec/egrep-gnu, 300:/bin/fgrep:/usr/libexec/fgrep-gnu, 300:/bin/grep:/usr/libexec/grep-gnu
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:grep
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 96206
+Filename: grep_3.8-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 97054
+SHA256sum: 2d58a9b32e3416d1af7e94594050c2faf84687d06a5d26dc7ce0828b3c909a4d
+Description:  The grep command searches one or more input files for lines
+ containing a match to a specified pattern. By default, grep
+ prints the matching lines.
 
 Package: idn2
 Version: 2.3.4-1
@@ -880,6 +2444,18 @@ Size: 36513
 SHA256sum: e8263d4fd0e6dd57ff4fa0d97c08aae44d24968c5ab7c96b1ff2d5d8a7f455ea
 Description:  LZO is a data compression library which is suitable for data de-/compression
  in real-time. This means it favours speed over compression ratio.
+
+Package: libmagic
+Version: 5.44-1
+Depends: libc, zlib, liblzma, libbz2-1.0
+License: BSD-2-Clause
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 279773
+Filename: libmagic_5.44-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 280533
+SHA256sum: 81d7a7cadeb2bfe4a4013c5d612f932156953b67b51b5b31390ea09f8d6f2673
+Description:  File type determination library
 
 Package: libminiupnpc
 Version: 2.2.3-1
@@ -1337,6 +2913,73 @@ Size: 11066
 SHA256sum: 50d1bc65f0467ada6030717111d3d62e3c8cb3ff63563767927d024ab58137c4
 Description:  Lightweight UPnP client
 
+Package: nano-full
+Version: 7.2-2
+Depends: libc, libncurses6
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:nano
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 175343
+Filename: nano-full_7.2-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 176134
+SHA256sum: 1aa21fd9697a24d3d5c732a16d910a6f908ee40f175ef3fcad2a8ef0fc1411bb
+Description:  nano-full - all features, including syntax highlighting (also uci),
+ multibuffer, Unicode/UTF-8, nanorc, some key bindings.
+ (libmagic-based file type detection is disabled)
+ 
+ Example /etc/nanorc is included. nanorc documentation at
+ https://www.nano-editor.org/dist/latest/nanorc.5.html
+ 
+ Nano is a small and simple text editor for use on the terminal.
+ 
+ Nano started as an enhanced clone of the Pico text editor.
+ Nowadays Nano wants to be a generally useful editor with sensible
+ defaults (linewise scrolling, no automatic line breaking).
+ 
+ Nano is an official GNU package.
+
+Package: nano-plus
+Version: 7.2-2
+Depends: libc, libncurses6
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:nano
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 115843
+Filename: nano-plus_7.2-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 116692
+SHA256sum: 720735892a6cafb80b8db3f9a386ac9828c9dc7db53e103fa5f945815c6ff432
+Description:  nano-plus - Additional features enabled, larger size than default nano.
+ (multibuffer, Unicode/UTF-8, help, justify, nanorc, some key bindings)
+ 
+ Nano is a small and simple text editor for use on the terminal.
+ 
+ Nano started as an enhanced clone of the Pico text editor.
+ Nowadays Nano wants to be a generally useful editor with sensible
+ defaults (linewise scrolling, no automatic line breaking).
+ 
+ Nano is an official GNU package.
+
+Package: nano
+Version: 7.2-2
+Depends: libc, libncurses6
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:nano
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 68939
+Filename: nano_7.2-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 69815
+SHA256sum: 748e841ba07cbe2bcfd8880f1d7f8162b57875b5445319dcfa852d4b4001a3c9
+Description:  Nano is a small and simple text editor for use on the terminal.
+ 
+ Nano started as an enhanced clone of the Pico text editor.
+ Nowadays Nano wants to be a generally useful editor with sensible
+ defaults (linewise scrolling, no automatic line breaking).
+ 
+ Nano is an official GNU package.
+
 Package: natmap
 Version: 20240303-1
 Depends: libc
@@ -1674,6 +3317,244 @@ Description:  Polipo is a small and fast caching web proxy (a web cache, an HTTP
  a proxy server). While Polipo was designed to be used by one person or a
  small group of people, there is nothing that prevents it from being used
  by a larger group.
+
+Package: procps-ng-free
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/free:/usr/libexec/free-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5458
+Filename: procps-ng-free_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6225
+SHA256sum: f5166bc9fbb276ce7621899c6b0da3fd6eb945e583a38504de13aef00b5e0e6a
+Description:  Installs the applet free.
+
+Package: procps-ng-kill
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/bin/kill:/usr/libexec/kill-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8753
+Filename: procps-ng-kill_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9527
+SHA256sum: d0ca4f640c74a421a889e7acbf43bd7361e145f98b98a6a087c80c173675d7cc
+Description:  Installs the applet kill.
+
+Package: procps-ng-pgrep
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/pgrep:/usr/libexec/pgrep-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8704
+Filename: procps-ng-pgrep_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9473
+SHA256sum: bd4890a917f4284f6729d86dcd8f1a800031852aed24f85c587c0a338802171a
+Description:  Installs the applet pgrep.
+
+Package: procps-ng-pkill
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/pkill:/usr/libexec/pkill-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8703
+Filename: procps-ng-pkill_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9468
+SHA256sum: 7b45a2451ef8461174b70e328ff336cf8cd244c3f4ffe9e8cf1007ee55bed91b
+Description:  Installs the applet pkill.
+
+Package: procps-ng-pmap
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/pmap:/usr/libexec/pmap-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10557
+Filename: procps-ng-pmap_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11316
+SHA256sum: e61c47cdcc05139befc8705776bd35bf1f5185628483a0b0082459adc79128f9
+Description:  Installs the applet pmap.
+
+Package: procps-ng-ps
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/bin/ps:/usr/libexec/ps-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 36723
+Filename: procps-ng-ps_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 36288
+SHA256sum: 13c68b226587e31f13e647ad9e72131fac8e3f8c3b45a9045dc266c12315b962
+Description:  Installs the applet ps.
+
+Package: procps-ng-pwdx
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/pwdx:/usr/libexec/pwdx-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2946
+Filename: procps-ng-pwdx_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3687
+SHA256sum: 977749109771968719acb81be8d05eb6631f1d5ee8c1bf35d888b5e27b409534
+Description:  Installs the applet pwdx.
+
+Package: procps-ng-skill
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/skill:/usr/libexec/skill-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8754
+Filename: procps-ng-skill_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9524
+SHA256sum: ca4841d9b9b2693300724735abe63d4530436595bcec130cb7dca2c9d8d5c20b
+Description:  Installs the applet skill.
+
+Package: procps-ng-slabtop
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/slabtop:/usr/libexec/slabtop-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5699
+Filename: procps-ng-slabtop_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6442
+SHA256sum: 593d18e7e73dc3e7d1f49dd4260f02d5c50d7d153c4b40d9ad8d742aa25d4f81
+Description:  Installs the applet slabtop.
+
+Package: procps-ng-snice
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/snice:/usr/libexec/snice-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8755
+Filename: procps-ng-snice_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9530
+SHA256sum: 2134b6e279eba8bc37d5035e1446ec62c4512743eab2954208f88b61411cdf9c
+Description:  Installs the applet snice.
+
+Package: procps-ng-sysctl
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/sbin/sysctl:/usr/libexec/sysctl-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8533
+Filename: procps-ng-sysctl_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9300
+SHA256sum: 06e6ca1ce3ce1426419fd6c5a3de6c9197ded048102def3bea827b91cf895892
+Description:  Installs the applet sysctl.
+
+Package: procps-ng-tload
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/tload:/usr/libexec/tload-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4545
+Filename: procps-ng-tload_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5290
+SHA256sum: 44026535420988fe30fe414371f62f75ef7dc667e9da6e5c24eb3eed31d4b7a3
+Description:  Installs the applet tload.
+
+Package: procps-ng-top
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/top:/usr/libexec/top-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 49697
+Filename: procps-ng-top_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 50393
+SHA256sum: 2a4b4d2b211bfdbf647b2545dc3616f370a67d21fcf04d546f0059a6ed68219d
+Description:  Installs the applet top.
+
+Package: procps-ng-uptime
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/uptime:/usr/libexec/uptime-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2899
+Filename: procps-ng-uptime_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3654
+SHA256sum: 5af0d36612602c7fb7a183072e4880ed4239e2932a370e6487fe02d5f0655d71
+Description:  Installs the applet uptime.
+
+Package: procps-ng-vmstat
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/vmstat:/usr/libexec/vmstat-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10049
+Filename: procps-ng-vmstat_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10805
+SHA256sum: 2502a3601f3464a449d1036c3a11a88b9861888cde53e86f250f4bbfe5d619a0
+Description:  Installs the applet vmstat.
+
+Package: procps-ng-w
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/usr/bin/w:/usr/libexec/w-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6114
+Filename: procps-ng-w_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6864
+SHA256sum: 162caff3d8ebdd3be93f60ecbdd9eb746dfc6fc945ab2e1ca7a86ed1aa801d67
+Description:  Installs the applet w.
+
+Package: procps-ng-watch
+Version: 3.3.16-3
+Depends: libc, procps-ng
+Alternatives: 200:/bin/watch:/usr/libexec/watch-procps-ng
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7792
+Filename: procps-ng-watch_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8604
+SHA256sum: a86daaf8d16bf4479f2e819a9136c58d21ac75c9554841fb223cf4f52962a727
+Description:  Installs the applet watch.
+
+Package: procps-ng
+Version: 3.3.16-3
+Depends: libc, libncurses6
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 27352
+Filename: procps-ng_3.3.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 28182
+SHA256sum: 38b3d96f5a5976e46aad48fec014e76ed02857afc324191f42712e8318987e4b
+Description:  procps is a set of command line and full-screen utilities that provide information out of the pseudo-filesystem
+ most commonly located at /proc. This filesystem provides a simple interface to the kernel data structures.
+ The programs of procps generally concentrate on the structures that describe the processess running on the system.
+ 
+ NOTE: some utilities provided by procps-ng packages (ps, uptime, kill, ...) are installed as busybox applets, by default.
+ Conflicting applets should be removed from the build to avoid file conflicts.
 
 Package: python3-asyncio-src
 Version: 3.11.7-1
@@ -3080,6 +4961,511 @@ Description:  sed (stream editor) is a non-interactive command-line text editor.
  operations) on it, and outputs the modified text. sed is typically used for 
  extracting part of a file using pattern matching or substituting multiple 
  occurrences of a string within a file.
+
+Package: shadow-chage
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21350
+Filename: shadow-chage_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22085
+SHA256sum: 0589839eb3ca726adb0ba25a24088a19f548edec8c00646b31547da6d45cb22d
+Description:  Full version of standard chage utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-chfn
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 54267
+Filename: shadow-chfn_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 54178
+SHA256sum: dea8cf3c98153dced8c6e062a689db44ca5e602600c993f55b8168256c76e695
+Description:  Full version of standard chfn utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-chgpasswd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 55523
+Filename: shadow-chgpasswd_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 55443
+SHA256sum: 356aa6a2a0d25f0cb449ba3e231ed3a090a463612f1fae54cdc34d4b56c847da
+Description:  Full version of standard chgpasswd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-chpasswd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 54087
+Filename: shadow-chpasswd_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 53944
+SHA256sum: 35b4dca6a7efb86900fa52dcbe106a5d15d9beb268ff2429e8b2323e59d93364
+Description:  Full version of standard chpasswd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-chsh
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 52895
+Filename: shadow-chsh_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 52877
+SHA256sum: acc6e6667ab610d99d4291f1d3539d0a9ef1f41d5d79f20e94761d46ed5e9669
+Description:  Full version of standard chsh utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-common
+Version: 4.8.1-3
+Depends: libc
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4943
+Filename: shadow-common_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5720
+SHA256sum: ac17c2c1bc2267b71bbdfeefeb80da545b3f263d6599e41e924b9a2b2db82eee
+Description:  Shared definitions for the PLD Linux shadow utilities
+
+Package: shadow-expiry
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9192
+Filename: shadow-expiry_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10018
+SHA256sum: 3590bd7ac535f7d61a5327d16b8d06f8ce52cca9813366ca321ba4f097c7107b
+Description:  Full version of standard expiry utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-faillog
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6164
+Filename: shadow-faillog_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7028
+SHA256sum: a094e0f6152689d4a5d57f672fb1b50467c1e0582327d1da02cb5d9355401149
+Description:  Full version of standard faillog utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-gpasswd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 59444
+Filename: shadow-gpasswd_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 59337
+SHA256sum: 756a0c3ac97ad175fd1aee22dfee8a08d4c39c57e753a2f7e133a81cef9c19ab
+Description:  Full version of standard gpasswd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupadd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21080
+Filename: shadow-groupadd_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21878
+SHA256sum: d713bf343b26a1bee5d70f4d8ed596a3b70976337a58e1ecd7cfe9b30e76acc7
+Description:  Full version of standard groupadd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupdel
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19141
+Filename: shadow-groupdel_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19847
+SHA256sum: f46b894ba95194329e91118d2719f8df8d734f397dc93ca810ed7512d0b843d0
+Description:  Full version of standard groupdel utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupmems
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 15819
+Filename: shadow-groupmems_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16622
+SHA256sum: 64ee2c71142f38359b58671540e59084e84cc8fec51b3c580ba7cb888260b240
+Description:  Full version of standard groupmems utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupmod
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21617
+Filename: shadow-groupmod_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22327
+SHA256sum: 93dc7f85544ee9df4bddef8ee630e829e0b25786a68ad0abd00069d98a32b39f
+Description:  Full version of standard groupmod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groups
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2681
+Filename: shadow-groups_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3489
+SHA256sum: fc7e28528704584845d654974287088d57990c6a46c0e704e96e21bda653d68f
+Description:  Full version of standard groups utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-grpck
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 15868
+Filename: shadow-grpck_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16617
+SHA256sum: 4460dda5e86b6ef591e3d79d333aa0e92a22d1dd4a8dfba6a495c90b8d7e5e30
+Description:  Full version of standard grpck utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-grpconv
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13911
+Filename: shadow-grpconv_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14683
+SHA256sum: 5e70b5408c6c7788bbb7d298a14469f46ad0b9f7a1edb5f5a05741ddf8b94211
+Description:  Full version of standard grpconv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-grpunconv
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13805
+Filename: shadow-grpunconv_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14586
+SHA256sum: 4b70ec669e75c2bac91347d76193429267e6343b13865e6dd208a814178111a6
+Description:  Full version of standard grpunconv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-lastlog
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7314
+Filename: shadow-lastlog_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8165
+SHA256sum: e9720800a4554b09d4e91f02f6b2228a06af77e184d2cca298d7dfc8a5d92f70
+Description:  Full version of standard lastlog utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-login
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 60776
+Filename: shadow-login_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 60683
+SHA256sum: 1c91350302c09606f9dd8ebca6ea1384a0f92c11c8beca95baf79626e29d12e7
+Description:  Full version of standard login utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-logoutd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3557
+Filename: shadow-logoutd_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4359
+SHA256sum: 322814af7f7a447a04cc4b38e052a140850b73ced861b31bad95a041687714bb
+Description:  Full version of standard logoutd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-newgidmap
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11113
+Filename: shadow-newgidmap_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11941
+SHA256sum: 8630efdd383b9d7b3117213ffc7818744287289b8d5126158b282c02017beaa3
+Description:  Full version of standard newgidmap utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-newgrp
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 48748
+Filename: shadow-newgrp_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 48760
+SHA256sum: c9716b17cba04d17bf4f073d84297f84110537c614985871b6744cb3d04187a2
+Description:  Full version of standard newgrp utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-newuidmap
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10659
+Filename: shadow-newuidmap_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11494
+SHA256sum: 5e21b1c18ccc78387a6cfd6319b920ac4e03d42bb5ebdead786cf76fee99775a
+Description:  Full version of standard newuidmap utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-newusers
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 64143
+Filename: shadow-newusers_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 64231
+SHA256sum: 080a0f259706496ac0663fdae5e9bbd07fd1c6d0a0e79d8d983f3edeb4f0685e
+Description:  Full version of standard newusers utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-nologin
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1402
+Filename: shadow-nologin_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2238
+SHA256sum: c5ffe56f30b45b24c947fbe776caec751e1504c98ea5b77498be7e66b5c42b68
+Description:  Full version of standard nologin utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-passwd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 59222
+Filename: shadow-passwd_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 59347
+SHA256sum: 54e029791650415b79e801200e375d2625a2ce55fdac588aaa71c92bc6542cc6
+Description:  Full version of standard passwd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-pwck
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 14862
+Filename: shadow-pwck_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 15682
+SHA256sum: 3e242b661a51a92bce61e3437f5aab619147f0ca54819f457fcab86667a120da
+Description:  Full version of standard pwck utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-pwconv
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13052
+Filename: shadow-pwconv_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13767
+SHA256sum: 5db6ee28e7693af3f0219a5e2ea678978c8bbe772c64c21327f9698f7e3c5013
+Description:  Full version of standard pwconv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-pwunconv
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12235
+Filename: shadow-pwunconv_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13031
+SHA256sum: 83cac54ea232343bc6967f20a231c25fea83c923f9ee2f0e5238831b240b390f
+Description:  Full version of standard pwunconv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-su
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 56990
+Filename: shadow-su_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 56890
+SHA256sum: 87677f043f66d3aeaaf0f2462d72704d4747bb79081c3c0488873976f6bef4e7
+Description:  Full version of standard su utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-useradd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 38591
+Filename: shadow-useradd_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 39333
+SHA256sum: 8f93ace8b5a62854f743436754cac36b1e5388b99b05402804ab8b29ec6126ad
+Description:  Full version of standard useradd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-userdel
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23250
+Filename: shadow-userdel_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24031
+SHA256sum: 8fdb51fa1b7f41dd51febfc0afe692665b2c7b7e886435c2989bf49a83b30af0
+Description:  Full version of standard userdel utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-usermod
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 37218
+Filename: shadow-usermod_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 37927
+SHA256sum: 66a695605ff37cf998278a786d0fd9b40757f3ecfa2609ee38a1a3b2a7eb4746
+Description:  Full version of standard usermod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-utils
+Version: 4.8.1-3
+Depends: libc
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 95
+Filename: shadow-utils_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 906
+SHA256sum: 188702bb36755c7a0f0a3a4e7ae1b1a998ec6475a0b52bc143a271a446d96c0e
+Description:  Full versions of standard shadow utilities. Normally, you would not
+ use this package, since the functionality in BusyBox is more than
+ sufficient and much smaller.
+
+Package: shadow-vipw
+Version: 4.8.1-3
+Depends: libc, shadow-common
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16850
+Filename: shadow-vipw_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17602
+SHA256sum: 658f29f3d71de4d19afcd10bdc2ba08b3e26a6b09ae85466255356dbda1f168e
+Description:  Full version of standard vipw utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow
+Version: 4.8.1-3
+Depends: libc, shadow-chage, shadow-chfn, shadow-chgpasswd, shadow-chpasswd, shadow-chsh, shadow-expiry, shadow-faillog, shadow-gpasswd, shadow-groupadd, shadow-groupdel, shadow-groupmems, shadow-groupmod, shadow-groups, shadow-grpck, shadow-grpconv, shadow-grpunconv, shadow-lastlog, shadow-login, shadow-logoutd, shadow-newgidmap, shadow-newgrp, shadow-newuidmap, shadow-newusers, shadow-nologin, shadow-passwd, shadow-pwck, shadow-pwconv, shadow-pwunconv, shadow-su, shadow-useradd, shadow-userdel, shadow-usermod, shadow-vipw
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:debian:shadow
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 95
+Filename: shadow_4.8.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1064
+SHA256sum: c83dccb7c6e391746809c8925947c069daaaab243fc4b34d67585635d0e53582
+Description:  Full versions of standard shadow utilities. Normally, you would not
+ use this package, since the functionality in BusyBox is more than
+ sufficient and much smaller.
 
 Package: snmp-mibs
 Version: 5.9.1-7
