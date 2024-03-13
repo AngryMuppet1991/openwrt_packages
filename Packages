@@ -7019,33 +7019,6 @@ Size: 179271
 SHA256sum: 091c87d5c9e63debfbe82aaca3a0df938d5c22bfa521e4eb64c29ce8bd7b1de1
 Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
 
-Package: libwebsockets-mbedtls
-Version: 4.3.2-2
-Depends: libc, zlib, libcap, libubox20230523, libmbedtls12
-Conflicts: libwebsockets-openssl
-Provides: libwebsockets
-License: MIT
-Section: libs
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 156221
-Filename: libwebsockets-mbedtls_4.3.2-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 156654
-SHA256sum: 89625d8c6bf10281f6f04da37844e9ff7dab8b8a274b70aaf1a76ba9ce427fb7
-Description:  libwebsockets (mbedTLS)
-
-Package: libwebsockets-openssl
-Version: 4.3.2-2
-Depends: libc, zlib, libcap, libubox20230523, libopenssl3
-Conflicts: libwebsockets-full
-License: MIT
-Section: libs
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 155988
-Filename: libwebsockets-openssl_4.3.2-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 156116
-SHA256sum: 62999dc0513af4d7d956b18be3c8df584e995c8e794796460cfbb2fb47f0c965
-Description:  libwebsockets (OpenSSL)
-
 Package: libwrap
 Version: 7.6-4
 Depends: libc
@@ -7190,18 +7163,6 @@ SHA256sum: 148911a1242d101dde62b31f06a4bb876fb875ce2444d891b529c3986a2bf914
 Description:  This package contains the LuaFileSystem library, a set of portable
  functions for directory creation, listing and deletion and for file
  locking.
-
-Package: luajit
-Version: 2.1.0-beta3-7
-Depends: libc
-License: MIT
-Section: lang
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 207387
-Filename: luajit_2.1.0-beta3-7_arm_cortex-a9_vfpv3-d16.ipk
-Size: 207717
-SHA256sum: de74d2d1d4acb9e19cbb49ea299cf67cdac71dfcb2b69378ef6d5e51b92c873d
-Description:  LuaJIT is a Just-In-Time (JIT) compiler for the Lua programming language. *** Requires GCC Multilib on host system to build! ***
 
 Package: luasocket
 Version: 3.1.0-1
@@ -8333,46 +8294,32 @@ Size: 8494
 SHA256sum: db5d045df1dc399a4d0f9377a2b57d77048c4d0e251b4a42d15d62abdeaf771a
 Description:  Enable UBUS api support directly from the server.
 
-Package: nginx-ssl-util-nopcre
-Version: 1.6-18
-Depends: nginx-util (>=1.4-2), libc, libstdcpp6, libuci20130104, libubus20230605, libubox20230523, libpthread, libopenssl3, nginx-util
-Conflicts: nginx-ssl-util
-Section: net
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 100117
-Filename: nginx-ssl-util-nopcre_1.6-18_arm_cortex-a9_vfpv3-d16.ipk
-Size: 101000
-SHA256sum: 15c975d9aad00a3827ba24f3c5f563b047aac92dcd12cd06ef4b0aad3a9a14b6
-Description:  Utility that builds dynamically LAN listen directives for Nginx.
- Furthermore, it manages SSL directives for its server parts and can create
- corresponding (self-signed) certificates. It uses the standard regex library of C++.
-
 Package: nginx-ssl-util
 Version: 1.6-18
 Depends: nginx-util (>=1.4-2), libc, libstdcpp6, libuci20130104, libubus20230605, libubox20230523, libpthread, libopenssl3, nginx-util, libpcre
 Conflicts: nginx-ssl-util-nopcre
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 63667
+Installed-Size: 63593
 Filename: nginx-ssl-util_1.6-18_arm_cortex-a9_vfpv3-d16.ipk
-Size: 64711
-SHA256sum: f1b1d553e154c0e7d376a2d19afe1443edf26b1d70a1cb4d83ec92d779fc2031
+Size: 64499
+SHA256sum: 926edc42c1fb9d5a62337bf1bf015e7b44fdca936bdd5718c70e0cd76e74c110
 Description:  Utility that builds dynamically LAN listen directives for Nginx.
  Furthermore, it manages SSL directives for its server parts and can create
  corresponding (self-signed) certificates. It uses the PCRE library for performance.
 
 Package: nginx-ssl
 Version: 1.25.0-4
-Depends: nginx-ssl-util (>=1.5-1) (<2), libc, libopenssl3, libpthread, libpcre, nginx-ssl-util, zlib, libxml2
+Depends: nginx-ssl-util (>=1.5-1) (<2), libc, libopenssl3, libpthread, libpcre, nginx-ssl-util, zlib
 Conflicts: nginx-full
 License: 2-clause BSD-like license
 Section: net
 CPE-ID: cpe:/a:nginx:nginx
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 411081
+Installed-Size: 400446
 Filename: nginx-ssl_1.25.0-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 408647
-SHA256sum: 2651d6d4a4a954898100b8d454e589be853e6d1fbe26b801bd99494bae1d5fe5
+Size: 398037
+SHA256sum: 483c0c993d6390446ddcb0162d4bd239d52034bacadc34f7f9e31152fed0c221
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. This variant is compiled with SSL support enabled. To enable additional module select them in the nginx default configuration menu.
 
 Package: nginx-util
@@ -15423,10 +15370,10 @@ Depends: libc, libcap, libopenssl3, libjson-c5, libuv1, zlib, libwebsockets-full
 License: MIT
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 329113
+Installed-Size: 329012
 Filename: ttyd_1.7.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 329472
-SHA256sum: dc629bfcb02db919d21ad93a7393679d7f756ddaa3ff616b998864f5f287374e
+Size: 329356
+SHA256sum: 4f099fc3e93ed22b2d2db3f306df142878eecfcfda68006ab9a900ed56b62efe
 Description:  ttyd is a command-line tool for sharing terminal over the web.
 
 Package: udpxy
