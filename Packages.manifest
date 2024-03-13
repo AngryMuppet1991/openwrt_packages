@@ -3693,6 +3693,25 @@ SHA256sum: 9d19a4a1c9496badf773455619e94dd3878daf8445fd57320c25916d622bc5d7
 Description:  Thie package is a development package aimed to be linked to
  libraries/applications which need the SYS-V ucontext API.
 
+Package: libudev-zero
+Version: 1.0.1-1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+Source: feeds/packages/libs/libudev-zero
+SourceName: libudev-zero
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8722
+Filename: libudev-zero_1.0.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9509
+SHA256sum: 927dbec7a357eb4d16272113eb8a93b4cc66082c508388237b1c767e260fc73f
+Description:  Drop-in replacement for libudev
+
 Package: libutp
 Version: 2023-02-14-c95738b1-1
 Depends: libc, libstdcpp6
@@ -7255,6 +7274,23 @@ Filename: usbids_0.359-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 251512
 SHA256sum: 7e2b88f42d0c284f1e9db74f4ff259cf8d61d0903a7e9e7de8f7de2dafde0e51
 Description:  USB ID list
+
+Package: usbutils
+Version: 014-1
+Depends: libc, libusb-1.0-0, libudev, librt, libpthread
+Source: feeds/packages/utils/usbutils
+SourceName: usbutils
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 60782
+Filename: usbutils_014-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 60175
+SHA256sum: 19424fdf3e11b7778d640d67fa88f684a65fb6730e6c01f7a976d4a2e1e4b629
+Description:  USB devices listing utilities
 
 Package: uwsgi-cgi-plugin
 Version: 2.0.21-1
