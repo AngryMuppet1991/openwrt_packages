@@ -4,6 +4,19 @@ Size: 25207
 SHA256sum: 4adc8345ca0182e267aa7ca9ec9f337cb264a44bca50d038817858abe0358b72
 Description:  
 
+Package: ack
+Version: 3.7.0+perl5.28-1
+Depends: libc, perl, perl-ack
+Provides: ack-grep
+License: Artistic-2.0
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23282
+Filename: ack_3.7.0+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24086
+SHA256sum: 07d1d2a18fb4cf801b08d4a0e64cbec9605b617deccc5c805585ae0031f07ee3
+Description:  A grep-like source code search tool
+
 Package: acl
 Version: 2.3.1-2
 Depends: libc, libacl
@@ -736,10 +749,10 @@ License: LGPL-2.1-or-later
 Section: utils
 CPE-ID: cpe:/a:gnu:gnutls
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 79381
+Installed-Size: 98733
 Filename: certtool_3.8.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 79919
-SHA256sum: 2eae75b87be66ebec58160457cdedb86a968750d9dce1335a7a88e7e7ade565e
+Size: 99214
+SHA256sum: f59f3da6a0bc5e21e863e3a28f11349517a2ab156260db1d617a24fd0a3a3039
 Description:  GnuTLS is a secure communications library implementing the SSL, TLS
  and DTLS protocols and technologies around them. It provides a simple
  C language application programming interface (API) to access the secure
@@ -787,6 +800,20 @@ Description:  Check features a simple interface for defining unit tests, putting
  faults or other signals. The output from unit tests can be used within source
  code editors and IDEs.
 
+Package: clamav
+Version: 1.3.0-1
+Depends: libc, check, libstdcpp6, libpthread, zlib, libbz2-1.0, libxml2, libcurl4, libjson-c5, libmilter-sendmail, libopenssl3, libltdl7, libpcre2
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:clamav:clamav
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4416439
+Filename: clamav_1.3.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4380048
+SHA256sum: a3ee507229ede81f10e784fe1bd01bcf69755e17902b09a1a99f2848d97bddc1
+Description:  ClamAV is an open source antivirus engine for detecting trojans,
+ viruses, malware & other malicious threats.
+
 Package: cloudflared
 Version: 2024.2.1-1
 Depends: libc, ca-bundle
@@ -804,6 +831,919 @@ Description:  Contains the command-line client for Cloudflare Tunnel, a tunnelin
  webserver). Cloudflare attracts client requests and sends them to you
  via this daemon, without requiring you to poke holes on your firewall
  --- your origin can remain as closed as possible.
+
+Package: collectd-mod-apache
+Version: 5.12.0-49
+Depends: libc, collectd, libcurl4
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5395
+Filename: collectd-mod-apache_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6173
+SHA256sum: dc1cdcb279b10e417102f079a74a72af15af7e8ad7ad5dacbffafff65a405808
+Description:  apache status input plugin
+
+Package: collectd-mod-apcups
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4181
+Filename: collectd-mod-apcups_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4946
+SHA256sum: d04e1ce574133aa31234bd1d07d92377f745f67090683d84924dc104157cb55f
+Description:  apcups status input plugin
+
+Package: collectd-mod-ascent
+Version: 5.12.0-49
+Depends: libc, collectd, libcurl4, libxml2
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5191
+Filename: collectd-mod-ascent_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5960
+SHA256sum: d8475ee6eb3343be60bddfe98bb2d5c1e8bdb3b83e0ace3d8edc3e9b2daab9f2
+Description:  ascent status input plugin
+
+Package: collectd-mod-bind
+Version: 5.12.0-49
+Depends: libc, collectd, libcurl4, libxml2
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9917
+Filename: collectd-mod-bind_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10720
+SHA256sum: f27e689d6f074677262aa7a8121fc11d250762b6730ac13134f3b6864d56c671
+Description:  BIND server/zone input plugin
+
+Package: collectd-mod-chrony
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6122
+Filename: collectd-mod-chrony_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6881
+SHA256sum: 0810e9db54729ea2810bfb790d77e59635a72e724b54eb3fc3e05580448d70a2
+Description:  chrony status input plugin
+
+Package: collectd-mod-conntrack
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1847
+Filename: collectd-mod-conntrack_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2613
+SHA256sum: ad255d122ca34a58c30a0433d120253dfe4dfc72ddd29dd891c5a3300228ce07
+Description:  connection tracking table size input plugin
+
+Package: collectd-mod-contextswitch
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1804
+Filename: collectd-mod-contextswitch_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2560
+SHA256sum: 34f189ecd8c94477289aee629e4a6becc44a11cfcdd42faaaae7ad3a1d757817
+Description:  context switch input plugin
+
+Package: collectd-mod-cpu
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4068
+Filename: collectd-mod-cpu_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4838
+SHA256sum: 44e804fbc61f416de15a1007688e0849de37eb2d075b01d76aecb6e43324ea95
+Description:  CPU input plugin
+
+Package: collectd-mod-cpufreq
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2861
+Filename: collectd-mod-cpufreq_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3629
+SHA256sum: 46d114d915dc3e11eea544a6facf08741e61d2ac20ceec9f3a2f5ebf1910d03a
+Description:  CPU Freq input plugin
+
+Package: collectd-mod-csv
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3636
+Filename: collectd-mod-csv_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4404
+SHA256sum: 63e418ae786f1f32820274908f3d24b7a516237ad26bd9bb9804d04d7c011e96
+Description:  CSV output plugin
+
+Package: collectd-mod-curl
+Version: 5.12.0-49
+Depends: libc, collectd, libcurl4
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 17838
+Filename: collectd-mod-curl_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 18571
+SHA256sum: ceb33f06d9242154f6849f94428ba6f0bff5f770dd0af47426974feff79485d6
+Description:  cURL input plugin
+
+Package: collectd-mod-df
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6936
+Filename: collectd-mod-df_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7736
+SHA256sum: 9e286be85dde430cc0d6643aa790f40b3c305efbef0344e06ff3f0fb775afa26
+Description:  disk space input plugin
+
+Package: collectd-mod-dhcpleases
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1760
+Filename: collectd-mod-dhcpleases_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2547
+SHA256sum: b1c70a5d9157f9b398cb71a846d3379130ba71b0350bb05067bb50149992d8f1
+Description:  show dhcpleases plugin
+
+Package: collectd-mod-disk
+Version: 5.12.0-49
+Depends: libc, collectd, libudev
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5429
+Filename: collectd-mod-disk_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6214
+SHA256sum: 089d450c5d59cc131794c9ed51b26e8d83e4fc0dd107bb1d64b96cad137decb9
+Description:  disk usage/timing input plugin
+
+Package: collectd-mod-dns
+Version: 5.12.0-49
+Depends: libc, collectd, libpcap1
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8098
+Filename: collectd-mod-dns_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8815
+SHA256sum: ec55f53ae0824af06c67bd1176bf710fa1bc3fca63b724f68cb3db2b492898a0
+Description:  DNS traffic input plugin
+
+Package: collectd-mod-email
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5350
+Filename: collectd-mod-email_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6087
+SHA256sum: de016a7d0c6f485a8b0a57b7304c7a457ee99f4d0430d36f59f0ccfca95e1a58
+Description:  email output plugin
+
+Package: collectd-mod-entropy
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1515
+Filename: collectd-mod-entropy_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2279
+SHA256sum: 7e7788ea64f67705af34a30e68c8d6a104702fdfbc6a1fa9201f5abc9b5919e9
+Description:  Entropy amount input plugin
+
+Package: collectd-mod-ethstat
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3311
+Filename: collectd-mod-ethstat_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4074
+SHA256sum: 4ae1f0da294bbe148d2b9b9dfbb8dc2c95c840ef7757e934d25cb2d61348a316
+Description:  Ethernet adapter statistics input plugin
+
+Package: collectd-mod-exec
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 24163
+Filename: collectd-mod-exec_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24920
+SHA256sum: 66b4d2e3135f2b0c7efaa553cc17a6d325c6e921b2bbcd210714025051a227a9
+Description:  process exec input plugin
+
+Package: collectd-mod-filecount
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4232
+Filename: collectd-mod-filecount_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4986
+SHA256sum: 581f1d65a16bfac34deed73067fbb8846ba9839a9a43ec55d81c4e58bb76e015
+Description:  file count input plugin
+
+Package: collectd-mod-fscache
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1703
+Filename: collectd-mod-fscache_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2505
+SHA256sum: df1bd4adcee02b79d77fab82e13f84594fce1d65a59bffcb63321f86fc0fa08c
+Description:  file-system based caching framework input plugin
+
+Package: collectd-mod-interface
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3505
+Filename: collectd-mod-interface_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4271
+SHA256sum: ba37f863fff83c5902c842d4507b579cd6fc7043da1bfeb4d1c38aba1f26d0d6
+Description:  network interfaces input plugin
+
+Package: collectd-mod-ipstatistics
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1948
+Filename: collectd-mod-ipstatistics_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2730
+SHA256sum: 2e4398414dfcbcd6bfdd3ec9db2484b4ed5287f13da1c0d1355221e659f11df8
+Description:  ipstatistics input plugin
+
+Package: collectd-mod-iptables
+Version: 5.12.0-49
+Depends: libc, collectd, iptables, libip4tc2, libip6tc2
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3275
+Filename: collectd-mod-iptables_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4066
+SHA256sum: deff00568fa57cbc121306e6cf8f0f407f865ff4fb6ef67e207db4d3b80c900e
+Description:  iptables status input plugin
+
+Package: collectd-mod-irq
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3324
+Filename: collectd-mod-irq_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4100
+SHA256sum: 4f7c3302abbfad7034d511ce40affe180e175f60bfd5700e169bedb1f6d13b58
+Description:  interrupt usage input plugin
+
+Package: collectd-mod-iwinfo
+Version: 5.12.0-49
+Depends: libc, collectd, libiwinfo20230701
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3621
+Filename: collectd-mod-iwinfo_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4404
+SHA256sum: 13d33c352e716e9cac10a224ec50567702d1e059c18c2854da9b7696b2d2b989
+Description:  libiwinfo wireless statistics plugin
+
+Package: collectd-mod-load
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1949
+Filename: collectd-mod-load_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2706
+SHA256sum: bde7282e43448ada840f24e0d69403fa528eeff6089ca1dabee844f27729db41
+Description:  system load input plugin
+
+Package: collectd-mod-logfile
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3066
+Filename: collectd-mod-logfile_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3825
+SHA256sum: 97fae603d2caf0445429d146c3f5864c546834a0b48d704a0fc6dcf4614db327
+Description:  log files output plugin
+
+Package: collectd-mod-lua
+Version: 5.12.0-49
+Depends: libc, collectd, liblua5.1.5
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6607
+Filename: collectd-mod-lua_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7411
+SHA256sum: b52a2063213242d13836b0c1cacc4de845657fe302f622e210be2b374a7dc9d2
+Description:  lua input/output plugin
+
+Package: collectd-mod-match-empty-counter
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1183
+Filename: collectd-mod-match-empty-counter_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1970
+SHA256sum: 955acc3912e6d565aa0aa575eb2cd79647eb91efd4129098c1cefc17f9b3f233
+Description:  empty-counter match plugin
+
+Package: collectd-mod-match-hashed
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1850
+Filename: collectd-mod-match-hashed_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2636
+SHA256sum: ba8c7f087c6b77b76ef4c96ae8d57d20552cc46008a2b6cbce6308e8a7f0a80b
+Description:  hashed match plugin
+
+Package: collectd-mod-match-regex
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3032
+Filename: collectd-mod-match-regex_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3780
+SHA256sum: 3aa382e7de22863c86740466e1d743a9a791facda8c3ec223ab3d344898c0a07
+Description:  regex match plugin
+
+Package: collectd-mod-match-timediff
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1592
+Filename: collectd-mod-match-timediff_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2385
+SHA256sum: dcba419f5179d76d91c124532e348811ca14e7b01008a2ec330cd72811b03b12
+Description:  timediff match plugin
+
+Package: collectd-mod-match-value
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2742
+Filename: collectd-mod-match-value_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3496
+SHA256sum: 62c4acacdf9c4f1cad7d7db560d52099ea917dc44687d31b69987455e3786baf
+Description:  value match plugin
+
+Package: collectd-mod-memory
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2730
+Filename: collectd-mod-memory_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3498
+SHA256sum: c9ca7c85715ea5be7ec584fce800b6fd6981e02397b3865c85f2edcf37161c95
+Description:  physical memory usage input plugin
+
+Package: collectd-mod-modbus
+Version: 5.12.0-49
+Depends: libc, collectd, libmodbus
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6431
+Filename: collectd-mod-modbus_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7261
+SHA256sum: 04ee900fc9073b0ecde5128b0eed4777d259cb4b8bea0d9bf4c488e837e95f1b
+Description:  read variables through libmodbus plugin
+
+Package: collectd-mod-mqtt
+Version: 5.12.0-49
+Depends: libc, collectd, libmosquitto
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5569
+Filename: collectd-mod-mqtt_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6359
+SHA256sum: a73b38cf99c5d07c6a580fc2a8ea809ab07319c27a4d1c5a1aa9669ca1d8acba
+Description:  transmit data with MQTT plugin
+
+Package: collectd-mod-mysql
+Version: 5.12.0-49
+Depends: libc, collectd, libmysqlclient-r3
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8972
+Filename: collectd-mod-mysql_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9769
+SHA256sum: 57e9557cc276bf73dc94aff97aeb5309b795e44fef78aff9f04f8911ee31526c
+Description:  MySQL status input plugin
+
+Package: collectd-mod-netlink
+Version: 5.12.0-49
+Depends: libc, collectd, libmnl0
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9508
+Filename: collectd-mod-netlink_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10273
+SHA256sum: 541b0c7c83162cd55bafc54f17a67aef6bdee888c85bfc935c63c5793b482051
+Description:  netlink input plugin
+
+Package: collectd-mod-network
+Version: 5.12.0-49
+Depends: libc, collectd, libgcrypt
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20059
+Filename: collectd-mod-network_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20743
+SHA256sum: 2668aa6a2739abba12d4159fdf89972af1b5123787d727f603d0a1a87249ce24
+Description:  network input/output plugin
+
+Package: collectd-mod-nginx
+Version: 5.12.0-49
+Depends: libc, collectd, libcurl4
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3334
+Filename: collectd-mod-nginx_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4091
+SHA256sum: d588799ffab65d29c9e6c35f2d65fc86a3a42fd1dee01a5a3e8045f90f2424bd
+Description:  nginx status input plugin
+
+Package: collectd-mod-ntpd
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6530
+Filename: collectd-mod-ntpd_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7354
+SHA256sum: d0fc9d34c3eb68a4388fb20e73b09d8f47bbf55535659d261eaa48724303df6a
+Description:  NTP daemon status input plugin
+
+Package: collectd-mod-nut
+Version: 5.12.0-49
+Depends: libc, collectd, nut-common
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4391
+Filename: collectd-mod-nut_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5168
+SHA256sum: 66415347a3c23338b9fc06e3de5c4e2c1b26e1935207cf12210e78811e9e691a
+Description:  UPS monitoring input plugin
+
+Package: collectd-mod-olsrd
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5001
+Filename: collectd-mod-olsrd_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5774
+SHA256sum: 1baf9c9a90c74ca66aa10949a48be037884479ff6fd88c5ed14219716ca1c52c
+Description:  OLSRd status input plugin
+
+Package: collectd-mod-openvpn
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5151
+Filename: collectd-mod-openvpn_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5936
+SHA256sum: 3cb23489744df7753cb39d7211e5f73d22ec32b323e9e1ebe735be1bca2faa73
+Description:  OpenVPN traffic/compression input plugin
+
+Package: collectd-mod-ping
+Version: 5.12.0-49
+Depends: libc, collectd, liboping
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5491
+Filename: collectd-mod-ping_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6271
+SHA256sum: 77a7d19da5154bac94d5a935e7065b9ad0523fc5e2d8ff1b6d526f8ffde9076b
+Description:  ping status input plugin
+
+Package: collectd-mod-postgresql
+Version: 5.12.0-49
+Depends: libc, collectd, libpq
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13441
+Filename: collectd-mod-postgresql_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14215
+SHA256sum: 7500ca4e3f24ca3f8499a46600bc2471786e7dd6ee52e4c02cb55bc3504862f6
+Description:  PostgreSQL status input plugin
+
+Package: collectd-mod-powerdns
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7867
+Filename: collectd-mod-powerdns_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8563
+SHA256sum: 0f2a9d6cae31cb101d309cf22ec22da48a034b21e2670442b88f8eed730b1e44
+Description:  PowerDNS server status input plugin
+
+Package: collectd-mod-processes
+Version: 5.12.0-49
+Depends: libc, collectd, libmnl0
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11602
+Filename: collectd-mod-processes_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12376
+SHA256sum: 73b28793422a357ec8ab6c27395ea336869f971ddcb1997490c8d40c3d7678be
+Description:  process status input plugin
+
+Package: collectd-mod-protocols
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3584
+Filename: collectd-mod-protocols_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4338
+SHA256sum: 6704c119e57e5e7c107240c3235f184ca2cbb1f4f5beb9993098afbd189b9867
+Description:  network protocols input plugin
+
+Package: collectd-mod-routeros
+Version: 5.12.0-49
+Depends: libc, collectd, librouteros
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4108
+Filename: collectd-mod-routeros_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4873
+SHA256sum: 65a41d44a91a8fe27e6aeae68475fa3a103231d73ba72086c5965cf81e398c5d
+Description:  MikroTik RouterOS input plugin
+
+Package: collectd-mod-rrdtool
+Version: 5.12.0-49
+Depends: libc, collectd, librrd1
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12181
+Filename: collectd-mod-rrdtool_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12938
+SHA256sum: 706e52e1e7a036322e4193631aa67bdb60c2fd05eba128eb36a234ae67c607d2
+Description:  RRDtool output plugin
+
+Package: collectd-mod-sensors
+Version: 5.12.0-49
+Depends: libc, collectd, lm-sensors
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4166
+Filename: collectd-mod-sensors_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4935
+SHA256sum: 23361a7b0e1ab79a9937a2192fbfd12bedf7cc0057efa4c100c7ac6df2599ee5
+Description:  lm_sensors input plugin
+
+Package: collectd-mod-smart
+Version: 5.12.0-49
+Depends: libc, collectd, libatasmart
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7695
+Filename: collectd-mod-smart_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8503
+SHA256sum: bd6716bacab62a6d2be3ab900f1d23961ca7f8f15bc7e960b2291b6b2b7f4808
+Description:  smart input plugin
+
+Package: collectd-mod-snmp6
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3370
+Filename: collectd-mod-snmp6_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4118
+SHA256sum: bed92eab52d7eadba0a482da841c861a80a81620a090f0fe978570517e238f75
+Description:  snmp6 input plugin
+
+Package: collectd-mod-snmp
+Version: 5.12.0-49
+Depends: libc, collectd, libnetsnmp
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 14364
+Filename: collectd-mod-snmp_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 15093
+SHA256sum: 6e0fc4b16dbbc5007581dbc2d264f3f8047230da4cc9311c5e59200710898d5f
+Description:  SNMP input plugin
+
+Package: collectd-mod-sqm
+Version: 5.12.0-49
+Depends: libc, collectd-mod-exec
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1352
+Filename: collectd-mod-sqm_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2138
+SHA256sum: 5ae456cf712fe487f04838c15e98f835c8244aa11fb68b8c7aa692169902838e
+Description:  SQM/qdisc collection plugin
+
+Package: collectd-mod-swap
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3611
+Filename: collectd-mod-swap_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4373
+SHA256sum: b7f2bf8b9c23817a900ab6a43e035a77c90bd84531cf4ea40849cf7116e5c4a4
+Description:  swap input plugin
+
+Package: collectd-mod-syslog
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2181
+Filename: collectd-mod-syslog_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2931
+SHA256sum: 45ecfffc1a3738e289e8c94e4ce0b8718561b2b43e1d6eb22946133cd5d3ed91
+Description:  syslog output plugin
+
+Package: collectd-mod-table
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5013
+Filename: collectd-mod-table_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5770
+SHA256sum: 9d58c4c68355ff5ae0c11e2f8d7156474c309aade700a0cbbffdf7fad992e859
+Description:  table-like structured file input plugin
+
+Package: collectd-mod-tail-csv
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5342
+Filename: collectd-mod-tail-csv_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6098
+SHA256sum: ced52ee1e61d86ab9b95f544622bc6ac5f8870c708837d76eb545578b8f40f4b
+Description:  tail CSV input plugin
+
+Package: collectd-mod-tail
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16632
+Filename: collectd-mod-tail_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17416
+SHA256sum: 1349755908fe509bfa3948e2a4ea9e61319f0d5e4652b8304285f79c5ec72e5c
+Description:  tail input plugin
+
+Package: collectd-mod-tcpconns
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4380
+Filename: collectd-mod-tcpconns_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5144
+SHA256sum: 5cd9617b4202674a64204ca8e990f6a7a859cfceea6bd9cea745e95721642646
+Description:  TCP connection tracking input plugin
+
+Package: collectd-mod-teamspeak2
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5115
+Filename: collectd-mod-teamspeak2_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5878
+SHA256sum: 61a59159cbb72c0998501cb6d7edfdbe2a18d6a816ea16ef6e6ca7c7d9b3854a
+Description:  TeamSpeak2 input plugin
+
+Package: collectd-mod-ted
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2932
+Filename: collectd-mod-ted_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3690
+SHA256sum: 697c39bfe104c84550ac23c40fda3169f0c662be2af5c205ab893bd7c837cbe4
+Description:  The Energy Detective input plugin
+
+Package: collectd-mod-thermal
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3983
+Filename: collectd-mod-thermal_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4750
+SHA256sum: 0dfcb20f871fea8dfb3bbc1b316e803c12538b8ce41e07dcc3ff902572c0be1a
+Description:  system temperatures input plugin
+
+Package: collectd-mod-threshold
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6530
+Filename: collectd-mod-threshold_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7356
+SHA256sum: 6f3c0b5a885e8a092be4f834def1be608a9ee3c055033717c3bc736a696c71d0
+Description:  Notifications and thresholds plugin
+
+Package: collectd-mod-ubi
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3584
+Filename: collectd-mod-ubi_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4348
+SHA256sum: fdacb705a48d25245e5b7723ea7ea6791a9708438d7c8eda043c1d70eaa123a2
+Description:  Unsorted block images plugin
+
+Package: collectd-mod-unixsock
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 22235
+Filename: collectd-mod-unixsock_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22966
+SHA256sum: c03f495a66fd79a90187c79c924b8c6be6303da7eb445990195849a41c11b455
+Description:  unix socket output plugin
+
+Package: collectd-mod-uptime
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1632
+Filename: collectd-mod-uptime_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2394
+SHA256sum: b2938d065cf059b6e614965002982d6f885a0244e880968ab5fc9f38e0a3b14e
+Description:  uptime status input plugin
+
+Package: collectd-mod-users
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1309
+Filename: collectd-mod-users_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2104
+SHA256sum: b57c12186e2083346d15de84c1b836deb5edc9031bbaf6a60497124f938f0c62
+Description:  user logged in status input plugin
+
+Package: collectd-mod-vmem
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2919
+Filename: collectd-mod-vmem_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3691
+SHA256sum: 52f6454e05bd1531358c584ec9e5bf43e883e23c7b60b9170a255a1ddcffa802
+Description:  virtual memory usage input plugin
+
+Package: collectd-mod-wireless
+Version: 5.12.0-49
+Depends: libc, collectd
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2261
+Filename: collectd-mod-wireless_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3007
+SHA256sum: 6b2682399cd2b8414071a4f3883ffef1c0f15183ea5ecdfd79dd9e4083251fcc
+Description:  wireless status input plugin
+
+Package: collectd-mod-write-graphite
+Version: 5.12.0-49
+Depends: libc, collectd, libpthread
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6869
+Filename: collectd-mod-write-graphite_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7702
+SHA256sum: 3889fdc3dc98555bfcc1dd72f80712e1c04bd82f40f05c77a547acded334179b
+Description:  Carbon/Graphite output plugin
+
+Package: collectd-mod-write-http
+Version: 5.12.0-49
+Depends: libc, collectd, libcurl4
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12691
+Filename: collectd-mod-write-http_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13408
+SHA256sum: 7671aa63f0d70ab3d40c459d6bdb26543b7205db06250345a5466e7a9db0654d
+Description:  HTTP POST output plugin
+
+Package: collectd
+Version: 5.12.0-49
+Depends: libc, libpthread, zlib, libltdl7, jshn, liblua5.1.5
+Section: utils
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 90697
+Filename: collectd_5.12.0-49_arm_cortex-a9_vfpv3-d16.ipk
+Size: 91527
+SHA256sum: c04e6e92c0be5ea09203aa173dce1629c46fdfdb3bf3618911cc7883a5f91026
+Description:  collectd is a small daemon which collects system information periodically
+ and provides mechanismns to store the values in a variety of ways.
 
 Package: containerd
 Version: 1.7.13-1
@@ -2664,6 +3604,18 @@ Description:  Dynamic DNS Client scripts (with IPv6 support)
  Version: 2.8.2-42
  Info   : https://openwrt.org/docs/guide-user/services/ddns/client
 
+Package: dkjson
+Version: 2.5-4
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: all
+Installed-Size: 6677
+Filename: dkjson_2.5-4_all.ipk
+Size: 7461
+SHA256sum: a09608f6582380fd84fbf239365c80c9e55f1c102c596e70acfa6ec6a3059c74
+Description:  Lua JSON parser/serializer with UTF-8 support
+
 Package: dnscrypt-proxy-resolvers
 Version: 2019-08-20-07ac3825-3
 Depends: libc
@@ -2862,6 +3814,46 @@ Size: 313827
 SHA256sum: 1d03d6a7209bde6cf05685b0528fcb704cf090f1e3a8eb69ce706b9d24413688
 Description:  Port of the Fraunhofer FDK AAC Codec Library for Android
 
+Package: ffmpeg
+Version: 5.1.3-1
+Depends: libc, libpthread, libffmpeg-full
+License: LGPL-2.1-or-later GPL-2.0-or-later LGPL-3.0-or-later
+Section: multimedia
+CPE-ID: cpe:/a:ffmpeg:ffmpeg
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 102066
+Filename: ffmpeg_5.1.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 102674
+SHA256sum: 7441aa499a2270d02c8825d2a810e92731e82f165d1dcef5d5ad73c1edb09581
+Description:  FFmpeg is a a software package that can record, convert and stream digital
+ audio and video in numerous formats.
+ 
+ FFmpeg licensing / patent issues are complex. It is the reponsibility of the
+ user to understand any requirements in this regard with its usage. See:
+ https://ffmpeg.org/legal.html for further information.
+ .
+ This package contains the FFmpeg command line tool.
+
+Package: ffprobe
+Version: 5.1.3-1
+Depends: libc, libpthread, libffmpeg-full
+License: LGPL-2.1-or-later GPL-2.0-or-later LGPL-3.0-or-later
+Section: multimedia
+CPE-ID: cpe:/a:ffmpeg:ffmpeg
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 49292
+Filename: ffprobe_5.1.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 50155
+SHA256sum: 6b441281e0f757d0291952622a73f655d542abcf64888b9db6df9f2d2cadd3e9
+Description:  FFmpeg is a a software package that can record, convert and stream digital
+ audio and video in numerous formats.
+ 
+ FFmpeg licensing / patent issues are complex. It is the reponsibility of the
+ user to understand any requirements in this regard with its usage. See:
+ https://ffmpeg.org/legal.html for further information.
+ .
+ This package contains the FFprobe command line tool.
+
 Package: file
 Version: 5.44-1
 Depends: libc, libmagic
@@ -2927,6 +3919,19 @@ Filename: findutils_4.9.0-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 842
 SHA256sum: db870600e1772f00af41e8c740b4bda928e1b5927af4498d685d5d3de29a5f04
 Description:  GNU Find Utilities (all)
+
+Package: freshclam
+Version: 1.3.0-1
+Depends: libc, check, libstdcpp6, libpthread, zlib, libbz2-1.0, libxml2, libcurl4, libjson-c5, libmilter-sendmail, libopenssl3, libltdl7, libpcre2, clamav
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:clamav:clamav
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 41613
+Filename: freshclam_1.3.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 42271
+SHA256sum: 282f62322c4b7c54a6e51b01bfa59a294378e27108f7b1b7e45d73cabfa88eb6
+Description:  Database updater for ClamAV
 
 Package: frpc
 Version: 0.51.3-1
@@ -2995,6 +4000,18 @@ Description:  Fwknop implements an authorization scheme known as Single Packet A
  make the exploitation of vulnerabilities (both 0-day and unpatched code) much
  more difficult.
  This package contains the fwknop daemon.
+
+Package: gawk
+Version: 5.2.1-2
+Depends: libc, libncursesw6, libreadline8
+License: GPL-3.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 279818
+Filename: gawk_5.2.1-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 279736
+SHA256sum: a3957bfda2be592b7b032141ee5fbb546b352d0730a08cd447a7854cc3114616
+Description:  GNU awk
 
 Package: gensio-bin
 Version: 2.4.2-1
@@ -3092,6 +4109,30 @@ Description:  GnuPG is GNU's tool for secure communication and data storage.
  .
  GnuPG does not use any patented algorithms so it cannot be compatible
  with PGP2 because it uses IDEA (which is patented worldwide).
+
+Package: golang-doc
+Version: 1.21.7-1
+Depends: libc
+License: BSD-3-Clause
+Section: lang
+CPE-ID: cpe:/a:golang:go
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 157876
+Filename: golang-doc_1.21.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 159054
+SHA256sum: 68d1eda42d6ff2fe22a6803343e4674a317918c1585c296af8c58bb7bbf6d933
+Description:  The Go programming language is an open source project to make
+ programmers more productive.
+ 
+ Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of
+ multicore and networked machines, while its novel type system enables
+ flexible and modular program construction. Go compiles quickly to
+ machine code yet has the convenience of garbage collection and the power
+ of run-time reflection. It's a fast, statically typed, compiled language
+ that feels like a dynamically typed, interpreted language.
+ 
+ This package provides the documentation for the Go programming language.
 
 Package: golang-github-nextdns-nextdns-dev
 Version: 1.42.0-1
@@ -3290,6 +4331,65 @@ Description:  Light-weight DNS-over-HTTPS, non-caching translation proxy for the
  It receives regular (UDP) DNS requests and resolves them via DoH resolver.
  Please see https://docs.openwrt.melmac.net/https-dns-proxy/ for more information.
 
+Package: i2c-tools
+Version: 4.3-3
+Depends: libc, libi2c
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21701
+Filename: i2c-tools_4.3-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22383
+SHA256sum: 0e7cc9030116fa893b8bf6fd2b503edddc4198e2bf56c220904077944bc80eac
+Description:  This package contains an heterogeneous set of I2C tools for Linux. These tools
+ were originally part of the lm-sensors package.
+
+Package: icu-data-tools
+Version: 73.2-1
+Depends: libc, icu73
+License: ICU
+Section: libs
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 183070
+Filename: icu-data-tools_73.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 183531
+SHA256sum: bc8c41bed77c4150e464d7e1f4399d32c4e20dabf62ea7b500a8d1d6c99f58fb
+Description:  This package provides tools for manipulating ICU data.
+
+Package: icu-full-data73
+Version: 73.2-1
+Depends: libc, icu73
+Provides: icu-full-data
+License: ICU
+Section: libs
+ABIVersion: 73
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12396051
+Filename: icu-full-data73_73.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12233103
+SHA256sum: e276e27a6e338a49b02005fb0cadb3aff48d80e7da6f72050b12bf5e03842db9
+Description:  ICU makes use of a wide variety of data tables to provide many of its services. Examples include converter mapping tables, collation rules, transliteration rules, break iterator rules and dictionaries, and other locale data.
+ This package contains the complete data library provided by ICU.
+ A custom data library can be generated at http://apps.icu-project.org/datacustom/
+
+Package: icu73
+Version: 73.2-1
+Depends: libc, libstdcpp6, libpthread
+Provides: icu
+License: ICU
+Section: libs
+ABIVersion: 73
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1859321
+Filename: icu73_73.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1844941
+SHA256sum: e908097d63fff77be475eb7a0b8e606ef9f5ccaca68a123b09e45f7235fb661e
+Description:  ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.
+ This package supports C/C++.
+
 Package: idn2
 Version: 2.3.4-1
 Depends: libc, libidn2
@@ -3347,6 +4447,32 @@ Description:  inotify-tools is a C library and a set of command-line programs fo
  supporting inotify.
  
  This package provides the inotifywatch tool.
+
+Package: keepalived-sync
+Version: 2.2.7-10
+Depends: libc, keepalived, rsync, inotifywait, sudo, coreutils-timeout
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:keepalived:keepalived
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4775
+Filename: keepalived-sync_2.2.7-10_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6013
+SHA256sum: 923a69d0f7ba1c15a37c876e4997ea508f0c0b7cf334027345e5f78233162d2f
+Description:  Keepalived HA with Master to Backup files and data Synchronization
+
+Package: keepalived
+Version: 2.2.7-10
+Depends: libc, libnl-genl200, libmagic, libkmod, kmod-nf-ipvs, libjson-c5, libnftnl11, kmod-macvlan, libnl-route200, libnfnetlink0, libopenssl3, libip4tc2, libip6tc2, libxtables12, libipset13, libnetsnmp, glib2
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:keepalived:keepalived
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 655485
+Filename: keepalived_2.2.7-10_arm_cortex-a9_vfpv3-d16.ipk
+Size: 653851
+SHA256sum: 44c9f61f2e5ae819239bb8d824e86f841fa857a266df77a0e6443c26d34736f0
+Description:  VRRP with failover and monitoring daemon for Linux Virtual Server (LVS) clusters.
 
 Package: kmod
 Version: 31-1
@@ -4002,6 +5128,19 @@ Size: 41672
 SHA256sum: ff9acd106d402d6c228a84de919a78a05be552aecbcb6175e9d85c6ac9949611
 Description:  A fast, non-validating, stream-oriented XML parsing library.
 
+Package: libexslt
+Version: 1.1.37-1
+Depends: libc, libxslt
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:xmlsoft:libxslt
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 27814
+Filename: libexslt_1.1.37-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 28512
+SHA256sum: 3f2b010e8dbdd909ef2c0efdef9194d97996f643f54fc3fd6dc7b89c813d42b5
+Description:  An extension for XSLT.
+
 Package: libffi
 Version: 3.4.2-2
 Depends: libc
@@ -4022,6 +5161,27 @@ Description:  The libffi library provides a portable, high level programming int
  lowest, machine dependent layer of a fully featured foreign function interface.
  A layer must exist above libffi that handles type conversions for values passed
  between the two languages.
+
+Package: libffmpeg-full
+Version: 5.1.3-1
+Depends: libc, libpthread, libpthread, zlib, libbz2-1.0, alsa-lib, libgnutls, libopus, lame-lib, fdk-aac
+Provides: libffmpeg, libffmpeg-mini, libffmpeg-audio-dec
+License: LGPL-2.1-or-later GPL-2.0-or-later LGPL-3.0-or-later
+Section: libs
+CPE-ID: cpe:/a:ffmpeg:ffmpeg
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6138955
+Filename: libffmpeg-full_5.1.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6105971
+SHA256sum: de0400d99109b9703daae6ac2918d60228eeeebff9c75052b6cfddcfaa0c9664
+Description:  FFmpeg is a a software package that can record, convert and stream digital
+ audio and video in numerous formats.
+ 
+ FFmpeg licensing / patent issues are complex. It is the reponsibility of the
+ user to understand any requirements in this regard with its usage. See:
+ https://ffmpeg.org/legal.html for further information.
+ .
+ This package contains full-featured FFmpeg shared libraries.
 
 Package: libfido2-1
 Version: 1.12.0-1
@@ -4207,30 +5367,17 @@ Description:  This project (pronounced gen'-see-oh) is used to abstract stream I
  .
  This package contains the C++ runtime files.
 
-Package: libgnutls-dane
-Version: 3.8.3-1
-Depends: libc, libgnutls, libunbound
-License: LGPL-2.1-or-later
-Section: libs
-CPE-ID: cpe:/a:gnu:gnutls
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 18082
-Filename: libgnutls-dane_3.8.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 18901
-SHA256sum: b5f062e5d6f5b774667be32e1dc5d5cd3f1d2771eff8929a30927a338db4eb3e
-Description:  GNU TLS (libgnutls-dane library)
-
 Package: libgnutls
 Version: 3.8.3-1
-Depends: libc, libnettle8, libgmp10, libtasn1, p11-kit, kmod-cryptodev, libatomic1
+Depends: libc, libnettle8, libgmp10, kmod-cryptodev, libatomic1
 License: LGPL-2.1-or-later
 Section: libs
 CPE-ID: cpe:/a:gnu:gnutls
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 984703
+Installed-Size: 958552
 Filename: libgnutls_3.8.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 982661
-SHA256sum: 39ee949c18c4fced6ea4a225752235ac2ecb488ce8e0a4ef46d275efc908e74e
+Size: 957288
+SHA256sum: b3c07369c5b3f429246f0acd765518940187be4882086fbc186a2f3a2a391b2a
 Description:  GnuTLS is a secure communications library implementing the SSL, TLS
  and DTLS protocols and technologies around them. It provides a simple
  C language application programming interface (API) to access the secure
@@ -4322,6 +5469,18 @@ Description:  A parser for HTTP messages written in C. It parses both requests a
  it can be interrupted at anytime. Depending on your architecture,
  it only requires about 40 bytes of data per message stream
  (in a web server that is per connection).
+
+Package: libi2c
+Version: 4.3-3
+Depends: libc
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1989
+Filename: libi2c_4.3-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2748
+SHA256sum: d0c6ed081e7cc751cc78d3c145ba6948aaea868ae807d55d42a2ac0fc14cc14d
+Description:  This package contains i2c functionality needed by i2c-tools.
 
 Package: libical
 Version: 3.0.9-2
@@ -4548,6 +5707,19 @@ Description:  MariaDB is a very fast and robust SQL database server.
  This package includes the client library.
  
 
+Package: libmbim
+Version: 1.28.4-1
+Depends: libc, glib2
+License: LGPL-2.0-or-later
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 185338
+Filename: libmbim_1.28.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 184745
+SHA256sum: c8f34633591f96ae23e09c34d00fdaf76e3d6b6566ee63fd156d6e7d88e96812
+Description:  Helper library to talk to MBIM enabled modems.
+ Add mbim-utils for extra utilities.
+
 Package: libmilter-sendmail
 Version: 8.16.1-1
 Depends: libc, libpthread
@@ -4587,6 +5759,59 @@ Filename: libmodbus_3.1.8-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 17017
 SHA256sum: 826a1f723c26e3ff2aea9e9066c600af92c9530194fcbaed3111a621e9a7276c
 Description:  A Modbus library for Linux, Mac OS X, FreeBSD, QNX and Win32.
+
+Package: libmosquitto-nossl
+Version: 2.0.18-2
+Depends: libc, libpthread, librt, libcares
+Provides: libmosquitto
+License: EPL-2.0
+Section: libs
+CPE-ID: cpe:/a:eclipse:mosquitto
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 62349
+Filename: libmosquitto-nossl_2.0.18-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 63048
+SHA256sum: f3876667ad2f5d3e360f28bbf06c019b0d59e099b56c0bdd8fb802283c9d5de5
+Description:  Library required for mosquitto's command line client tools, also for
+ use by any third party software that wants to communicate with _any_
+ MQTT server.
+ 
+ Should be useable for communicating with any MQTT v3.1/3.1.1/5 compatible
+ server, in addition to Mosquitto.
+ This package is built without SSL support
+
+Package: libmosquitto-ssl
+Version: 2.0.18-2
+Depends: libc, libpthread, librt, libcares, libopenssl3
+Provides: libmosquitto
+License: EPL-2.0
+Section: libs
+CPE-ID: cpe:/a:eclipse:mosquitto
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 75480
+Filename: libmosquitto-ssl_2.0.18-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 76333
+SHA256sum: 9c72fe574afa154abf8845895fa9eda7b53391be8a4c79c7a6b39552fff0a18c
+Description:  Library required for mosquitto's command line client tools, also for
+ use by any third party software that wants to communicate with _any_
+ MQTT server.
+ 
+ Should be useable for communicating with any MQTT v3.1/3.1.1/5 compatible
+ server, in addition to Mosquitto.
+ This package is built with SSL support
+
+Package: libmosquittopp
+Version: 2.0.18-2
+Depends: libc, libmosquitto, libstdcpp6
+License: EPL-2.0
+Section: libs
+CPE-ID: cpe:/a:eclipse:mosquitto
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4466
+Filename: libmosquittopp_2.0.18-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5149
+SHA256sum: 7c10d3540b32ff799909c601d139d0e4805b024b41044aef153620fe7f040f4e
+Description:  C++ Library wrapper for libmosquitto.
 
 Package: libnatpmp1
 Version: 20150609-3
@@ -4690,6 +5915,19 @@ Size: 173242
 SHA256sum: 19fdf522dfea0f1b87e6b0407e5a7e567d776dd48032189faff394c10386e107
 Description:  nghttp3 is a thin HTTP/3 layer over an underlying QUIC stack.
 
+Package: libngtcp2
+Version: 1.1.0-1
+Depends: libc, libnghttp3, libopenssl3
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 355848
+Filename: libngtcp2_1.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 356616
+SHA256sum: cf522ab0014927c7a69e3c2bf6a19cb7bb637283a372b76210d7c8f725681d89
+Description:  ngtcp2 project is an effort to implement QUIC protocol which is now being
+ discussed in IETF QUICWG for its standardization.
+
 Package: liboath
 Version: 2.6.5-3
 Depends: libc
@@ -4763,6 +6001,20 @@ SHA256sum: 72801b66abff126e08c1c455eadda6ff20c5724bff4f8648bd432aefb542c4e5
 Description:  Opus is a totally open, royalty-free, highly versatile audio codec. Opus is
  unmatched for interactive speech and music transmission over the Internet, but
  is also intended for storage and streaming applications.
+
+Package: libp11
+Version: 0.4.12-1
+Depends: libc, libopenssl3
+Conflicts: engine_pkcs11
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 48351
+Filename: libp11_0.4.12-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 48269
+SHA256sum: 6cff99918d477e95640b91e20d1aa6f0cb413b88fef54f4a3f0e5a6f9c8da953
+Description:  Libp11 is a library implementing a small layer on top of PKCS#11 API
+ to make using PKCS#11 implementations easier.
 
 Package: libpagekite
 Version: 0.91.201110C-2
@@ -4956,6 +6208,19 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  
  This package contains only core Python library.
 
+Package: libqmi
+Version: 1.32.4-1
+Depends: libc, glib2, libmbim, libqrtr-glib
+License: LGPL-2.0-or-later
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 659671
+Filename: libqmi_1.32.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 652330
+SHA256sum: 30f71092ddfd44206e8afc272b79cff66118c3946f7c3c9c66c3016f4ffa7e5d
+Description:  Helper library talk to QMI enabled modems.
+ Add qmi-utils for extra utilities.
+
 Package: libqrencode
 Version: 4.1.1-1
 Depends: libc
@@ -4970,6 +6235,18 @@ Description:  Libqrencode is a C library for encoding data in a QR Code symbol,
  a kind of 2D symbology that can be scanned by handy terminals such
  as a mobile phone with CCD. The capacity of QR Code is up to 7000
  digits or 4000 characters, and is highly robust.
+
+Package: libqrtr-glib
+Version: 1.2.2-3
+Depends: libc, glib2
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11525
+Filename: libqrtr-glib_1.2.2-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12205
+SHA256sum: bff3c10d18cef12f71fabbd7d0d9b6b168a34d14d91edb3f283b64dffdc184f2
+Description:  Helper library talk to QRTR enabled modems.
 
 Package: libradcli
 Version: 1.3.0-1
@@ -5085,6 +6362,21 @@ Size: 44192
 SHA256sum: d0914045b30c1cbaab1ce8451632f5ddf9ed6d85dcc69d76607fe3f33edc1242
 Description:  This package contains the seccomp library.
 
+Package: libsensors5
+Version: 3.6.0-1
+Depends: libc, sysfsutils
+Provides: libsensors
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: libs
+ABIVersion: 5
+CPE-ID: cpe:/a:lm_sensors:lm_sensors
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19320
+Filename: libsensors5_3.6.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20082
+SHA256sum: efacbed692b2fa4cd630a45261cc68a251decc2f13d287f802873a68f5914ec3
+Description:  lm-sensors libraries
+
 Package: libsodium
 Version: 1.0.18-4
 Depends: libc
@@ -5134,6 +6426,18 @@ Filename: libssh2-1_1.10.0-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 93196
 SHA256sum: e49c5672cdddd891b00ecf89f7febfead830829a06662a86b5a666b1f0a64977
 Description:  libssh2 is a client-side C library implementing the SSH2 protocol.
+
+Package: libstoken
+Version: 0.92-2
+Depends: libc, libxml2, libnettle8
+License: LGPL-2.1
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20897
+Filename: libstoken_0.92-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21608
+SHA256sum: ba3ccfae03a06b5ffe81fd4ba40e28d4d116adb0c3d4ae9dd31f5951c6d5167f
+Description:  tokencode generator compatible with RSA SecurID 128-bit (AES)
 
 Package: libtasn1
 Version: 4.19.0-2
@@ -5329,6 +6633,46 @@ Size: 193207
 SHA256sum: b563c5984340cdeff10fbb8f2c9ba9a94abe5aa773c2c04f4cbf998cfb2908dd
 Description:  The libwebp package contains a library for the WebP format.
 
+Package: libwebsockets-full
+Version: 4.3.2-2
+Depends: libc, zlib, libcap, libubox20230523, libopenssl3, libuv1
+Provides: libwebsockets, libwebsockets-openssl
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 179258
+Filename: libwebsockets-full_4.3.2-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 179271
+SHA256sum: 091c87d5c9e63debfbe82aaca3a0df938d5c22bfa521e4eb64c29ce8bd7b1de1
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
+
+Package: libwebsockets-mbedtls
+Version: 4.3.2-2
+Depends: libc, zlib, libcap, libubox20230523, libmbedtls12
+Conflicts: libwebsockets-openssl
+Provides: libwebsockets
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 156221
+Filename: libwebsockets-mbedtls_4.3.2-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 156654
+SHA256sum: 89625d8c6bf10281f6f04da37844e9ff7dab8b8a274b70aaf1a76ba9ce427fb7
+Description:  libwebsockets (mbedTLS)
+
+Package: libwebsockets-openssl
+Version: 4.3.2-2
+Depends: libc, zlib, libcap, libubox20230523, libopenssl3
+Conflicts: libwebsockets-full
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 155988
+Filename: libwebsockets-openssl_4.3.2-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 156116
+SHA256sum: 62999dc0513af4d7d956b18be3c8df584e995c8e794796460cfbb2fb47f0c965
+Description:  libwebsockets (OpenSSL)
+
 Package: libwrap
 Version: 7.6-4
 Depends: libc
@@ -5340,6 +6684,19 @@ Filename: libwrap_7.6-4_arm_cortex-a9_vfpv3-d16.ipk
 Size: 11582
 SHA256sum: 7cefbe2a0723cf9c662f00eacc601031c172ddba52772c8e2e8ef83e328697b0
 Description:  Security wrapper library for TCP services
+
+Package: libxslt
+Version: 1.1.37-1
+Depends: libc, libxml2
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:xmlsoft:libxslt
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 84222
+Filename: libxslt_1.1.37-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 84812
+SHA256sum: fcbbb307d333c3b0fde0b8358f328aacecbd2f2feed750aebecbfe9448756fee
+Description:  A library for XML transformation using XSLT.
 
 Package: libyaml
 Version: 0.2.5-1
@@ -5396,6 +6753,58 @@ SHA256sum: 7f8ec03a17bcb2c8d2cf8f540771635dac9315e62cb557cbcd109a0775859c99
 Description:  Zstandard - Fast real-time compression algorithm.
  This package provides libzstd library.
 
+Package: lm-sensors-detect
+Version: 3.6.0-1
+Depends: libc, sysfsutils, lm-sensors, perl, perlbase-essential, perlbase-fcntl, perlbase-file, perlbase-xsloader
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: utils
+CPE-ID: cpe:/a:lm_sensors:lm_sensors
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 46427
+Filename: lm-sensors-detect_3.6.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 47316
+SHA256sum: 1af91db4bf9b4bb6cdd73b377492ecf6cf50ef9144596d3b355fb0e7fc3f1daf
+Description:  script to autodetect sensor hardware
+
+Package: lm-sensors
+Version: 3.6.0-1
+Depends: libc, sysfsutils, libsensors5
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: utils
+CPE-ID: cpe:/a:lm_sensors:lm_sensors
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8800
+Filename: lm-sensors_3.6.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9570
+SHA256sum: cf5d96e3897e769318f5193cc7b863eaabc1639a98daa7e75e07da66715fb513
+Description:  utility to read hardware sensor data
+
+Package: lua-bencode
+Version: 2.2.0-1
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: all
+Installed-Size: 1556
+Filename: lua-bencode_2.2.0-1_all.ipk
+Size: 2364
+SHA256sum: 37c68a7dc4fe43d206ee13b6139bf8e56a9b6d62322a39380847872b79f9b353
+Description:  This is a module for the lua programming language for decoding and encoding
+ bencoded data which can be used to read and write torrent files for bittorrent.
+
+Package: lua-sha2
+Version: 0.2.0-1
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7583
+Filename: lua-sha2_0.2.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8399
+SHA256sum: 2415b9b6b2c2c90e19a9d2f53ac97f9979c855e3298fe6d0418200aab9ae3256
+Description:  Lua Binding for the SHA-2 (SHA-256/384/512) BSD-licensed C implementation by Aaron Gifford.
+ Also contains a HMAC implementation in Lua.
+
 Package: luafilesystem
 Version: 1.8.0-1
 Depends: libc, liblua5.1.5
@@ -5420,6 +6829,32 @@ Filename: luajit_2.1.0-beta3-7_arm_cortex-a9_vfpv3-d16.ipk
 Size: 207717
 SHA256sum: de74d2d1d4acb9e19cbb49ea299cf67cdac71dfcb2b69378ef6d5e51b92c873d
 Description:  LuaJIT is a Just-In-Time (JIT) compiler for the Lua programming language. *** Requires GCC Multilib on host system to build! ***
+
+Package: luasocket
+Version: 3.1.0-1
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 54419
+Filename: luasocket_3.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 55086
+SHA256sum: 133124cf5c7c4ef7aa47c78f05de1b687f4820bfc7f6a0341457fa81de690392
+Description:  LuaSocket is the most comprehensive networking support
+ library for the Lua language. It provides easy access to
+ TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
+
+Package: luasrcdiet
+Version: 1.0.0-1
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: all
+Installed-Size: 39743
+Filename: luasrcdiet_1.0.0-1_all.ipk
+Size: 40646
+SHA256sum: 20441ae3df2f4d7663443b9b996a31197bff9e8fbaafec1702ee446af8267529
+Description:  Compresses Lua source code by removing unnecessary characters
 
 Package: lvm2-selinux
 Version: 2.03.22-1
@@ -5866,6 +7301,31 @@ Size: 3681
 SHA256sum: 38c9558f031d0b066dc5e8e07fd880a3b62eafa7cefbc7be37272cbe1b562721
 Description:  Contains: lzmainfo 
 
+Package: mbim-utils
+Version: 1.28.4-1
+Depends: libc, libmbim
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 61407
+Filename: mbim-utils_1.28.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 61769
+SHA256sum: 65ba183acffea826f4c24d1681d89cf517f80c5714c4d38b06c4d9ee240eb748
+Description:  Utilities to talk to MBIM enabled modems
+
+Package: minidlna
+Version: 1.3.2-1
+Depends: libc, libpthread, libexif, libjpeg, libsqlite3-0, libffmpeg, libid3tag, libflac, libvorbis
+License: GPL-2.0-or-later BSD-3-Clause
+Section: multimedia
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 136125
+Filename: minidlna_1.3.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 136598
+SHA256sum: a6e7f0bb58fb097dc64347db65b88fdb6c274ff864a87ca755828d1ad7d9c22b
+Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
+ being fully compliant with DLNA/UPnP-AV clients.
+
 Package: miniupnpc
 Version: 2.2.3-1
 Depends: libc, libminiupnpc
@@ -6048,6 +7508,93 @@ Size: 8467
 SHA256sum: 62791abf1a50c6c022418b26a88d6065a67abc0da7299cc4e1e7f9abb93f52be
 Description:  Streaming application for Linux-UVC compatible webcams
 
+Package: modemmanager
+Version: 1.20.6-12
+Depends: libc, glib2, dbus, ppp, libmbim, libqmi, libqrtr-glib
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1371781
+Filename: modemmanager_1.20.6-12_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1354704
+SHA256sum: 129c5e11ae8fc977e73205643e73a0f61f1722c208018bf7b7655fa7f418811d
+Description:  ModemManager is a D-Bus-activated service which allows controlling mobile
+ broadband modems. Add kernel modules for your modems as needed.
+ Select Utilities/usb-modeswitch if needed.
+
+Package: mosquitto-client-nossl
+Version: 2.0.18-2
+Depends: libc, librt, libcares, cJSON, libmosquitto-nossl
+Provides: mosquitto-client
+License: EPL-2.0
+Section: net
+CPE-ID: cpe:/a:eclipse:mosquitto
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 53391
+Filename: mosquitto-client-nossl_2.0.18-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 54019
+SHA256sum: 0a0dd8095bb44805d0bec1e0ceb676c92dfdd281f14d3da5f6a2ac5488a370b3
+Description:  Command line client tools for working with mosquitto.
+ This includes mosquitto_sub, mosquitto_pub, mosquitto_rr
+ and the mosquitto_ctrl tool.
+ This package is built without SSL support
+
+Package: mosquitto-client-ssl
+Version: 2.0.18-2
+Depends: libc, librt, libcares, cJSON, libmosquitto-ssl
+Provides: mosquitto-client
+License: EPL-2.0
+Section: net
+CPE-ID: cpe:/a:eclipse:mosquitto
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 78864
+Filename: mosquitto-client-ssl_2.0.18-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 79554
+SHA256sum: a59504aba63dd835c1ff74d1fb3455a68b8e76bdc1bff17091e60978eea40e71
+Description:  Command line client tools for working with mosquitto.
+ This includes mosquitto_sub, mosquitto_pub, mosquitto_rr
+ and the mosquitto_ctrl tool.
+ This package is built with SSL support
+
+Package: mosquitto-nossl
+Version: 2.0.18-2
+Depends: libc, librt
+Provides: mosquitto
+License: EPL-2.0
+Section: net
+CPE-ID: cpe:/a:eclipse:mosquitto
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 113412
+Filename: mosquitto-nossl_2.0.18-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 114390
+SHA256sum: 73f5d406012dbd82aafce2190c3e59617f4a386511048d0c8d2813b796db0c0d
+Description:  Mosquitto is an open source (BSD licensed) message broker that implements
+ the MQTT protocol version 3.1, 3.1.1 and 5. MQTT provides a lightweight
+ method of carrying out messaging using a publish/subscribe model.
+ 
+ This package also includes some basic support for configuring via UCI
+ This package is built WITHOUT SSL support.
+
+Package: mosquitto-ssl
+Version: 2.0.18-2
+Depends: libc, librt, libopenssl3, libwebsockets-openssl, cJSON
+Provides: mosquitto
+License: EPL-2.0
+Section: net
+CPE-ID: cpe:/a:eclipse:mosquitto
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 306961
+Filename: mosquitto-ssl_2.0.18-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 307373
+SHA256sum: 34b35f2733e1769dd31be0485f504a315cd761803b2057ca09d81fa735ba0627
+Description:  Mosquitto is an open source (BSD licensed) message broker that implements
+ the MQTT protocol version 3.1, 3.1.1 and 5. MQTT provides a lightweight
+ method of carrying out messaging using a publish/subscribe model.
+ 
+ This package also includes some basic support for configuring via UCI
+ This package is built with SSL support.  TLS-PSK will be included (in both
+ the client and broker) if OpenSSL is built with TLS-PSK support.
+
 Package: mrmctl
 Version: 1.1.0-1
 Depends: libc, kmod-macremapper
@@ -6168,6 +7715,68 @@ Description:  libnatpmp is an attempt to make a portable and fully compliant imp
  all calls of the API are asynchronous. It is therefore very easy to integrate
  the NAT-PMP code to any event driven code.
  This package contains the natpmp client.
+
+Package: nebula-cert
+Version: 1.8.2-2
+Depends: libc
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:slack:nebula
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2020001
+Filename: nebula-cert_1.8.2-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2001446
+SHA256sum: ceed746f771c0101ae114b2640c66f9066486387fda8d16040d41f4290a5f668
+Description:  Nebula is a scalable overlay networking tool with a focus on performance, simplicity
+ and security. It lets you seamlessly connect computers anywhere in the world.
+ This package contains only nebula-cert binary.
+
+Package: nebula-proto
+Version: 1.8.2-2
+Depends: libc, nebula
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:slack:nebula
+Architecture: all
+Installed-Size: 1693
+Filename: nebula-proto_1.8.2-2_all.ipk
+Size: 2591
+SHA256sum: 2016b8b844c53e451898c37150c086b857952747be582b42ef6fc6d79e733fc1
+Description:  Nebula is a scalable overlay networking tool with a focus on performance, simplicity
+ and security. It lets you seamlessly connect computers anywhere in the world.
+ This package contains only OpenWrt protocol/interface support for nebula.
+
+Package: nebula-service
+Version: 1.8.2-2
+Depends: libc, nebula
+Conflicts: nebula-proto
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:slack:nebula
+Architecture: all
+Installed-Size: 1500
+Filename: nebula-service_1.8.2-2_all.ipk
+Size: 2408
+SHA256sum: 2e991bc79e1137bbb122afc22d4e881c3d43899ec5e390c1dde6e3008fbdc36d
+Description:  Nebula is a scalable overlay networking tool with a focus on performance, simplicity
+ and security. It lets you seamlessly connect computers anywhere in the world.
+ This package contains only OpenWrt-specific init.d script for nebula.
+
+Package: nebula
+Version: 1.8.2-2
+Depends: libc, kmod-tun
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:slack:nebula
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4818872
+Filename: nebula_1.8.2-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4759695
+SHA256sum: 91ffeb5d0c6803b0a84be9659b3889257f0e47451d9400fae96a2dfbcc9a41fa
+Description:  Nebula is a scalable overlay networking tool with a focus on performance, simplicity
+ and security. It lets you seamlessly connect computers anywhere in the world.
+ This package contains only nebula binary. Unless you want to start nebula manually,
+ you may want to also install *either* 'nebula-service' *or* 'nebula-proto' package.
 
 Package: nextdns
 Version: 1.42.0-1
@@ -6428,6 +8037,39 @@ Filename: nlbwmon_2021-09-01-d82c910c-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 21850
 SHA256sum: 4e70dec0431ce4534af444790525efc3a1e883ddd5186dac7409bc8b5bd655ca
 Description:  OpenWrt Traffic Usage Monitor
+
+Package: node-npm
+Version: v18.19.1-1
+Depends: libc, node
+License: MIT
+Section: lang
+CPE-ID: cpe:/a:nodejs:node.js
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2192665
+Filename: node-npm_v18.19.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2188441
+SHA256sum: 3cba8856bd21cf28dd059a13a368922c9bc6d0094a9097d3322ce15893a1f08d
+Description:  NPM is the package manager for NodeJS
+
+Package: node
+Version: v18.19.1-1
+Depends: libc, libstdcpp6, libopenssl3, zlib, libnghttp2-14, libuv1, libcares, libatomic1
+License: MIT
+Section: lang
+CPE-ID: cpe:/a:nodejs:node.js
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12730641
+Filename: node_v18.19.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12566289
+SHA256sum: bca5e3057b239f48f01741fffc1baa78cade6973884cb8a0d0942437522a764e
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ *** The following preparations must be made on the host side. ***
+ 1. gcc 8.3 or higher is required.
+ 2. To build a 32-bit target, gcc-multilib, g++-multilib are required.
+ 3. Requires libatomic package. (If necessary, install the 32-bit library at the same time.)
+ ex) sudo apt-get install gcc-multilib g++-multilib
 
 Package: noping
 Version: 1.10.0-3
@@ -7351,6 +8993,58 @@ Description:  The OATH Toolkit provide components for building one-time password
  tools and a PAM module. Supported technologies include the event-based
  HOTP algorithm (RFC4226) and the time-based TOTP algorithm (RFC6238).
 
+Package: ocserv
+Version: 1.2.4-1
+Depends: libc, libradcli, libhttp-parser, libseccomp, libgnutls, certtool, libncurses6, libreadline8, libpam, libprotobuf-c, liboath, libev, kmod-tun
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 271104
+Filename: ocserv_1.2.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 271235
+SHA256sum: 4c5c22d76614dc5b5d36f515f11720baf69527b156912809b74e470e682faf8a
+Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be
+ a secure, small, fast and configurable VPN server. It implements the
+ OpenConnect SSL VPN protocol, and has also (currently experimental)
+ compatibility with clients using the AnyConnect SSL VPN protocol. The
+ OpenConnect VPN protocol uses the standard IETF security protocols such
+ as TLS 1.2, and Datagram TLS to provide the secure VPN service.
+
+Package: openconnect
+Version: 9.12-2
+Depends: libc, libxml2, kmod-tun, resolveip, vpnc-scripts, libgnutls, libtasn1, libstoken
+License: LGPL-2.1-or-later
+Section: net
+CPE-ID: cpe:/a:infradead:openconnect
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 183000
+Filename: openconnect_9.12-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 183741
+SHA256sum: 770f5082d105a43b58adf6cbe941d3547dd77ea69904707506d1371a9014f648
+Description:  A VPN client compatible with several SSL VPN implementations (ocserv, Cisco AnyConnect, Juniper, Palo Alto)
+ 
+ OpenConnect is an SSL VPN client initially created to support Cisco's
+ AnyConnect SSL VPN. It has since been extended to support the Pulse Connect
+ Secure VPN (formerly known as Juniper Network Connect or Junos Pulse) and
+ the Palo Alto Networks GlobalProtect SSL VPN.
+ 
+ A corresponding OpenConnect VPN server implementation can be found in the
+ ocserv package.
+
+Package: openfortivpn
+Version: 1.20.3-1
+Depends: libc, ppp, libopenssl3
+License: GPL-3.0-or-later OpenSSL
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 41550
+Filename: openfortivpn_1.20.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 42366
+SHA256sum: 2a2d49b9342b60c5264dbb4c02d1a3cfcbf9f5d732dd532a33000a04da71dbd2
+Description:  An open implementation of Fortinet's proprietary PPP+SSL VPN solution
+ It spawns a pppd process and operates the communication between the gateway and this process.
+ It is compatible with Fortinet VPNs.
+
 Package: openldap-server
 Version: 2.6.4-1
 Depends: libc, libopenldap, libuuid1
@@ -7660,18 +9354,560 @@ SHA256sum: 0f2ec400cebcf8ced6d9bad749d291d3a7f651bcef620e354e2e26999d8afa92
 Description:  contains collection of programs for inspecting and manipulating configuration
  of PCI devices
 
-Package: perl-tests-common
-Version: 5.28.1-9
-Depends: libc
+Package: perl-ack
+Version: 3.7.0+perl5.28-1
+Depends: libc, perl, perl-file-next, perlbase-filetest, perlbase-if, perlbase-list, perlbase-pod, perlbase-test, perlbase-text, perlbase-term
+License: Artistic-2.0
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20645
+Filename: perl-ack_3.7.0+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21422
+SHA256sum: d900e80eaf993277c826343e9f9b71bb17d48a0a62894deec6c6538003e0ed8e
+Description:  grep-like text finder
+
+Package: perl-authen-sasl-xs
+Version: 1.00+perl5.28-2
+Depends: libc, perl, perl-authen-sasl, libsasl2
 License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
-CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2576720
-Filename: perl-tests-common_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2555927
-SHA256sum: 3ce0c081bc7b0838c70fed26357591d3a19aab2288994dc6781d5c9ddc110fe6
-Description:  Common test support files
+Installed-Size: 1420
+Filename: perl-authen-sasl-xs_1.00+perl5.28-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2229
+SHA256sum: 7ca4dd53fb98bc171ef77cc255ee3fbce9526e1b28f5fe4f1b1d13fea2f54768
+Description:  Authen::XS hooks into libsasl.
+
+Package: perl-authen-sasl
+Version: 2.16+perl5.28-2
+Depends: libc, perl, perlbase-digest
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12119
+Filename: perl-authen-sasl_2.16+perl5.28-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12935
+SHA256sum: 35f484a846c9986779ce869e6fd0c05ea100e0cd5e02039a41d568d38b33b8c3
+Description:  Generic network authentication protocol framework.
+
+Package: perl-cgi
+Version: 4.56+perl5.28-1
+Depends: libc, perl, perl-html-parser, perlbase-base, perlbase-config, perlbase-encode, perlbase-essential, perlbase-file, perlbase-if, perlbase-utf8
+License: Artistic-2.0
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 58086
+Filename: perl-cgi_4.56+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 59055
+SHA256sum: 98954df161a8e04149a9446dad631ff4a27ef1c8f246a15c2a9266124d983ade
+Description:  Handle Common Gateway Interface requests and responses
+
+Package: perl-compress-bzip2
+Version: 2.28+perl5.28-1
+Depends: libc, perl, libbz2-1.0, perlbase-autoloader, perlbase-config, perlbase-essential, perlbase-fcntl, perlbase-file, perlbase-getopt, perlbase-test, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 27575
+Filename: perl-compress-bzip2_2.28+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 28437
+SHA256sum: ac11ac62860eb106e73dcdf28c7e41aac677aba73148d7cd2013b22c48f60ca3
+Description:  Perl interface to bzip2 compression library
+
+Package: perl-dbi
+Version: 1.643+perl5.28-1
+Depends: libc, perl, perlbase-base, perlbase-config, perlbase-cwd, perlbase-data, perlbase-dynaloader, perlbase-errno, perlbase-essential, perlbase-fcntl, perlbase-file, perlbase-io, perlbase-ipc, perlbase-scalar, perlbase-storable, perlbase-symbol, perlbase-tie, perlbase-universal, perlbase-utf8
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 187715
+Filename: perl-dbi_1.643+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 188527
+SHA256sum: a6c738d9518e6e13042c435abd3874e77316992558a76dac5a3533cc40e54d60
+Description:  Database independent interface for Perl
+
+Package: perl-device-serialport
+Version: 1.04+perl5.28-4
+Depends: libc, perl, perlbase-essential, perlbase-io, perlbase-posix, perlbase-test, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 15284
+Filename: perl-device-serialport_1.04+perl5.28-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16132
+SHA256sum: 715dc123aa70df9c73fccc5e7f7bcc390a21c67645c8ed724bfe30eb99faa11e
+Description:  A POSIX-based version of the Win32::SerialPort module
+ that provides modem support to Perl applications
+
+Package: perl-device-usb
+Version: 0.38+perl5.28-1
+Depends: libc, perl, libusb-compat4, perl-inline, perl-inline-c, perlbase-essential, perlbase-test
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 17043
+Filename: perl-device-usb_0.38+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17834
+SHA256sum: 883e21a5b1020d0d5ab1b1ed1f3d18d3c080db11f2d75a0ffb93c9e4799e7560
+Description:  libusb library wrapper
+
+Package: perl-encode-locale
+Version: 1.05+perl5.28-2
+Depends: libc, perl, perlbase-base, perlbase-encode, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1865
+Filename: perl-encode-locale_1.05+perl5.28-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2675
+SHA256sum: 93a3804baa58de86066f8d2b542424099394e43df361b52440ee8b2397ef24db
+Description:  Determine the locale encoding
+
+Package: perl-file-listing
+Version: 6.04+perl5.28-2
+Depends: libc, perl, perl-http-date, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3218
+Filename: perl-file-listing_6.04+perl5.28-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3987
+SHA256sum: 0342db2dc0c09a033573280af17c7ffac827ac972304a8c4cc39b3adc592ffb1
+Description:  Parse directory listing
+
+Package: perl-file-next
+Version: 1.18+perl5.28-1
+Depends: libc, perl, perlbase-file
+License: Artistic-2.0
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2138
+Filename: perl-file-next_1.18+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2891
+SHA256sum: 0460a449603dff26c0659a4c922076e5e2be100cb45255a6e887f75e5d6cedc8
+Description:  File finding module
+
+Package: perl-file-rsyncp
+Version: 0.74+perl5.28-1
+Depends: libc, perl, perlbase-autoloader, perlbase-socket, perlbase-getopt, perlbase-data, perlbase-config, perlbase-encode, perlbase-fcntl, perlbase-file
+License: GPL-2.0-or-later
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 64682
+Filename: perl-file-rsyncp_0.74+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 65452
+SHA256sum: 10e5326363579782ed7042874ff89248730b8700cc2725fd5a4e0d1ae196116e
+Description:  Perl Rsync client
+
+Package: perl-file-sharedir-install
+Version: 0.13+perl5.28-1
+Depends: libc, perl, perlbase-essential, perlbase-extutils, perlbase-file, perlbase-io
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1850
+Filename: perl-file-sharedir-install_0.13+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2680
+SHA256sum: 5c5ee2befb9f73bcd6ed9bd3586fcf2c1c2d6337732e21f012fde170781cc733
+Description:  Install read-only data files
+
+Package: perl-html-form
+Version: 6.07+perl5.28-1
+Depends: libc, perl, perl-html-parser, perl-http-message, perl-uri, perlbase-encode, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6463
+Filename: perl-html-form_6.07+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7322
+SHA256sum: 4b7eff79def9ad056dc39ed218dae42d402b9d08460e0752666802b368127e0a
+Description:  Class that represents an HTML form element
+
+Package: perl-html-parser
+Version: 3.75+perl5.28-1
+Depends: libc, perl, perl-html-tagset, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:derrick_oswald:html-parser
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 28061
+Filename: perl-html-parser_3.75+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 28910
+SHA256sum: 174fa4501930b3dcb41f7fcd8acc3e861e53f490ed6d8dd35b353e471e64e687
+Description:  A collection of modules that parse HTML text documents
+
+Package: perl-html-tagset
+Version: 3.20+perl5.28-4
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1846
+Filename: perl-html-tagset_3.20+perl5.28-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2642
+SHA256sum: 34becb7e32e9beebeb34b97b423ecf4312ca27967bcb0ccd05ece6ba5c78dd59
+Description:  Data tables pertaining to HTML
+
+Package: perl-html-tree
+Version: 3.23+perl5.28-5
+Depends: libc, perl, perl-html-parser, perl-html-tagset, perlbase-essential, perlbase-integer
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 31535
+Filename: perl-html-tree_3.23+perl5.28-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 32327
+SHA256sum: 6e6cf8632336472191bf66c09934c32480ee1fdb1f76e765945fe2a5af052945
+Description:  Represent and create HTML syntax trees
+
+Package: perl-http-cookies
+Version: 6.08+perl5.28-1
+Depends: libc, perl, perl-http-date, perl-http-message, perlbase-essential, perlbase-time
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8383
+Filename: perl-http-cookies_6.08+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9196
+SHA256sum: c151a6f3627a1b6e7911d72a6a674a7830a2a41be044ef1e8d047403ad5af9ec
+Description:  HTTP cookie jars
+
+Package: perl-http-daemon
+Version: 6.06+perl5.28-1
+Depends: libc, perl, perl-http-date, perl-http-message, perl-lwp-mediatypes, perlbase-essential, perlbase-io, perlbase-sys
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5090
+Filename: perl-http-daemon_6.06+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5884
+SHA256sum: 8844d7a63ff9173fabed5e5050ef8e4a97d72a0a0edda5825996930390cf5e3e
+Description:  A simple http server class
+
+Package: perl-http-date
+Version: 6.05+perl5.28-2
+Depends: libc, perl, perlbase-essential, perlbase-time
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2592
+Filename: perl-http-date_6.05+perl5.28-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3366
+SHA256sum: e2eb5dadc2f97d2754caaa1cd32a19963ddafd621d1e33c5fce44ece054dbf1f
+Description:  Date conversion routines
+
+Package: perl-http-message
+Version: 6.22+perl5.28-1
+Depends: libc, perl, perl-encode-locale, perl-http-date, perl-io-html, perl-lwp-mediatypes, perl-uri, perlbase-base, perlbase-compress, perlbase-encode, perlbase-essential, perlbase-io, perlbase-mime
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 18958
+Filename: perl-http-message_6.22+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19846
+SHA256sum: eec5565fc5f41d7053f89e210e995030233babef1d8686d3d06138983c086716
+Description:  HTTP style messages
+
+Package: perl-http-negotiate
+Version: 6.01+perl5.28-2
+Depends: libc, perl, perl-http-message, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3342
+Filename: perl-http-negotiate_6.01+perl5.28-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4124
+SHA256sum: 6f46e55a1cd88d9f80d42d0ae89f243a43f056901357cc89e1a6bbe5cc398028
+Description:  Choose a variant to serve
+
+Package: perl-http-server-simple
+Version: 0.52+perl5.28-1
+Depends: libc, perl, perl-cgi, perlbase-base, perlbase-essential, perlbase-filehandle, perlbase-socket, perlbase-test
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5512
+Filename: perl-http-server-simple_0.52+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6301
+SHA256sum: 0486ea4d19bbd81851d7043ee2bf3cd0dede3b2f7ffd87eb41b3bfdac7d862a2
+Description:  Lightweight HTTP server
+
+Package: perl-inline-c
+Version: 0.81+perl5.28-1
+Depends: libc, perl, perl-inline, perl-parse-recdescent, perlbase-config, perlbase-cwd, perlbase-data, perlbase-essential, perlbase-file, perlbase-if
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12833
+Filename: perl-inline-c_0.81+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13675
+SHA256sum: 9779dadf3cdb5c31bf32112e69d3325deea7b53dedb96fd4cbee75d794467208
+Description:  C Language Support for Inline
+
+Package: perl-inline
+Version: 0.86+perl5.28-1
+Depends: libc, perl, perlbase-base, perlbase-config, perlbase-cwd, perlbase-digest, perlbase-essential, perlbase-fcntl, perlbase-file
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19336
+Filename: perl-inline_0.86+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20202
+SHA256sum: 8e199bddca8279b8af54e98fa766769e6ab17a66747f98c96ff6ce2c57ac05dd
+Description:  Write subroutines in other languages
+
+Package: perl-io-html
+Version: 1.001+perl5.28-2
+Depends: libc, perl, perlbase-encode, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2325
+Filename: perl-io-html_1.001+perl5.28-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3110
+SHA256sum: 0f883effe7cb2eaf015cc483fbdf2308c728a4654cbee4acd0d6d38c8133bd70
+Description:  Open an HTML file with automatic charset detection
+
+Package: perl-lockfile-simple
+Version: 0.208+perl5.28-4
+Depends: libc, perl, perlbase-essential, perlbase-sys
+License: GPL-2.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4619
+Filename: perl-lockfile-simple_0.208+perl5.28-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5380
+SHA256sum: 90bcb77a07ef6fd74517721b9b4cf5881385ca3b780dc3c2c3b1c055b23f962d
+Description:  Simple advisory file locking
+
+Package: perl-lwp-mediatypes
+Version: 6.04+perl5.28-1
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 14630
+Filename: perl-lwp-mediatypes_6.04+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 15440
+SHA256sum: c2b1c9921896a1a468e5c7c84dd629a038a141be5652560175e0f5b4ca8686ee
+Description:  Guess media type for a file or a URL
+
+Package: perl-net-cidr-lite
+Version: 0.21+perl5.28-1
+Depends: libc, perl, perlbase-essential, perlbase-config, perlbase-io, perlbase-dynaloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: all
+Installed-Size: 3507
+Filename: perl-net-cidr-lite_0.21+perl5.28-1_all.ipk
+Size: 4324
+SHA256sum: 048b37555d8c978edba081e337f9c93c7f6291cc8a87ec908f7a5eddb39ceff4
+Description:  Perl extension for merging IPv4 or IPv6 CIDR addresses
+
+Package: perl-net-dns
+Version: 1.35+perl5.28-1
+Depends: libc, perl, perlbase-essential, perlbase-io
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 69516
+Filename: perl-net-dns_1.35+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 70395
+SHA256sum: 308ddfed7eceddaf042614b8bb256bb1884baf4f0f8f3244e3a62108f4d860ec
+Description:  Net::DNS DNS resolver implemented in Perl
+
+Package: perl-net-http
+Version: 6.19+perl5.28-1
+Depends: libc, perl, perl-uri, perlbase-compress, perlbase-essential, perlbase-io
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6831
+Filename: perl-net-http_6.19+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7693
+SHA256sum: 17a614444121bb5848768991a9130329794f76c80db13f078318413eafe1596a
+Description:  Low-level HTTP connection (client)
+
+Package: perl-net-telnet
+Version: 3.04+perl5.28-4
+Depends: libc, perl, perlbase-essential, perlbase-socket, perlbase-symbol
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19671
+Filename: perl-net-telnet_3.04+perl5.28-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20441
+SHA256sum: 3eff665487b1ca738a539fc6ad390f456f58dd95d0a28d6ea320baffdd3a38c6
+Description:  Telnet client
+
+Package: perl-netaddr-ip
+Version: 4.079+perl5.28-1
+Depends: libc, perl, perlbase-essential, perlbase-test
+License: GPL-2.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 26964
+Filename: perl-netaddr-ip_4.079+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 27731
+SHA256sum: cc9de9fc3a2a1650547719ad09a5a3ddbf37da0e37dd92c0d31b4ca53bf141a7
+Description:  NetAddr::IP - Manages IPv4 and IPv6 addresses and subnets
+
+Package: perl-parse-recdescent
+Version: 1.967015+perl5.28-2
+Depends: libc, perl, perlbase-essential, perlbase-test, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23041
+Filename: perl-parse-recdescent_1.967015+perl5.28-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23834
+SHA256sum: 1a0c175656ef8f4f12dcabd90321c9908f5121361d2031a79d2fe98417ac5abd
+Description:  Generate Recursive-Descent Parsers
+
+Package: perl-parse-yapp
+Version: 1.21+perl5.28-1
+Depends: libc, perl, perlbase-essential, perlbase-test
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 14152
+Filename: perl-parse-yapp_1.21+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14915
+SHA256sum: 42871bbffaf52e1b19928294eb87db74ca6929cf1b23c5322c7f3111624fe5fa
+Description:  Yet Another Parser Parser For Perl
+
+Package: perl-sub-uplevel
+Version: 0.2800+perl5.28-1
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1717
+Filename: perl-sub-uplevel_0.2800+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2541
+SHA256sum: bf545a653f806bf69b65ef0528bc26b4a850420d3516405fd9915b1ba600c6a9
+Description:  Apparently run a function in a higher stack frame
+
+Package: perl-test-harness
+Version: 3.42+perl5.28-1
+Depends: libc, perl, perlbase-base, perlbase-benchmark, perlbase-config, perlbase-essential, perlbase-file, perlbase-getopt, perlbase-io, perlbase-posix, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 44274
+Filename: perl-test-harness_3.42+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 45138
+SHA256sum: 19ddd6e8a08cdb851b9350b9b8c90189fae85959cd658af92af24892b1559c8a
+Description:  Perl Test Harness
+
+Package: perl-test-warn
+Version: 0.36+perl5.28-1
+Depends: libc, perl, perl-sub-uplevel, perlbase-essential, perlbase-test
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1941
+Filename: perl-test-warn_0.36+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2728
+SHA256sum: 4f215e2584cce26398a9e3f500e7ce186850c5e05a040ab75e4abbfbf9a76e2d
+Description:  Perl extension to test methods for warnings
+
+Package: perl-text-csv_xs
+Version: 1.50+perl5.28-1
+Depends: libc, perl, perlbase-essential, perlbase-config, perlbase-io, perlbase-dynaloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 34065
+Filename: perl-text-csv_xs_1.50+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 34993
+SHA256sum: f6ad694dedd6a86c76af9fd60fa38c94daf5d9c963476e25dcc9e387926c5dae
+Description:  Text comma-separated values manipulation routines
+
+Package: perl-try-tiny
+Version: 0.31+perl5.28-1
+Depends: libc, perl, perlbase-essential
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2388
+Filename: perl-try-tiny_0.31+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3244
+SHA256sum: d9cbba77dfb4208298217eb0fae8829c3dadead9ef0a10d22f654a4979d612e9
+Description:  Minimal try/catch with proper preservation of /home/jackson/obj/openwrt/bin/packages/arm_cortex-a9_vfpv3-d16/packages/perl-try-tiny_0.31+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+
+Package: perl-uri
+Version: 1.76+perl5.28-1
+Depends: libc, perl, perlbase-essential, perlbase-integer, perlbase-mime, perlbase-scalar, perlbase-utf8
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 22838
+Filename: perl-uri_1.76+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23661
+SHA256sum: fab118e6383fcf37abb6083e4f8ff3e4dba03438c040a3d4355990ad674416be
+Description:  Manipulates and accesses URI strings
+
+Package: perl-www-curl
+Version: 4.17+perl5.28-7
+Depends: libc, perl, libcurl4, perlbase-essential, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 39697
+Filename: perl-www-curl_4.17+perl5.28-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 40484
+SHA256sum: 8d0ded177e99cb37852b8e8de153ef5090979cb1051ee59f29473ef921dafcf8
+Description:  Perl bindings to libcurl
+
+Package: perl-www-mechanize
+Version: 1.96+perl5.28-1
+Depends: libc, perl, perl-cgi, perl-html-form, perl-html-parser, perl-html-tree, perl-http-daemon, perl-http-message, perl-http-server-simple, perl-test-warn, perl-uri, perl-www, perlbase-base, perlbase-essential, perlbase-file, perlbase-findbin, perlbase-getopt, perlbase-pod, perlbase-test
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11469
+Filename: perl-www-mechanize_1.96+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12384
+SHA256sum: a731248fef050f4b88a4b63ee19c4f2017e6ff6583af3e73dbb7704b9e52a9f2
+Description:  Perl WWW Mechanize
+
+Package: perl-www-robotrules
+Version: 6.02+perl5.28-2
+Depends: libc, perl, perl-uri, perlbase-anydbm-file, perlbase-essential, perlbase-fcntl
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3090
+Filename: perl-www-robotrules_6.02+perl5.28-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3908
+SHA256sum: c159f5b6071a2329e2179c066881aa34aa145a9efc2286ceb75fac757a60a617
+Description:  database of robots.txt-derived permissions
+
+Package: perl-www
+Version: 6.43+perl5.28-2
+Depends: libc, perl, perl-encode-locale, perl-file-listing, perl-html-parser, perl-http-cookies, perl-http-daemon, perl-http-date, perl-http-message, perl-http-negotiate, perl-lwp-mediatypes, perl-net-http, perl-try-tiny, perl-uri, perl-www-robotrules, perlbase-base, perlbase-digest, perlbase-encode, perlbase-essential, perlbase-io, perlbase-mime, perlbase-net
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:search.cpan:libwww-perl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 30402
+Filename: perl-www_6.43+perl5.28-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 31412
+SHA256sum: 63d283cdfb1288dc37d75dbe289904c34bd79a7bd0f977008217ced67b54422f
+Description:  WWW client/server library for Perl (aka LWP)
+
+Package: perl-xml-parser
+Version: 2.46+perl5.28-1
+Depends: libc, perl, libexpat, perlbase-dynaloader, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 159512
+Filename: perl-xml-parser_2.46+perl5.28-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 153756
+SHA256sum: e2f7e9c60ec29a3f5419a656c83aa50fc8e8a4108712d4c608047ed76ed92b69
+Description:  Perl XML Parser
 
 Package: perl
 Version: 5.28.1-9
@@ -7695,11 +9931,24 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2049
+Installed-Size: 458
 Filename: perlbase-anydbm-file_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2880
-SHA256sum: d56d4c6e1c19a7d58c2dad2d3e20483c85ed4f974a7a3a1c2f11e60db7e7de2d
+Size: 1307
+SHA256sum: 1fd8633b59031d4c68b9042be1586b5a8347572ca89ea5a4dd968229e06bd436
 Description:  AnyDBM_File perl module
+
+Package: perlbase-app
+Version: 5.28.1-9
+Depends: libc, perl, perlbase-autouse, perlbase-base, perlbase-config, perlbase-cpan, perlbase-essential, perlbase-file, perlbase-getopt, perlbase-if, perlbase-tap, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 17270
+Filename: perlbase-app_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
+Size: 18172
+SHA256sum: 2c4c855edddee831b09f77eacc59451b4350efbb9bddde226b39eec1eb79a938
+Description:  app perl module
 
 Package: perlbase-archive
 Version: 5.28.1-9
@@ -7708,10 +9957,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 42311
+Installed-Size: 21402
 Filename: perlbase-archive_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 43069
-SHA256sum: 42abd62e21ca1c7b03a88fb82075997b9a8419413c66f209c2e18c8c5946eb4f
+Size: 22296
+SHA256sum: 4c0b0caae9519d29fa8769e11592e6e9c062c3c0a4000f56cf6780a9bdda5fdd
 Description:  Archive perl module
 
 Package: perlbase-arybase
@@ -7721,10 +9970,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 9347
+Installed-Size: 7075
 Filename: perlbase-arybase_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 10188
-SHA256sum: bb198623141c58b19e62f610bfd4f49f661ec286958d618a82a5a5c7ca75aad4
+Size: 7918
+SHA256sum: 087a8f32be48946da4da1af88684dd590a9020ab74f46227aae74c21c468032a
 Description:  arybase perl module
 
 Package: perlbase-attribute
@@ -7734,10 +9983,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 5916
+Installed-Size: 3042
 Filename: perlbase-attribute_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 6760
-SHA256sum: 8315536c2862dd0f5691613a553c0da53ebe6416f5510efbab625d5850220b4e
+Size: 3863
+SHA256sum: d8b48b42ffda89a450a88719b6c21d738068ee8a5f824cab8519884a4d78cf10
 Description:  Attribute perl module
 
 Package: perlbase-attributes
@@ -7760,10 +10009,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 32958
+Installed-Size: 9284
 Filename: perlbase-autodie_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 33848
-SHA256sum: 128e51a2f8ef18bf211df6ccee78de7845c5b07df32e9d79f1d5bc712f8e61c9
+Size: 10151
+SHA256sum: b3317be90f313b11dcc78b1a7f7e1bae235f051887fc0f676bf950b553ba27ff
 Description:  autodie perl module
 
 Package: perlbase-autoloader
@@ -7773,10 +10022,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8415
+Installed-Size: 2246
 Filename: perlbase-autoloader_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 9265
-SHA256sum: efed6b5719786ffc0bb3c857bfaa113efba70cd371854aa2771b19a4b7fe0773
+Size: 3107
+SHA256sum: 151abdbe70e0c862f9d7bd81c8bacd287e7788f29debc0bb0284f0f4b63a7650
 Description:  AutoLoader perl module
 
 Package: perlbase-autosplit
@@ -7799,10 +10048,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2714
+Installed-Size: 1084
 Filename: perlbase-autouse_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 3548
-SHA256sum: a16c118b882401ba274f8487020a5365284a5da5b829494127b9169e41f5f37c
+Size: 1916
+SHA256sum: 24a384c446afe0f353b562d93a2dd0eff4d469456a01a026c6068b8a6544ed5e
 Description:  autouse perl module
 
 Package: perlbase-b
@@ -7812,10 +10061,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 177730
+Installed-Size: 101858
 Filename: perlbase-b_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 178404
-SHA256sum: be7ba76b62861970de4a47add8ac2d3bb976351f3712b7f80a3181dc5e68b7d9
+Size: 102573
+SHA256sum: 19a7b4441586bdbc97adbf44763e17265307524d09ceb316d010654dec84e23a
 Description:  B perl module
 
 Package: perlbase-base
@@ -7825,10 +10074,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 11345
+Installed-Size: 3546
 Filename: perlbase-base_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 12208
-SHA256sum: 1421000594a367699bff6ef179155c4760c4941e84a27689f7f5d44b2138b07a
+Size: 4363
+SHA256sum: c29c471f6fa8aad34cb88be76b5dfe23684bf1ba0c55eb1016022fb796530b0d
 Description:  base perl module
 
 Package: perlbase-benchmark
@@ -7838,10 +10087,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 11653
+Installed-Size: 6486
 Filename: perlbase-benchmark_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 12502
-SHA256sum: 30eaac45e1b4a49e6a8dace946005e046deba78fb2eb6104d0bbcd0ce1856b0f
+Size: 7363
+SHA256sum: 885bca074470366ec614c5855cc6a7868a9fd9e8700001b0c319387b8146bba0
 Description:  Benchmark perl module
 
 Package: perlbase-bigint
@@ -7857,6 +10106,19 @@ Size: 4350
 SHA256sum: b05dda2e8ee1289aff8283dd74d15f1f5037805460caff61c11eafdd23b2ee9b
 Description:  bigint perl module
 
+Package: perlbase-bignum
+Version: 5.28.1-9
+Depends: libc, perl, perlbase-bigint, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2552
+Filename: perlbase-bignum_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3411
+SHA256sum: ae2c1fa1da3d4306c6a431fa294be196ae32bb506f28b43d1ce556ccf6c4de93
+Description:  bignum perl module
+
 Package: perlbase-blib
 Version: 5.28.1-9
 Depends: libc, perl, perlbase-cwd, perlbase-essential, perlbase-file
@@ -7864,10 +10126,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1758
+Installed-Size: 916
 Filename: perlbase-blib_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2618
-SHA256sum: 629d53dbec0286dfd5d15f63c050f2c64dc7cab05902c84bc40e9fa07fdea1b3
+Size: 1761
+SHA256sum: 865390e084c4210cccd6747f8165963690ea53c8f3f1158105bae474547e9a4c
 Description:  blib perl module
 
 Package: perlbase-bytes
@@ -7877,10 +10139,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1510
+Installed-Size: 617
 Filename: perlbase-bytes_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2320
-SHA256sum: d6f9d55c3a072e9c67ab3825908c3ecec639b84b9cec0b42023414db3ca33aa6
+Size: 1450
+SHA256sum: 332972834c14c30a9e63f267fad4e61351ce909b8606f7f947075ff06fbd66c8
 Description:  bytes perl module
 
 Package: perlbase-charnames
@@ -7890,10 +10152,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 85609
+Installed-Size: 9600
 Filename: perlbase-charnames_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 76002
-SHA256sum: 136a4a5ebf9ce0fb8d0c31aea4ca9b3e8d0a1be89034d5eca2d31734a7e922d9
+Size: 10469
+SHA256sum: 3d08035350f9c19d42ffc43ec7038dfa5421254a4be8e4036193bbe5ecf69ed0
 Description:  charnames perl module
 
 Package: perlbase-class
@@ -7903,10 +10165,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3904
+Installed-Size: 2255
 Filename: perlbase-class_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4717
-SHA256sum: c0b4483334a556d6a564516b2cacdc88d41d8b4c15a4d1f3c8d726129ca98567
+Size: 3085
+SHA256sum: 371fcf6147bae8f3c10464937def3d7785bdda466fc515572b9773e37029c5db
 Description:  Class perl module
 
 Package: perlbase-compress
@@ -7916,10 +10178,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 102032
+Installed-Size: 84149
 Filename: perlbase-compress_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 102377
-SHA256sum: ade5ae475e6a20bcbd07cb2e146cbbadcb5b146977a93d16870dcfe9f442679e
+Size: 84937
+SHA256sum: a8c44c4901aacf5e2aabab78c4b665e81afe218cd3ad5b21fdf1d9755bd22969
 Description:  Compress perl module
 
 Package: perlbase-config
@@ -7929,11 +10191,24 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 30883
+Installed-Size: 16796
 Filename: perlbase-config_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 31698
-SHA256sum: 40adf3de20579fd8b1693da771a06422afeee2f2d6cf1273b71fe8a72d171c15
+Size: 17634
+SHA256sum: 8485bc588b144f3c0bc8b2a1a051bbf69b2c41ab93bdc18dda254e8c6517142a
 Description:  Config perl module
+
+Package: perlbase-cpan
+Version: 5.28.1-9
+Depends: libc, perl, perlbase-b, perlbase-config, perlbase-cwd, perlbase-dirhandle, perlbase-essential, perlbase-extutils, perlbase-fcntl, perlbase-file, perlbase-filehandle, perlbase-http-tiny, perlbase-net, perlbase-safe, perlbase-scalar, perlbase-sys, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 173181
+Filename: perlbase-cpan_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
+Size: 174238
+SHA256sum: 03540af9fa9d54fa39fba8cce8e95b7de30f3ec4e2c472b0614d639feec384de
+Description:  CPAN perl module
 
 Package: perlbase-cwd
 Version: 5.28.1-9
@@ -7955,10 +10230,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 47384
+Installed-Size: 22100
 Filename: perlbase-data_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 48028
-SHA256sum: bec263ff56cdd1904c7badda0c07b445f3d0849e6fe8727784c79c6899687e19
+Size: 22919
+SHA256sum: 8c93790bfbf6eb4331871ea702206cdb71228c3aec05b67220c1a9b0963c1690
 Description:  Data perl module
 
 Package: perlbase-db-file
@@ -7968,10 +10243,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 61301
+Installed-Size: 19798
 Filename: perlbase-db-file_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 61124
-SHA256sum: 84b2503e9a018815d1a3c64d1b889bfdaffa78b8cee12b70efaa599e027bffe1
+Size: 20688
+SHA256sum: 573bff42808d2de7a15810654a5b7b39169b65e962c4d97b5b8ddabeac8f0718
 Description:  DB_File perl module
 
 Package: perlbase-db
@@ -7981,10 +10256,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7471
+Installed-Size: 3438
 Filename: perlbase-db_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8341
-SHA256sum: bd34564d4ee536b3c467671497fe6d6abed7d9918c3e723c5980c3a2e49a573f
+Size: 4292
+SHA256sum: d29eb9fb7b1f28b8c929d9854a903210a2d6c618293cd1bf6615bd5b8dfd5e93
 Description:  DB perl module
 
 Package: perlbase-dbm-filter
@@ -7994,11 +10269,24 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6960
+Installed-Size: 2389
 Filename: perlbase-dbm-filter_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7848
-SHA256sum: ee4fc21a9df16852b6da27b559109a55c212b883e158b3907a6351847705bccd
+Size: 3234
+SHA256sum: b5d53120bc3b32b0d50be73bfeb459c0221f52f9b7772e193b63dd4cb0d0bf7e
 Description:  DBM_Filter perl module
+
+Package: perlbase-devel
+Version: 5.28.1-9
+Depends: libc, perl, perlbase-essential, perlbase-file, perlbase-selfloader, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 66493
+Filename: perlbase-devel_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
+Size: 67436
+SHA256sum: 5c54ecaf87560850e9da7a49c70557511dcdb26f98c5e2ab7ee67bcedd1c704f
+Description:  Devel perl module
 
 Package: perlbase-diagnostics
 Version: 5.28.1-9
@@ -8007,10 +10295,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 98721
+Installed-Size: 5043
 Filename: perlbase-diagnostics_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 99686
-SHA256sum: b9dffe03cfd413d5fd8c3634c2b1d0ad9040109cccc101394afcb3ff557f780a
+Size: 5894
+SHA256sum: f0c51acfe776e6488e1df1fa47cbc51d7e596f7ab35dfce25ce3fdb24d0212f0
 Description:  diagnostics perl module
 
 Package: perlbase-digest
@@ -8020,10 +10308,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 64926
+Installed-Size: 28551
 Filename: perlbase-digest_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 65835
-SHA256sum: 55cbdad1ef345ce22446d1efb45bfcc3ec7671e9eafe17a5dc6284f262e47388
+Size: 29379
+SHA256sum: adce93faf1b3fb9d1cc02efc4be1ea0b219a07ec55b637b6031364d61253fc24
 Description:  Digest perl module
 
 Package: perlbase-dirhandle
@@ -8033,10 +10321,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1914
+Installed-Size: 643
 Filename: perlbase-dirhandle_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2755
-SHA256sum: 1fb32574fd803d193273817865856413dedc61402a7b1341802ae5f1e47b28f2
+Size: 1490
+SHA256sum: 6b786bec6627528c860a0e6e71bf5d0ae322786655c97124a6548a8673707a3e
 Description:  DirHandle perl module
 
 Package: perlbase-dumpvalue
@@ -8046,10 +10334,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7816
+Installed-Size: 4262
 Filename: perlbase-dumpvalue_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8671
-SHA256sum: 4f55d17140a74b2502c4a7914a98baa7b6dab73904075c3e6752cd152466f8a4
+Size: 5112
+SHA256sum: bbef0b4c71720c4da96f46f1c3e10d4fd3b275896885d8bf261fd39fb7a68547
 Description:  Dumpvalue perl module
 
 Package: perlbase-dumpvar
@@ -8059,10 +10347,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6776
+Installed-Size: 4963
 Filename: perlbase-dumpvar_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7654
-SHA256sum: bc0a0fa8a0be552652e434f7e3f06a438247d33d2421cab166684a840e623baa
+Size: 5801
+SHA256sum: 970ba9cf32531ce1a18c9f5f8ae09c83d15ef69146b8b062ce12fc0c7d66f078
 Description:  dumpvar perl module
 
 Package: perlbase-dynaloader
@@ -8072,10 +10360,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6115
+Installed-Size: 3684
 Filename: perlbase-dynaloader_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 6954
-SHA256sum: 378b2ebd12116ed34d501bf4484f70a37aac2e28ff61e588ebef834f9ed90441
+Size: 4513
+SHA256sum: 856b93b5de960f684f8fb7a85d3bfef503d890b7d813c94a85eeb192d65198a3
 Description:  DynaLoader perl module
 
 Package: perlbase-encode
@@ -8085,11 +10373,24 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2216608
+Installed-Size: 1901173
 Filename: perlbase-encode_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1986398
-SHA256sum: 86a8cde722e97655cd907917adb092b9a735e9ae2ed30875013cfec5a7e47030
+Size: 1672834
+SHA256sum: 35f05b91b7dc5f05d8845be3a92cdba2a6d354fdbbeae5747219c59712bc8989
 Description:  Encode perl module
+
+Package: perlbase-encoding
+Version: 5.28.1-9
+Depends: libc, perl, perlbase-encode, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3353
+Filename: perlbase-encoding_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4191
+SHA256sum: 6894d960305fd238a646055ac3a31302faaf2b566e2345ce1e1e337119e19a72
+Description:  encoding perl module
 
 Package: perlbase-english
 Version: 5.28.1-9
@@ -8098,10 +10399,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3040
+Installed-Size: 1371
 Filename: perlbase-english_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 3877
-SHA256sum: 1f76dfb91e81404aa0baeb37069e38ac4a3bf77ddfc3df42acd269ad3c8cf392
+Size: 2215
+SHA256sum: 6b962a59fc4bc510cbab8ae38abc1f6e56aff70461430bc222d8fa556f5c7e47
 Description:  English perl module
 
 Package: perlbase-env
@@ -8111,10 +10412,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1839
+Installed-Size: 1141
 Filename: perlbase-env_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2670
-SHA256sum: a661598e1ed8c602e559682fe11bb195e8f0863babf2890a58add5d0b4a3fdf2
+Size: 1989
+SHA256sum: e1cd4f66741c964043c18b4782091f60e39962782637da6340f4940019917e79
 Description:  Env perl module
 
 Package: perlbase-errno
@@ -8124,10 +10425,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3079
+Installed-Size: 2429
 Filename: perlbase-errno_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 3913
-SHA256sum: 4bbe934b20b37112b567668b3824a1651b56fe87e5142ae433d62d466a114dfc
+Size: 3283
+SHA256sum: 3a8ba622214df493402cdfa22470ae9eb98a91c57c73d181a2c6702b6e441cff
 Description:  Errno perl module
 
 Package: perlbase-essential
@@ -8137,10 +10438,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 85801
+Installed-Size: 22463
 Filename: perlbase-essential_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 86695
-SHA256sum: ede7bf77d3f2fc635c1666ecaa01e696b846b6342ff04d55468d66080b6fd272
+Size: 23308
+SHA256sum: 5c067085841a2737250f07a684549d8d00edb9037c210304c67277829802d738
 Description:  essential perl module
 
 Package: perlbase-experimental
@@ -8150,11 +10451,24 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1786
+Installed-Size: 1130
 Filename: perlbase-experimental_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2626
-SHA256sum: 9f0ed62d171adb93d70134e40c72021e7f09b1daa47db9ae43bfa9fc7598f8d1
+Size: 2001
+SHA256sum: 4713a6d4ef636f3fff8676364acc697c010d07d63b779284dcfd8df318c57f26
 Description:  experimental perl module
+
+Package: perlbase-extutils
+Version: 5.28.1-9
+Depends: libc, perl, perlbase-autosplit, perlbase-base, perlbase-config, perlbase-cwd, perlbase-dirhandle, perlbase-encode, perlbase-essential, perlbase-file, perlbase-io, perlbase-ipc, perlbase-ostype, perlbase-symbol, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 179642
+Filename: perlbase-extutils_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
+Size: 180654
+SHA256sum: 2a0e13d77114d977d5f127f2b370a774df952a1011d91f75e5ad44c2de672796
+Description:  ExtUtils perl module
 
 Package: perlbase-fatal
 Version: 5.28.1-9
@@ -8176,10 +10490,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 9962
+Installed-Size: 5609
 Filename: perlbase-fcntl_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 10801
-SHA256sum: f87df462f4771b9242f32c0f16cc7a240549f5f9953858f2bdd4d6f0df7089d1
+Size: 6451
+SHA256sum: 43e4489f48c4b7387ea42b464faab078f6c49e5007767e34fc2add46ef9f565a
 Description:  Fcntl perl module
 
 Package: perlbase-feature
@@ -8189,10 +10503,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 4045
+Installed-Size: 1369
 Filename: perlbase-feature_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4854
-SHA256sum: 1256bcb64435d91a7de1c2bf812838270c3c3a960fda86c1584d87a52f2bbde1
+Size: 2215
+SHA256sum: 150b7556dca58d72d051b3eb148b2f820891ddd92579d03a83f3d8ba765a3ea5
 Description:  feature perl module
 
 Package: perlbase-fields
@@ -8215,10 +10529,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 133251
+Installed-Size: 71021
 Filename: perlbase-file_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 134257
-SHA256sum: 37a22d9b361eec9f89cb5adddc94f71c53022149228d02a50aa51ff03d1dfee4
+Size: 72021
+SHA256sum: 3806e379ec49a08548ee68a323427d98128db1529899f0ee8c5c162fc64713f9
 Description:  File perl module
 
 Package: perlbase-filecache
@@ -8228,10 +10542,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2784
+Installed-Size: 1410
 Filename: perlbase-filecache_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 3640
-SHA256sum: 46a86da9ef7a8c452ad2b61a2849d6e864fb6edf314f8ea5f6653551a87ab006
+Size: 2256
+SHA256sum: 4239209d68ed06c1225f113f31b4a5d938348617dfdf0fc685a0d476a3858e7c
 Description:  FileCache perl module
 
 Package: perlbase-filehandle
@@ -8241,10 +10555,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2153
+Installed-Size: 1003
 Filename: perlbase-filehandle_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2981
-SHA256sum: 8263e6dc76ef1129a8d153e8bbdcca1b7a992a58300012f7fb5cb85bc1208fd4
+Size: 1851
+SHA256sum: 7c5003bf2071de57cef99a38cb5b2116c2daf2ccf62f7ee803dc70998e5347f0
 Description:  FileHandle perl module
 
 Package: perlbase-filetest
@@ -8254,10 +10568,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1623
+Installed-Size: 408
 Filename: perlbase-filetest_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2437
-SHA256sum: a05cf29e995abe3c053738ad8ac5a18713bb63647880302f3add109e55b5fbec
+Size: 1240
+SHA256sum: 8909a0f8d7dd5bd7500bfba3469e048360336e794e8d7d370540d13325cd9bf2
 Description:  filetest perl module
 
 Package: perlbase-filter
@@ -8267,10 +10581,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 11906
+Installed-Size: 6822
 Filename: perlbase-filter_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 12762
-SHA256sum: b9709bc25b19a49f1d523acafc442eb3ab8eea3172434d197153bb9fe59a5197
+Size: 7718
+SHA256sum: b0b35899ed1ddc5d0ae495420bb45e0121b30a26e0df0e141ce0b9c81107991d
 Description:  Filter perl module
 
 Package: perlbase-findbin
@@ -8280,10 +10594,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1402
+Installed-Size: 1137
 Filename: perlbase-findbin_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2274
-SHA256sum: 596ea597cc78e6397c6cbf78bee1bc631d3fdbfb988142176a5d6ba565b5ece0
+Size: 1986
+SHA256sum: f7532bb13a62faad8de18acb46c2052bb7c29ff4fe9c95f1186cbfa0bae8a4e0
 Description:  FindBin perl module
 
 Package: perlbase-gdbm-file
@@ -8293,10 +10607,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8121
+Installed-Size: 7161
 Filename: perlbase-gdbm-file_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 9024
-SHA256sum: d12ea70c0214f4255ba3cbc5027148b85fc8c046ec477b4332392117590c65ec
+Size: 8042
+SHA256sum: 40768b4799c9f686cf5d6b0df9c023cda5d33e4f03455ba020cdc50854a1a951
 Description:  GDBM_File perl module
 
 Package: perlbase-getopt
@@ -8306,10 +10620,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 15723
+Installed-Size: 13217
 Filename: perlbase-getopt_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 16570
-SHA256sum: 1f40b83757d5f8e5cb791a05854fc80e4d70cb516911d57f19a9c89d5aba2ceb
+Size: 14065
+SHA256sum: 7d6636a35f65c1b14ecba2881727391bd1f69966d91292e6c6aa1ba59ae5d7b1
 Description:  Getopt perl module
 
 Package: perlbase-hash
@@ -8319,10 +10633,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 26111
+Installed-Size: 13313
 Filename: perlbase-hash_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26932
-SHA256sum: b04d7782989a4714e7718a31912b8b27116ddd4ff5e04a1252c6e2cc25ad9e27
+Size: 14136
+SHA256sum: 883d64b88df12d7b5019f7910f6d2f40ced6f6cb5447b35d9cfae94867509895
 Description:  Hash perl module
 
 Package: perlbase-http-tiny
@@ -8332,10 +10646,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 25598
+Installed-Size: 11809
 Filename: perlbase-http-tiny_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26347
-SHA256sum: 1e76f5737acb11b9f91ad063c13ff4d47fada9322ff953332983e86231606f64
+Size: 12675
+SHA256sum: 508546f5ef82d86fe130ae9a08618d0f3bdc5c2ff39105d48304ec471f975e20
 Description:  http-tiny perl module
 
 Package: perlbase-i18n
@@ -8345,10 +10659,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 26484
+Installed-Size: 19782
 Filename: perlbase-i18n_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 27310
-SHA256sum: 68e3af5f5792e5cbfaf4d9f03b6def3935a8587c0c56c55e2ddc40f370b5e33a
+Size: 20644
+SHA256sum: 7af5716743dc8158e57d389a3151ab1d50b47f8dd27413c440a59877edad5e92
 Description:  I18N perl module
 
 Package: perlbase-if
@@ -8358,10 +10672,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1782
+Installed-Size: 580
 Filename: perlbase-if_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2594
-SHA256sum: ed62037b88159dbffff1f2e2a040a6fba53a391cd60b302d5017459c96bfabec
+Size: 1405
+SHA256sum: 0997c87cf516d712ae63892d50359e0418dcf50852676db97487e42d6020ae6a
 Description:  if perl module
 
 Package: perlbase-integer
@@ -8371,10 +10685,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 928
+Installed-Size: 308
 Filename: perlbase-integer_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1761
-SHA256sum: d438333a598dd993a4dc149a7416293594daee1cbdbda6f5f8be61ace3ecef24
+Size: 1138
+SHA256sum: 0bc850db229f4a0b2cbea3b846f5e6973dc947c9637b0b7b2f9ad49cbbd14a21
 Description:  integer perl module
 
 Package: perlbase-io
@@ -8384,10 +10698,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 152482
+Installed-Size: 67313
 Filename: perlbase-io_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 153382
-SHA256sum: d3633112b2793e9b67828f9a583243633b585c90442623a6e37311f17955f2fa
+Size: 68286
+SHA256sum: d87f47267433c552c49684213469ce74d95a81f29044b670faa2e7a14eb81737
 Description:  IO perl module
 
 Package: perlbase-ipc
@@ -8397,10 +10711,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 41257
+Installed-Size: 28089
 Filename: perlbase-ipc_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 42137
-SHA256sum: 734658723eff99f88341b848d9a42a38ef24210413744156d97d709dc74df3db
+Size: 28919
+SHA256sum: 4dc9f9218bbbb4891ba3b4efe5c8f6bed68802d6e4da1692b1e4155c1f5109f4
 Description:  IPC perl module
 
 Package: perlbase-json-pp
@@ -8410,10 +10724,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 22795
+Installed-Size: 10693
 Filename: perlbase-json-pp_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 23638
-SHA256sum: 756d22cc36a8dd1e3dc93468975f667a1071db094f72927e985a38ffc0527009
+Size: 11572
+SHA256sum: c8e687becc101e0e2ba65d6f5f633f22132328f5800f90b40fd5842c5959a547
 Description:  json-pp perl module
 
 Package: perlbase-less
@@ -8423,10 +10737,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1060
+Installed-Size: 711
 Filename: perlbase-less_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1913
-SHA256sum: 6ebbee6425a097c9715bcd21da80c8c3a5eb7535c242103e28eb54f16fc11ca8
+Size: 1551
+SHA256sum: 4cd9656c6b9f7c670df230754de5a959e0057b32665e3fd6371eabd7c04561b3
 Description:  less perl module
 
 Package: perlbase-list
@@ -8449,11 +10763,24 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 353671
+Installed-Size: 337475
 Filename: perlbase-locale_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 326128
-SHA256sum: 65f738944ba79510f45bb79234b2dff8d0175e1beb81ef909b2d806df4b79c36
+Size: 309959
+SHA256sum: e8a02f45d535922da87e31d8ab0986f512b4a93fa6b3372d65f25889e13b5ac4
 Description:  Locale perl module
+
+Package: perlbase-math
+Version: 5.28.1-9
+Depends: libc, perl, perlbase-config, perlbase-essential, perlbase-scalar, perlbase-xsloader
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 109805
+Filename: perlbase-math_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
+Size: 110717
+SHA256sum: 798901156b1a4cccda9541ffa71af460484602511d27425841962ed928fac8cf
+Description:  Math perl module
 
 Package: perlbase-memoize
 Version: 5.28.1-9
@@ -8462,10 +10789,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 12889
+Installed-Size: 5715
 Filename: perlbase-memoize_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13714
-SHA256sum: c78ec88f7954e75bfdfb07d1da6881e56c6718ded56edb6767b3a25690e176ac
+Size: 6563
+SHA256sum: dc42ea9acc0d16f6e4a800eed920681800baf26121a452fe530161c945eddd46
 Description:  Memoize perl module
 
 Package: perlbase-meta-notation
@@ -8475,10 +10802,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1882
+Installed-Size: 1095
 Filename: perlbase-meta-notation_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2708
-SHA256sum: aa7da24374c91c25c1b93458e7780712c78cf38f18cdf155d9129bff30d50c89
+Size: 1940
+SHA256sum: c36a6bf26d09eee6732ba646761ca0cfbe13203916b76946fe97a8ae381f6d15
 Description:  meta_notation module
 
 Package: perlbase-mime
@@ -8488,10 +10815,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 11722
+Installed-Size: 5745
 Filename: perlbase-mime_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 12289
-SHA256sum: e6cd29dc65911243cf8f7aa9f14f162bbfd64adef602c06a78bf825ad1a688f8
+Size: 6590
+SHA256sum: e6cb3890a01e65677d2c9a03e0dee22ecad7353f58a0f08eb5584d2172433020
 Description:  MIME perl module
 
 Package: perlbase-module
@@ -8501,10 +10828,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 137665
+Installed-Size: 107253
 Filename: perlbase-module_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 136395
-SHA256sum: 1521dafa462edefe1b36c46039144fb4cbf18c3b035cc421f67e20f54571f7af
+Size: 106257
+SHA256sum: 671546514f11c961e9d7eda88c16d01fbb48c1f797250ee053a44e42f0d28289
 Description:  Module perl module
 
 Package: perlbase-mro
@@ -8520,6 +10847,19 @@ Size: 7366
 SHA256sum: d7904d1e447acc2d6a80040bc07cb5a2752a8ea83947add03e6577a1e60cf6db
 Description:  mro perl module
 
+Package: perlbase-net
+Version: 5.28.1-9
+Depends: libc, perl, perlbase-class, perlbase-errno, perlbase-essential, perlbase-fcntl, perlbase-filehandle, perlbase-io, perlbase-posix, perlbase-socket, perlbase-symbol, perlbase-time
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 44718
+Filename: perlbase-net_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
+Size: 45661
+SHA256sum: 26ace666bf6d01a7c0700898a3423ee01df01e03bfe5205b4c42983fc2c17496
+Description:  Net perl module
+
 Package: perlbase-next
 Version: 5.28.1-9
 Depends: libc, perl, perlbase-essential
@@ -8527,10 +10867,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3935
+Installed-Size: 1835
 Filename: perlbase-next_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4770
-SHA256sum: a17636f4edae4800873cab64c53ffc32e00d0e19e535b08c1763190edc0eb174
+Size: 2657
+SHA256sum: d044c8778feff18fb948e7f56685003b03a7043c037b41a99fd4fd1b65a1787d
 Description:  NEXT perl module
 
 Package: perlbase-o
@@ -8553,10 +10893,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 15508
+Installed-Size: 13931
 Filename: perlbase-opcode_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 16352
-SHA256sum: e3220d1d6ae4725b1571ed712cdebd812a6e14b7245ea32900a41b8d9aef87f8
+Size: 14791
+SHA256sum: 83e8a246dc15ff0d07a46b2cfc4b4944873894e0687bd3ae5cbc42e1a8a589d4
 Description:  Opcode perl module
 
 Package: perlbase-open
@@ -8566,10 +10906,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 4138
+Installed-Size: 1684
 Filename: perlbase-open_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4972
-SHA256sum: 1313b09454591695b368199768d67a3ea47862a0dd395b877d87b93738026cef
+Size: 2532
+SHA256sum: ab4bcf688804cc595ededa993a3012abf402891a9b38792df4bb7692fd6afabb
 Description:  open perl module
 
 Package: perlbase-ops
@@ -8592,10 +10932,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1548
+Installed-Size: 825
 Filename: perlbase-ostype_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2379
-SHA256sum: 743b2e2b8591eb3238afb5cd08c39960394fd1d96aa84c1d6d8b3edd018c436e
+Size: 1678
+SHA256sum: e17febee983bd1a842a46cd827af6331f2f1ca70570d133ddb1a2c1c255483cc
 Description:  OSType perl module
 
 Package: perlbase-params
@@ -8605,10 +10945,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6005
+Installed-Size: 3278
 Filename: perlbase-params_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 6853
-SHA256sum: 585ec5954c14be85c6117002690597ab2583a34cffbf9797f4e34327f49528e0
+Size: 4107
+SHA256sum: 3929bd5f196d6ea58b5fc2622971c8831674027e36296618e88eacdcf453551c
 Description:  Params perl module
 
 Package: perlbase-perl5db
@@ -8618,10 +10958,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 75965
+Installed-Size: 62836
 Filename: perlbase-perl5db_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 76888
-SHA256sum: b09d73a29d23db6e0bff241ab1e03e7ed9a2310a51ff17fdebe57107cc92209b
+Size: 63799
+SHA256sum: 21189b6e9e1c7d6b376fc4f4c90344ab5791e77096c89521a986bdf394504289
 Description:  perl5db perl module
 
 Package: perlbase-perlio
@@ -8631,10 +10971,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 29408
+Installed-Size: 19475
 Filename: perlbase-perlio_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 30215
-SHA256sum: de7d2336ff557040639f8ccd7e82ce0bc132fddf22e23b866d049213fe78012c
+Size: 20276
+SHA256sum: 2152d21758ccfb1899d3ec8c1ee1703644b61c91ae44a1065e78b92491aa484a
 Description:  PerlIO perl module
 
 Package: perlbase-pod
@@ -8644,10 +10984,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 476278
+Installed-Size: 182075
 Filename: perlbase-pod_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 477141
-SHA256sum: d144b9900a80f20d09496eb3233235ff7084e1314f1b178c46a3f4839845a1ec
+Size: 183043
+SHA256sum: 610b96e922477f725825942923c6439bd5a8857b87b21760d56d9296b66ea84e
 Description:  Pod perl module
 
 Package: perlbase-posix
@@ -8657,10 +10997,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 90800
+Installed-Size: 37137
 Filename: perlbase-posix_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 91508
-SHA256sum: 9f440f8d27b73b9b9c10321735f4e130adb76e4f146fe9dd489f11453f1edec2
+Size: 37823
+SHA256sum: ec1e3d2d14dc972d93ed3e91bd673e03b943e52048935847f8af301d10436e23
 Description:  POSIX perl module
 
 Package: perlbase-re
@@ -8670,10 +11010,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 227798
+Installed-Size: 219506
 Filename: perlbase-re_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 228391
-SHA256sum: c4a6e3036ab68551fd535e3d18e2f2ab8bc4f8326b048c3d1c018777a0e0d6a3
+Size: 220049
+SHA256sum: 3b590cb17e80ad097d6b6225618773430e4ae0c58bb7583dc35b31c7401a48be
 Description:  re perl module
 
 Package: perlbase-safe
@@ -8683,10 +11023,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 12398
+Installed-Size: 4020
 Filename: perlbase-safe_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13286
-SHA256sum: 4bc855113bb9014a8fbd9e63eadbfbe46274021ff1ce4b06c8439b8daf96a4df
+Size: 4870
+SHA256sum: b40ab1d5c530b45f10b235773c1a221d5743c647e5624a80372b9ef40a3ab16a
 Description:  Safe perl module
 
 Package: perlbase-scalar
@@ -8696,10 +11036,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 17838
+Installed-Size: 992
 Filename: perlbase-scalar_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 18727
-SHA256sum: 5df7eb9116447cc8515ae01a3fe3059e3ebf87cf734b6c489e016321ac266cc2
+Size: 1824
+SHA256sum: 13710849ec9a37596ead0a0b9a52b52e2a7aad7db4c1e50911c736bdfeed2366
 Description:  Scalar perl module
 
 Package: perlbase-sdbm-file
@@ -8709,10 +11049,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 10601
+Installed-Size: 9733
 Filename: perlbase-sdbm-file_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 11425
-SHA256sum: 4482c752d2240ced7a1a728487cdf4e68d7cb41f466d50cf1d5285b9aae91ad9
+Size: 10559
+SHA256sum: 12c9256cb31e6c394211c6b9eb8e71dc600d0f66a6c515742050510b281de287
 Description:  SDBM_File perl module
 
 Package: perlbase-search
@@ -8722,10 +11062,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2061
+Installed-Size: 1127
 Filename: perlbase-search_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2894
-SHA256sum: adde9de67092704a7cf7cdf51bc3f9adaa6157febf1de5adb41c99c6e68b6b97
+Size: 1973
+SHA256sum: 84c4e63e70611aa7ce44fe978a94cbd820e7c80c0bec60edbec24a87a82ab2ca
 Description:  Search perl module
 
 Package: perlbase-selectsaver
@@ -8735,10 +11075,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 715
+Installed-Size: 431
 Filename: perlbase-selectsaver_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1572
-SHA256sum: dc8388d91fdf80cc261926b108a2d2b543857c3c0652198bc30714714e4c6112
+Size: 1287
+SHA256sum: d6c29a74a1396559ff7f77a218080e2d843693d363d0b0375582be38f35d2c66
 Description:  SelectSaver perl module
 
 Package: perlbase-selfloader
@@ -8748,10 +11088,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 4365
+Installed-Size: 2403
 Filename: perlbase-selfloader_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 5180
-SHA256sum: 9ed223226f831f13bca3b6af7cccbbe4c7b5952f6ac8764138de74ba74d7da58
+Size: 3231
+SHA256sum: 9f7382be8f1b531120054779fc2a2fa4d48df626f0ebe457c1a5c35a2049f49d
 Description:  SelfLoader perl module
 
 Package: perlbase-sigtrap
@@ -8761,10 +11101,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2531
+Installed-Size: 1442
 Filename: perlbase-sigtrap_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 3372
-SHA256sum: ce2db86af16ceed09cd2cfdec74c0739f4236b37ecf09b1261af11a6e14debf4
+Size: 2295
+SHA256sum: 90f4377a132733c14371c45fa84470ce20ec8e8c7f0be3e8f941700cc685af15
 Description:  sigtrap perl module
 
 Package: perlbase-socket
@@ -8774,10 +11114,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 24529
+Installed-Size: 16901
 Filename: perlbase-socket_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 25264
-SHA256sum: f424a010d814a5ce0ea299f87fdb799e97d208e2f4aefb4319d5a2793a87c8ca
+Size: 17675
+SHA256sum: 1a280ebfad5a458a33caf4b158b71927dffcc424961f0b54b2127f39ac400708
 Description:  Socket perl module
 
 Package: perlbase-sort
@@ -8787,10 +11127,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2759
+Installed-Size: 608
 Filename: perlbase-sort_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 3586
-SHA256sum: ee4c09b98f4038a3170438cf5222895ad561848b64cc9420434a42f0b6396955
+Size: 1443
+SHA256sum: 5eabbdb37ee477f093d1760138c93bbf8efbc5877a04f537f74e04aef3fee1f0
 Description:  sort perl module
 
 Package: perlbase-storable
@@ -8800,10 +11140,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 87465
+Installed-Size: 36198
 Filename: perlbase-storable_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 88271
-SHA256sum: 2aeaebed5e8be50792c4b908ca2abf54d4c8d552bb12e253afbe1ea32edb0ea0
+Size: 37040
+SHA256sum: ebbb691f0b145093194e4fd9e39cfb0545023e67a6aa297b617f3b974d166695
 Description:  Storable perl module
 
 Package: perlbase-symbol
@@ -8813,10 +11153,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2089
+Installed-Size: 1110
 Filename: perlbase-symbol_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2911
-SHA256sum: e4a62d95eca93b18739ef36839078209c341b82f6ee8fb8516d23677e1414446
+Size: 1948
+SHA256sum: cfd847f42d1be617df56ee388a51363654624505c45539854ec32e7c07081739
 Description:  Symbol perl module
 
 Package: perlbase-sys
@@ -8826,10 +11166,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 19423
+Installed-Size: 13803
 Filename: perlbase-sys_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 20301
-SHA256sum: 7b45e3a8d5b4e5a0a07eb43320b8b78f69ad9919445f91f6dcb64fc9afa03baf
+Size: 14629
+SHA256sum: bd60a33116ef92c5eef07f3b7e8032a3a2cb16deaa63fd9d7800dcd6d5b34707
 Description:  Sys perl module
 
 Package: perlbase-tap
@@ -8852,11 +11192,24 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 28459
+Installed-Size: 11141
 Filename: perlbase-term_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 29296
-SHA256sum: d350ba4b84ee3295f95853c7a8cc48200a8cec83f3f3dd469e5df80e0852a08b
+Size: 11955
+SHA256sum: 8fbf64e6dc1fc6f21744e53c97ab45825b752b11a97ca75637e524f28e61d767
 Description:  Term perl module
+
+Package: perlbase-test
+Version: 5.28.1-9
+Depends: libc, perl, perlbase-base, perlbase-config, perlbase-essential, perlbase-io, perlbase-symbol, perlbase-tap, perlbase-text
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 57552
+Filename: perlbase-test_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
+Size: 58582
+SHA256sum: ff50a8f535af2459b9c803e4394a7ce616f15ae5624b4b08ef01770bef671644
+Description:  Test perl module
 
 Package: perlbase-text
 Version: 5.28.1-9
@@ -8865,10 +11218,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 24763
+Installed-Size: 10796
 Filename: perlbase-text_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 25609
-SHA256sum: ab81b9c21cdbf024bbb4489a85f2c0137eb815048fbc3d2037884600db0c716f
+Size: 11644
+SHA256sum: 990ad530add429ed21046993b4dbf91cb7360949d78cd50b1c17cfff2d214dd7
 Description:  Text perl module
 
 Package: perlbase-thread
@@ -8878,10 +11231,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8775
+Installed-Size: 2561
 Filename: perlbase-thread_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 9662
-SHA256sum: b229de05ae6a4274c6c2aebba909d25d672f3eb937998dc3d61a00d3b2a090d7
+Size: 3417
+SHA256sum: fa9dc193eefe0c7ba31c674b6db3de54ba4fd171fd5f945adb7c2e5808fc59e7
 Description:  Thread perl module
 
 Package: perlbase-threads
@@ -8891,10 +11244,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 59197
+Installed-Size: 29680
 Filename: perlbase-threads_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 59966
-SHA256sum: 3a60c1470bdcfe6a94566ed1f7b18df0b96e703f68c7679942db9cccbb32d2a0
+Size: 30406
+SHA256sum: 55e1c5f792cc97cd9e2fa32d80d10f2d98c3dbb9da7ebf3c70b802058885ff28
 Description:  threads perl module
 
 Package: perlbase-tie
@@ -8904,11 +11257,37 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 59813
+Installed-Size: 21527
 Filename: perlbase-tie_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 60607
-SHA256sum: 81a2cab8d6e50857c4a478cd78834fab7b07c8d3c52b2d44912a7a1b6b5257e3
+Size: 22372
+SHA256sum: 79fd1ed2ec9ac25bbb23ad0ffc2681dc8f172d29cac41c841773bc96294c8208
 Description:  Tie perl module
+
+Package: perlbase-time
+Version: 5.28.1-9
+Depends: libc, perl, perlbase-class, perlbase-config, perlbase-dynaloader, perlbase-essential
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 26467
+Filename: perlbase-time_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
+Size: 27292
+SHA256sum: 397f4fb112910f9d7a10aad1d698a18c16bc5bcdeba54f4e8e2332426ac6a342
+Description:  Time perl module
+
+Package: perlbase-unicode
+Version: 5.28.1-9
+Depends: libc, perl, perlbase-base, perlbase-charnames, perlbase-dynaloader, perlbase-essential, perlbase-file
+License: GPL-1.0-or-later Artistic-1.0-Perl
+Section: lang
+CPE-ID: cpe:/a:perl:perl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 968219
+Filename: perlbase-unicode_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
+Size: 852901
+SHA256sum: 4f135f9598c977835dc85aea778daf3aa5422517446eb0bbef125f460bd1c668
+Description:  Unicode perl module
 
 Package: perlbase-unicore
 Version: 5.28.1-9
@@ -8917,10 +11296,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 949888
+Installed-Size: 668475
 Filename: perlbase-unicore_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 890908
-SHA256sum: c2f7fce1f759dce37ffe68a8d4e71ec60fe9c82dbbf9c7e630dcf8c793a35386
+Size: 622135
+SHA256sum: dfd51c57933f71483e29a20ac49106f9014e70d1093adeb8bcc1e9aa4d25adfe
 Description:  unicore perl module
 
 Package: perlbase-universal
@@ -8943,10 +11322,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3171
+Installed-Size: 2104
 Filename: perlbase-user_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4031
-SHA256sum: 2f0555e1cbf720fd426da244d42c5cde3b3dea8b9acb3570eaefef3cffd6bef2
+Size: 2936
+SHA256sum: f14935109b4a4e2a3ca6a43a36cac5a1b1b84a89ec22ae07bd94bfa556eaacbd
 Description:  User perl module
 
 Package: perlbase-utf8
@@ -8956,10 +11335,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 15323
+Installed-Size: 8884
 Filename: perlbase-utf8_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 16140
-SHA256sum: fcbc4513233b1f27d40573d09ff2c13b892f3597c5607a59d7e66adeb04a19e6
+Size: 9752
+SHA256sum: 9609b8877dfa878b0ae22729045d5f50689dba143e841bdd7134a3036123ebc5
 Description:  utf8 perl module
 
 Package: perlbase-version
@@ -8969,10 +11348,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 11533
+Installed-Size: 1178
 Filename: perlbase-version_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 12332
-SHA256sum: 083f7ec27d52aec26a11d09e91b102880981f7d4d202dc312232b18c69d5c02a
+Size: 2041
+SHA256sum: abff96562700732b8e4c2435d33675dbf9d969f0f0d5b6ae100c41d9a3161aef
 Description:  version perl module
 
 Package: perlbase-xsloader
@@ -8982,10 +11361,10 @@ License: GPL-1.0-or-later Artistic-1.0-Perl
 Section: lang
 CPE-ID: cpe:/a:perl:perl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 88329
+Installed-Size: 1728
 Filename: perlbase-xsloader_5.28.1-9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 89095
-SHA256sum: 6c92b40f48a6374b03a9fcb59b54c99f6e19ee899e64f26c7ed24ea87b0f7ab8
+Size: 2570
+SHA256sum: 21f8c1b445ab3a460a9a0361d3e3de70aed732327b7160d2323ff80302772ed0
 Description:  XSLoader perl module
 
 Package: pgsql-cli-extra
@@ -9041,6 +11420,32 @@ Description:  Polipo is a small and fast caching web proxy (a web cache, an HTTP
  a proxy server). While Polipo was designed to be used by one person or a
  small group of people, there is nothing that prevents it from being used
  by a larger group.
+
+Package: pppossh
+Version: 2
+Depends: libc, ppp, resolveip
+License: GPLv2
+Section: net
+Architecture: all
+Installed-Size: 971
+Filename: pppossh_2_all.ipk
+Size: 1758
+SHA256sum: 105a400c2800beca85cbabac6d58123baa233609bf06c67d94bd1f2b29b8d415
+Description:  This package adds protocol support for PPP over SSH.  The protocol name is
+ 'pppossh' as in netifd interface config option 'proto'.
+
+Package: privoxy
+Version: 3.0.34-4
+Depends: libc, libpcre, libpthread, zlib
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:privoxy:privoxy
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 217434
+Filename: privoxy_3.0.34-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 217998
+SHA256sum: 7b9d017ed366bc9112bb0bd063e5e9c81073c05ff0978a2c851247a5493fbd93
+Description:  Privoxy WEB Proxy - Homepage: www.privoxy.org
 
 Package: procps-ng-free
 Version: 3.3.16-3
@@ -9998,14 +12403,14 @@ Description:  Python is an interpreted, interactive, object-oriented programming
 
 Package: python3-gensio
 Version: 2.4.2-1
-Depends: libc, python3-light, libgensiocpp
+Depends: libc, python3-light, libgensiocpp0
 License: GPL-2.0-or-later
 Section: lang
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 168777
+Installed-Size: 168849
 Filename: python3-gensio_2.4.2-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 168555
-SHA256sum: 174000c005a7c5f2033fbb45cf20fd30e241ddcb934c049aa1cfc5fe526df78a
+Size: 168601
+SHA256sum: 73dea7831fe15d8d8fb1280bc843bf4bdb6ff7ed69c45b982547ed91d29a7dbe
 Description:  This project (pronounced gen'-see-oh) is used to abstract stream I/O
  like serial port, TCP, telnet, UDP, SSL, IPMI SOL etc and offers a
  framework for giving a consistent view of various stream (and packet)
@@ -10402,6 +12807,34 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  
  This package contains the ssl module.
 
+Package: python3-packaging-src
+Version: 23.2-1
+Depends: libc
+License: Apache-2.0 BSD-2-Clause
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 39841
+Filename: python3-packaging-src_23.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 40844
+SHA256sum: 052f3a34fa6272f2b4c137cc97dec0a0a9fe174bad28d8e8180f2617fb336136
+Description:  The packaging project includes version handling, specifiers,
+ markers, requirements, tags, utilities.
+ 
+ This package contains the Python source files for python3-packaging.
+
+Package: python3-packaging
+Version: 23.2-1
+Depends: libc, python3-light, python3-email, python3-logging, python3-urllib
+License: Apache-2.0 BSD-2-Clause
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 82462
+Filename: python3-packaging_23.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 83437
+SHA256sum: e3652e286c59e750f5cbd8e379807420cbcbf981434afe227a29778ce7c2f54f
+Description:  The packaging project includes version handling, specifiers,
+ markers, requirements, tags, utilities.
+
 Package: python3-passlib-src
 Version: 1.7.4-1
 Depends: libc
@@ -10708,6 +13141,18 @@ Description:  Six is a Python 2 and 3 compatibility library.  It provides utilit
  writing Python code that is compatible on both Python versions.  See the
  documentation for more information on what is provided.
 
+Package: python3-smbus
+Version: 4.3-3
+Depends: libc, libi2c, python3-light
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5476
+Filename: python3-smbus_4.3-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6286
+SHA256sum: b1fc4340d22e3cd211e575cf9c99ee1478abd3cf18366961f0feaf5d5442c742
+Description:  This package contain the Python3 bindings for Linux SMBus access through i2c-dev.
+
 Package: python3-sqlite3-src
 Version: 3.11.7-1
 Depends: libc
@@ -10757,6 +13202,46 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  Unix variants including Linux and macOS, and on Windows.
  
  This package contains the sqlite3 module.
+
+Package: python3-typing-extensions-src
+Version: 4.8.0-1
+Depends: libc
+License: Python-2.0.1 0BSD
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 25185
+Filename: python3-typing-extensions-src_4.8.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26185
+SHA256sum: 4e193bff14480ddd4258c7fa284da31c238670c44996636910fe868052744c52
+Description:  The typing_extensions module serves two related purposes:
+ 
+ * Enable use of new type system features on older Python versions. For
+ example, typing.TypeGuard is new in Python 3.10, but typing_extensions
+ allows users on previous Python versions to use it too.
+ 
+ * Enable experimentation with new type system PEPs before they are
+ accepted and added to the typing module.
+ 
+ This package contains the Python source files for python3-typing-extensions.
+
+Package: python3-typing-extensions
+Version: 4.8.0-1
+Depends: libc, python3-light
+License: Python-2.0.1 0BSD
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 52186
+Filename: python3-typing-extensions_4.8.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 53245
+SHA256sum: 5e2d333580ab8305cc5956c7fff08c81a26be215d6b78f2bc838e874265586be
+Description:  The typing_extensions module serves two related purposes:
+ 
+ * Enable use of new type system features on older Python versions. For
+ example, typing.TypeGuard is new in Python 3.10, but typing_extensions
+ allows users on previous Python versions to use it too.
+ 
+ * Enable experimentation with new type system PEPs before they are
+ accepted and added to the typing module.
 
 Package: python3-unittest-src
 Version: 3.11.7-1
@@ -11059,6 +13544,18 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package installs almost all parts of the standard Python
  installation.
 
+Package: qmi-utils
+Version: 1.32.4-1
+Depends: libc, libqmi
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 152216
+Filename: qmi-utils_1.32.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 149630
+SHA256sum: 3d4cdf0374faf1de45b104202410adacc3777ccb034fe20eea50b2eeb1b9571d
+Description:  Utilities to talk to QMI enabled modems
+
 Package: qrencode
 Version: 4.1.1-1
 Depends: libc, libqrencode
@@ -11245,6 +13742,54 @@ Description:  RRD is the Acronym for Round Robin Database. RRD is a system to st
  separate dynamic linked libraries.
  This package contains command line tools used to manage RRDs.
 
+Package: rrsync
+Version: 3.2.7-1
+Depends: libc, rsync, perlbase-file, perl
+License: GPL-3.0-or-later
+Section: net
+CPE-ID: cpe:/a:rsync:rsync
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4719
+Filename: rrsync_3.2.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5587
+SHA256sum: 6385a3f02a536c81fe20c55eda98f9aa808386f4c796fd296f0029e788f866b6
+Description:  rrsync is a script which wraps around rsync to restrict its permission to a
+ particular subdirectory via ~/.ssh/authorized_keys and/or to read-only
+ or write-only mode
+
+Package: rsync
+Version: 3.2.7-1
+Depends: libc, libpopt0, zlib, libattr, libacl, libzstd
+License: GPL-3.0-or-later
+Section: net
+CPE-ID: cpe:/a:rsync:rsync
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 213709
+Filename: rsync_3.2.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 214038
+SHA256sum: 1941ca6d3ee531a7ce3aeec483c78eb276ae11bf60b7f45a7e88b44124832146
+Description:  rsync is a program that allows files to be copied to and from remote machines
+ in much the same way as rcp. It has many more options than rcp, and uses the
+ rsync remote-update protocol to greatly speed up file transfers when the
+ destination file already exists.
+ 
+ The rsync remote-update protocol allows rsync to transfer just the differences
+ between two sets of files across the network link.
+
+Package: rsyncd
+Version: 3.2.7-1
+Depends: libc, rsync
+License: GPL-3.0-or-later
+Section: net
+CPE-ID: cpe:/a:rsync:rsync
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 569
+Filename: rsyncd_3.2.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1432
+SHA256sum: 157ccbe1d4306ab45080b046eb06cde5fc08972365d61af422e522e0aaf031cd
+Description:  rsyncd is a configuration file and initscript to utilize rsync as a daemon. It
+ uses the same binary as rsync.
+
 Package: rtl-sdr
 Version: 2.0.1-1
 Depends: libc, librt, libpthread, librtlsdr
@@ -11271,6 +13816,37 @@ Filename: runc_1.1.12-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 3387851
 SHA256sum: 4d32a2655a79664166590f7368cdac501b2a69396f7c9bff61a5bcd7c8a019ff
 Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
+Package: samba4-libs
+Version: 4.18.8-1
+Depends: libc, libtirpc, libreadline8, libpopt0, libcap, zlib, libgnutls, libtasn1, libuuid1, libopenssl3, libpthread, libpam, attr, libavahi-client
+License: GPL-3.0-only
+Section: net
+CPE-ID: cpe:/a:samba:samba
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9410609
+Filename: samba4-libs_4.18.8-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9304426
+SHA256sum: 9058716b44b6fd73299b27b4a061417d97475741c4a3d99dcf7fca774971d3a8
+Description:  Samba 4.18.8 libs
+
+Package: samba4-server
+Version: 4.18.8-1
+Depends: libc, samba4-libs
+Conflicts: samba36-server
+License: GPL-3.0-only
+Section: net
+CPE-ID: cpe:/a:samba:samba
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 251389
+Filename: samba4-server_4.18.8-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 251118
+SHA256sum: 456df00ee96f2e9988f59daf75ec1fde20c832394ab47a002a7a116ddda0501a
+Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbcacls sharesec)
+ (samba samba-tool ntlm_auth samba-gpupdate samba_dnsupdate samba_kcc samba_spnupdate samba_upgradedns samba_downgrade_db)
+ 
+ This provides the basic fileserver service and is the minimum needed to serve file shares.
+ HINT: https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
 
 Package: scmp_sys_resolver
 Version: 2.5.4-2
@@ -12066,6 +14642,34 @@ Size: 19388
 SHA256sum: 300a6faa3fb0df5ae879b990c7d49604919a1d5928d864ab92bb0b63f316752d
 Description:  A set of scripts that does simple SQM configuration.
 
+Package: squid-mod-cachemgr
+Version: 6.7-2
+Depends: libc, squid
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:squid-cache:squid
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 25702
+Filename: squid-mod-cachemgr_6.7-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26403
+SHA256sum: 0c3b2bb747d31f53669ee48d590673f498e10cdf83376025eef13fe03c94aa9d
+Description:  Web based proxy manager and reporting tool
+
+Package: squid
+Version: 6.7-2
+Depends: libc, libpthread, librt, libltdl7, libstdcpp6, libatomic1, libpam, libopenldap, libsasl2, libopenssl3
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:squid-cache:squid
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2449895
+Filename: squid_6.7-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2439174
+SHA256sum: 94542a32d32db17c1ada5e6a70259ed328c46cb0b0b5587ce1517d03740b2d5d
+Description:  Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more.
+ It reduces bandwidth and improves response times by caching and reusing
+ frequently-requested web pages.
+
 Package: sshtunnel
 Version: 4-5
 Depends: libc, openssh-client
@@ -12077,6 +14681,38 @@ Filename: sshtunnel_4-5_all.ipk
 Size: 3362
 SHA256sum: 4d527f58bab0777c004c7ae0a5331f9ebc85912d7e7de512cf95b52b2f0590c8
 Description:  Creates openssh ssh(1) local and remote tunnels configured in UCI file. Can be used to allow remote connections, possibly over NATed connections or without public IP/DNS
+
+Package: sstp-client
+Version: 1.0.15-1
+Depends: libc, libevent2-7, libopenssl3, ppp, resolveip
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 36444
+Filename: sstp-client_1.0.15-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 37508
+SHA256sum: 6d249fc51d61f5d1b8f96248b93c5eab9164118b5c648ed58ffd451bcc034985
+Description:  The advantage of SSTP compared to other vpn protocols like PPTP and L2TP is that it cannot be easily blocked by firewalls since the traffic is transmitted over HTTPS on port 443.
+ This software has a similar commandline and configuration to the standard linux pptp-client software.
+ 
+ Features:
+ - Connect to Microsoft RAS network using SSTP
+ - Use HTTPS with strong encryption over port 443
+ - Asynchronous HDLC frame support
+ - Integration with pon/poff
+ 
+
+Package: stoken
+Version: 0.92-2
+Depends: libc, libstoken
+License: LGPL-2.1
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9740
+Filename: stoken_0.92-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10434
+SHA256sum: 6acb34cb6587c7729f2245045a4ecb3dcfef1cb02021afd23ddc5d03acf297c5
+Description:  stoken is a tokencode generator compatible with RSA SecurID 128-bit (AES). This package contains the cli
 
 Package: sudo
 Version: 1.9.14p3-1
@@ -12117,6 +14753,21 @@ Filename: sx1302_hal-utils_2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 205128
 SHA256sum: 163f97a5e88b5e0b5a55f442e329b4739b28fdb2b9d0bd6ff478f4313666734b
 Description:  Utilities for SX1302/SX1303 Hardware Abstraction Layer
+
+Package: tar
+Version: 1.34-2
+Depends: xz, libc, libacl, libattr, bzip2
+Alternatives: 300:/bin/tar:/usr/libexec/tar-gnu
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:tar
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 209560
+Filename: tar_1.34-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 210064
+SHA256sum: fb0a1150036383acca4f9ae6322f12f6bd85cf36d0e43190838c3e68a30c6a0a
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
 
 Package: tcl
 Version: 8.6.11-2
@@ -12351,6 +15002,18 @@ SHA256sum: 0bb8f750f8da4f5db2e317f75d8a5c93de459ae00363db613a62d611dac9067f
 Description:  A wlan connection manager for travel router.
  Please see https://github.com/openwrt/packages/blob/master/net/travelmate/files/README.md for further information.
  
+
+Package: ttyd
+Version: 1.7.3-1
+Depends: libc, libcap, libopenssl3, libjson-c5, libuv1, zlib, libwebsockets-full
+License: MIT
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 329113
+Filename: ttyd_1.7.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 329472
+SHA256sum: dc629bfcb02db919d21ad93a7393679d7f756ddaa3ff616b998864f5f287374e
+Description:  ttyd is a command-line tool for sharing terminal over the web.
 
 Package: udpxy
 Version: 1.0-25.1-1
@@ -12682,6 +15345,22 @@ SHA256sum: 7a80c4898c2a0e0d3fdad6ef33c8a05fbaab535b99a71afa81cc8f5f0190fe61
 Description:  This package contains the vpnc-script which is used by vpnc
  and OpenConnect to configure the tunnel interface.
 
+Package: vpnc
+Version: 2022-05-17-5c0ea6a3-1
+Depends: libc, libgpg-error, libgcrypt, kmod-tun, libgnutls, vpnc-scripts, resolveip
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 61505
+Filename: vpnc_2022-05-17-5c0ea6a3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 62398
+SHA256sum: 4db59a24a9f1c050ad6953366d1e8df01077a4be688f0a68e79c63e74c2ec12a
+Description:  A VPN client compatible with Cisco's EasyVPN equipment.
+ 
+ Supports IPSec (ESP) with Mode Configuration and Xauth.  Supports only
+ shared-secret IPSec authentication with Xauth, AES (256, 192, 128),
+ 3DES, 1DES, MD5, SHA1, DH1/2/5/14/15/16/17/18 and IP tunneling.
+
 Package: watchcat
 Version: 1-17
 Depends: libc
@@ -12748,6 +15427,23 @@ Size: 3918
 SHA256sum: 8d8a4da1d7fd88d373be0837ccddf3e0bc8025f8068626c04e36a45a2eb28603
 Description:  Turns WiFi on and off according to a schedule defined in UCI.
 
+Package: wsdd2
+Version: 2023-12-21-b676d8ac-1
+Depends: libc
+License: GPL-3.0-only
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20553
+Filename: wsdd2_2023-12-21-b676d8ac-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21398
+SHA256sum: a27b3ea019bec7ff06e9a6bceabc0439ea7a9824c78eef65bc377cd0a5830eda
+Description:  Web Services for Devices or Web Services on Devices (WSD),
+ is a Microsoft API to simplify programming connections to web service
+ enabled devices, such as printers, scanners and file shares.
+ 
+ This daemon advertises and responds to probe requests from Windows clients looking for file shares.
+ It also implements LLMNR multicast name lookup services.
+
 Package: xfrpc
 Version: 2.9.644-1
 Depends: libc, zlib, libjson-c5, libevent2-7, libevent2-openssl7
@@ -12806,6 +15502,19 @@ Description:  Xray, Penetrates Everything. It helps you to build your own comput
  It secures your network connections and thus protects your privacy.
  
  This includes example configuration files for xray-core.
+
+Package: xsltproc
+Version: 1.1.37-1
+Depends: libc, libxslt, libexslt
+License: MIT
+Section: utils
+CPE-ID: cpe:/a:xmlsoft:libxslt
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8391
+Filename: xsltproc_1.1.37-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9181
+SHA256sum: 2a930642eccadeeefb8219b8396e0f460be8cafc0cafb2b33c542332b43b466b
+Description:  XSLT XML transformation utility.
 
 Package: xz-utils
 Version: 5.4.6-1
@@ -12902,6 +15611,24 @@ Filename: xzmore_5.4.6-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 2141
 SHA256sum: 274709e278b4fc4aa9b8cc5229b642ff6977f8ee381e1567620898ae9fbd378f
 Description:  Contains: xzmore  lzmore
+
+Package: yggdrasil
+Version: 0.5.4-1
+Depends: libc, kmod-tun
+License: LGPL-3.0-only
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5812685
+Filename: yggdrasil_0.5.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5748707
+SHA256sum: 390fba1b127cd1a2aa2be788ba8cdce9bec33ce7261fd2fb08480e36e488f4b4
+Description:  Yggdrasil builds end-to-end encrypted networks with IPv6.
+ Beyond the similarities with cjdns is a different routing
+ algorithm. This globally-agreed spanning tree uses greedy
+ routing in a metric space. Back-pressure routing techniques
+ allow advanced link aggregation bonding on per-stream basis.
+ In turn, a single stream will span across multiple network
+ interfaces simultaneously with much greater throughput.
 
 Package: zoneinfo-africa
 Version: 2023c-2
