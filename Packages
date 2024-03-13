@@ -14,6 +14,18 @@ Description:  Access control list support
  - getfacl
  - setfacl
 
+Package: acme-common
+Version: 1.0.3
+Depends: libc
+License: GPL-3.0-only
+Section: net
+Architecture: all
+Installed-Size: 2347
+Filename: acme-common_1.0.3_all.ipk
+Size: 3219
+SHA256sum: 5ecd36c41d672eb6c188e14ef05770bcd5c242ae4a503910f1c45ab1a6dbe61c
+Description:  ACME client wrapper common files.
+
 Package: attr
 Version: 2.5.1-1
 Depends: libc, libattr
@@ -30,6 +42,21 @@ Description:  Extended attributes support
  - getfattr
  - setfattr
 
+Package: bcp38
+Version: 5-11
+Depends: libc
+Section: net
+Architecture: all
+Installed-Size: 2174
+Filename: bcp38_5-11_all.ipk
+Size: 3127
+SHA256sum: 8193476e007356be3ed56163aec741e85e391cc8dab8937825fde33e23c93035
+Description:  bcp38 implements IETF BCP38 for home routers.
+ See https://tools.ietf.org/html/bcp38.
+ 
+ This package provides BCP38 for IPv4 only - IPv6 uses source
+ specific default routes, so no firewall configuration is needed.
+
 Package: btrfs-progs
 Version: 6.5.1-1
 Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs, libzstd
@@ -45,6 +72,33 @@ Description:  Btrfs is a new copy on write filesystem for Linux aimed at impleme
  administration. Initially developed by Oracle, Btrfs is licensed under the
  GPL and open for contribution from anyone.
 
+Package: cJSON
+Version: 1.7.15-3
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:cjson_project:cjson
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9229
+Filename: cJSON_1.7.15-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10104
+SHA256sum: 4801eea2acde23797347a1ba01f062f8fc8be18490b7cdd1a3975903a57aeb04
+Description:  Ultralightweight JSON parser in ANSI C.
+ cJSON aims to be the dumbest possible parser that you can get your
+ job done with. It's a single file of C, and a single header file.
+
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20230523, libubus20230605
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9039
+Filename: cgi-io_2022-08-10-901b0f04-21_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9868
+SHA256sum: aeec1058f253c4fc4b7a8c101ddbd16014c65dd3a9c2e4512fd8b8ec6a74443a
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
 Package: cgroupfs-mount
 Version: 2020-06-26-05494281-2
 Depends: libc, mount-utils
@@ -55,6 +109,40 @@ Filename: cgroupfs-mount_2020-06-26-05494281-2_arm_cortex-a9_vfpv3-d16.ipk
 Size: 2046
 SHA256sum: ac448c46d2a86b93e4b27667982ca97d765e46a2986fe27c108891f0105903ae
 Description:  Simple scripts to properly mount the cgroupfs hierarchy, especially structured for Debian packaging
+
+Package: check
+Version: 0.15.2-2
+Depends: libc, libpthread, librt
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 14695
+Filename: check_0.15.2-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 15586
+SHA256sum: 132d4cd4d8d8213ea78e6414eaa96969ba0d735f36de5a78bd93186d7f7ea262
+Description:  Check features a simple interface for defining unit tests, putting little in
+ the way of the developer. Tests are run in a separate address space, so Check
+ can catch both assertion failures and code errors that cause segmentation
+ faults or other signals. The output from unit tests can be used within source
+ code editors and IDEs.
+
+Package: cloudflared
+Version: 2024.2.1-1
+Depends: libc, ca-bundle
+License: Apache-2.0
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8616134
+Filename: cloudflared_2024.2.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8476664
+SHA256sum: eb7bf47456ea2c61d87fdf63c381a523e1131125e8b1514ee765103ce93481a0
+Description:  Contains the command-line client for Cloudflare Tunnel, a tunneling
+ daemon that proxies traffic from the Cloudflare network to your origins.
+ 
+ This daemon sits between Cloudflare network and your origin (e.g. a
+ webserver). Cloudflare attracts client requests and sends them to you
+ via this daemon, without requiring you to poke holes on your firewall
+ --- your origin can remain as closed as possible.
 
 Package: containerd
 Version: 1.7.13-1
@@ -68,6 +156,25 @@ Size: 36096489
 SHA256sum: cc05054cb286b86d502a9717cda99b78c1608173db59f3df64ad9a876495fdcc
 Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
 
+Package: crowdsec-firewall-bouncer
+Version: 0.0.28-2
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4727918
+Filename: crowdsec-firewall-bouncer_0.0.28-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4673173
+SHA256sum: 863dfdf6b8ae005cd60e30e5cdda583f3cc0da9085d4a6cff93993ed348e0111
+Description:  Crowdsec bouncer written in golang for firewalls.
+ 
+ crowdsec-firewall-bouncer will fetch new and old decisions
+ from a CrowdSec API to add them in a blocklist used by supported firewalls.
+ 
+ You must install nftables.
+ 
+ This package contains the main program.
+
 Package: dockerd
 Version: 25.0.3-1
 Depends: libc, ca-certificates, containerd, iptables, iptables-mod-extra, ip6tables, kmod-ipt-nat6, libseccomp, kmod-ipt-nat, kmod-ipt-physdev, kmod-nf-ipvs, kmod-veth, tini, uci-firewall
@@ -79,6 +186,114 @@ Filename: dockerd_25.0.3-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 19691252
 SHA256sum: b364f8ff30cb9a27598ccf9cb2298797cf18427bf51dbc9d74516ab776e72870
 Description:  The Docker CE Engine.
+
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5228
+Filename: etherwake_1.09-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6158
+SHA256sum: b62f9ffc7d98a4029477a382859180c1e7afe2adc88997c044fe7c9b74887634
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: external-protocol
+Version: 20231119-1
+Depends: libc
+Section: net
+Architecture: all
+Installed-Size: 1122
+Filename: external-protocol_20231119-1_all.ipk
+Size: 2844
+SHA256sum: 623ff3543f055a8089e19dc865b9fc8b20fd7a3f0715e3062a9d7f5ec1a3a1ec
+Description:  external protocol is a general protocol for assisting
+ setup of many virtual devices that lack proper
+ protocol support in openwrt. Such as netavark, cni and
+ netbird for example. External protocol is supposed
+ to be managed with external software, not directly.
+ 
+ external protocol works automaticly on the background
+ and sets up netifd details when interface comes up or
+ goes down. This allows one to easily add interface to
+ a firewall zone.
+ 
+ as a example use case, podman, with network where it's
+ internal firewall and portmapper are disabled, control
+ of firewalling, whether it was exposing ports or
+ limiting/accepting access between networks, such as
+ lan can be made through openwrt's own firewalling
+ configuration if you used external protocol.
+ 
+ podman example configuration could be as following:
+ - lan network: 10.0.0.0/16 (255.255.0.0)
+ - container network: 10.129.0.1/24 (255.255.255.0)
+ 
+ Add a network configuration for your container network
+ using external protocol. Then create firewall zone for it.
+ 
+ You could create a new container/pod with static ip
+ address 10.129.0.2 (as 10.129.0.1 as container network's
+ gateway).
+ 
+ Easily define permissions so that local networks can
+ connect to container network, but not the other way around.
+ Also you want to allow forwarding from/to wan.
+ 
+ Now, as container cannot access local dns, make a rule for
+ your firewall to accept connections from container network
+ to port 53 (dns).
+ 
+ Now all you have to do, is make redirects to your firewall
+ and point them to 10.129.0.2 and connections from wan are
+ redirectered to containers/pods.
+ 
+ external protocol also works for other applications as
+ well that are using veth/tun/etc devices and don't have
+ a hand-tailored protocol available, such as vpn service
+ netbird.
+ 
+ Protocol has 3 settings: device, searchdomain and delay.
+ Sometimes polling interfaces takes some time, and in
+ that case you might want to add few seconds to delay.
+ Otherwise, it can be excluded from configuration.
+ Option for searchdomain is also completely optional.
+ 
+ package was previously known as cni protocol but as
+ it can be used on so many other things, naming became
+ mis-leading and it was renamed to external protocol.
+
+Package: giflib-utils
+Version: 5.2.1-1
+Depends: libc
+License: MIT
+Section: utils
+CPE-ID: cpe:/a:giflib_project:giflib
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 42723
+Filename: giflib-utils_5.2.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 43502
+SHA256sum: ffa27260a2b2ad84127192ba72fa3da469e03e5d698dbf39a57fc2be51f0d463
+Description:  These are the utilities that come with giflib.
+
+Package: giflib
+Version: 5.2.1-1
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:giflib_project:giflib
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12301
+Filename: giflib_5.2.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13177
+SHA256sum: 6927d292716c7755e8bdd7d7431951cd05710026a6f3b4d006d6284007fe3dd3
+Description:  giflib is a library for reading and writing gif images.
+ It is API and ABI compatible with libungif which was in wide use while
+ the LZW compression algorithm was patented.
 
 Package: golang-src
 Version: 1.21.7-1
@@ -130,6 +345,26 @@ Description:  The Go programming language is an open source project to make
  This package provides an assembler, compiler, linker, and compiled
  libraries for the Go programming language.
 
+Package: idn2
+Version: 2.3.4-1
+Depends: libc, libidn2
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:libidn2_project:libidn2
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9947
+Filename: idn2_2.3.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10852
+SHA256sum: f6fddd2068b546035599a3ea1916195ebf3325342ba38311ab2e96ad64921ddd
+Description:  Libidn2 is a free software implementation of IDNA2008,
+ Punycode and TR46 in library form. It contains
+ functionality to convert internationalized domain
+ names to and from ASCII Compatible Encoding (ACE),
+ following the IDNA2008 and TR46 standards.
+ 
+ Command line tool using libidn2
+ 
+
 Package: kmod
 Version: 31-1
 Depends: libc, zlib
@@ -144,6 +379,58 @@ SHA256sum: c25959bf9c9db18f234670a63504dff17e45a73dbe19e322643d058b9761dc30
 Description:  Linux kernel module handling
  kmod is a set of tools to handle common tasks with Linux kernel modules like
  insert, remove, list, check properties, resolve dependencies and aliases.
+
+Package: krb5-client
+Version: 1.20.1-1
+Depends: libc, krb5-libs
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 40948
+Filename: krb5-client_1.20.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 41611
+SHA256sum: 17dc04916fbdfb649179f9083291c49348f6385a25063f4f3b2dcff9d2c7fda6
+Description:  Kerberos 5 Client
+
+Package: krb5-libs
+Version: 1.20.1-1
+Depends: libc, libncurses6, libss2, libcomerr0
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 663611
+Filename: krb5-libs_1.20.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 652763
+SHA256sum: 9621f9623072129a4fcae4e3eaa8d1e6beb79a8e54ef1bd9db2fef18aafcc75f
+Description:  Kerberos 5 Shared Libraries
+
+Package: krb5-server-extras
+Version: 1.20.1-1
+Depends: libc, krb5-libs, libpthread
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 51177
+Filename: krb5-server-extras_1.20.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 51571
+SHA256sum: 026ac88bfa23bac6244465ec6356937ca3cbe5b4fe53cfaacf8259668a6d7da1
+Description:  Kerberos 5 Admin Server
+
+Package: krb5-server
+Version: 1.20.1-1
+Depends: libc, krb5-libs, libpthread
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 114700
+Filename: krb5-server_1.20.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 114799
+SHA256sum: e942946a1038b93d3c169d80b9105abab87f7a4bdb738af9843e8a0cc74a13e5
+Description:  Kerberos 5 Server
 
 Package: libacl
 Version: 2.3.1-2
@@ -183,6 +470,87 @@ SHA256sum: d21456026bb4aa005846d27eaa9412fb062fe146aff686b0d134a4069ab2dea8
 Description:  Extended attributes support
  This package provides libattr
 
+Package: libcap-ng-bin
+Version: 0.8.3-2
+Depends: libc, libcap-ng
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10965
+Filename: libcap-ng-bin_0.8.3-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11638
+SHA256sum: 68ae8bb021b6b61f6632def51ab4f5e6723f01d66f088047abf90fb30c722035
+Description:  POSIX capabilities library
+ .
+ This package contains the libcap-ng utilities.
+
+Package: libcap-ng
+Version: 0.8.3-2
+Depends: libc
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8277
+Filename: libcap-ng_0.8.3-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9043
+SHA256sum: bac406ae653ca6386e4a25f43e3b9ca3d024c2d50b5cd28471e9827ed428ce6b
+Description:  POSIX capabilities library library
+
+Package: libcares
+Version: 1.27.0-1
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 63708
+Filename: libcares_1.27.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 64620
+SHA256sum: 3e4b7f779463d33f9d9861056c8098c2f63b5c2638abc959e0306ce01a66d0c3
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libcbor0
+Version: 0.8.0-1
+Depends: libc
+Provides: libcbor
+License: GPL-3.0-or-later
+Section: libs
+ABIVersion: 0
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 14398
+Filename: libcbor0_0.8.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 15235
+SHA256sum: cf86d99aabb79b475b32d62ad758ba13d197dd22836ff44aff322971077de136
+Description:  libcbor is a C library for parsing and generating CBOR, the general-purpose schema-less binary data format.
+
+Package: libdcwsocket
+Version: 1.1.0-2
+Depends: libc
+License: Apache-2.0
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2723
+Filename: libdcwsocket_1.1.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3497
+SHA256sum: 2f93d8cde55188b2c55a49001fdecd2607946221e1f560de6612493483bfa082
+Description:  User-land C library for sending and receiving DCW "EtherType"d messages
+
+Package: libdeflate
+Version: 1.18-1
+Depends: libc
+License: COPYING
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 40022
+Filename: libdeflate_1.18-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 40795
+SHA256sum: c5ba9556e36760a456ecbc2eb753792ef14200971aabb186d79d03265a7b642c
+Description:  library for fast, whole-buffer DEFLATE-based compression and decompression
+
 Package: libdevmapper-selinux
 Version: 1.02.196
 Depends: libc, kmod-dm, libpthread, libuuid1, librt, libblkid1, libselinux
@@ -213,6 +581,72 @@ Size: 155562
 SHA256sum: ecc876e241ebba80ab8307bd985324235061b21f3ee0b438608e69941248a4cb
 Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
  volume management. It is required by LVM2 and EVMS.
+
+Package: libdht
+Version: 2022-04-27-11123089-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19082
+Filename: libdht_2022-04-27-11123089-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19880
+SHA256sum: a9e95b9c311e12d6db75dd476c9d80a5c8e825c67cb62282d889fc4c161e27e7
+Description:  Kademlia Distributed Hash Table (DHT) library
+
+Package: libevdev
+Version: 1.13.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 25496
+Filename: libevdev_1.13.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 25036
+SHA256sum: 46800126a7eff81f9f4ecbea26b028abc24853da1fae04814a4524980fcf95ff
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libhttp-parser
+Version: 2.9.4-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13866
+Filename: libhttp-parser_2.9.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14765
+SHA256sum: e0ced723c495d5f49511c9bc6b12e36a17f559bb49f6e466647279394f1023c9
+Description:  A parser for HTTP messages written in C. It parses both requests and responses.
+ The parser is designed to be used in performance HTTP applications.
+ It does not make any syscalls nor allocations, it does not buffer data,
+ it can be interrupted at anytime. Depending on your architecture,
+ it only requires about 40 bytes of data per message stream
+ (in a web server that is per connection).
+
+Package: libidn2
+Version: 2.3.4-1
+Depends: libc, libunistring
+License: LGPL-3.0-or-later
+Section: libs
+CPE-ID: cpe:/a:libidn2_project:libidn2
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 102782
+Filename: libidn2_2.3.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 99838
+SHA256sum: fb0c27a34f26e5c53e76ff24e620071f4e1476a7cb5fad371ef4931aeb6b5b88
+Description:  Libidn2 is a free software implementation of IDNA2008,
+ Punycode and TR46 in library form. It contains
+ functionality to convert internationalized domain
+ names to and from ASCII Compatible Encoding (ACE),
+ following the IDNA2008 and TR46 standards.
+ 
+ Library only package
+ 
 
 Package: libkmod
 Version: 31-1
@@ -254,6 +688,49 @@ SHA256sum: e8263d4fd0e6dd57ff4fa0d97c08aae44d24968c5ab7c96b1ff2d5d8a7f455ea
 Description:  LZO is a data compression library which is suitable for data de-/compression
  in real-time. This means it favours speed over compression ratio.
 
+Package: libminiupnpc
+Version: 2.2.3-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:miniupnp_project:miniupnp
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19828
+Filename: libminiupnpc_2.2.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20560
+SHA256sum: 98fc9428b25e55f1709444f5a34078982ee401692efe99bbec7aa7ee56068c96
+Description:  Lightweight UPnP library
+
+Package: libmodbus
+Version: 3.1.8-1
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16234
+Filename: libmodbus_3.1.8-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17017
+SHA256sum: 826a1f723c26e3ff2aea9e9066c600af92c9530194fcbaed3111a621e9a7276c
+Description:  A Modbus library for Linux, Mac OS X, FreeBSD, QNX and Win32.
+
+Package: libnatpmp1
+Version: 20150609-3
+Depends: libc
+Provides: libnatpmp
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 1
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3522
+Filename: libnatpmp1_20150609-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4413
+SHA256sum: ef0d09af81b405a9f27ac7edbeb788a4441ccc390b01092399f4289ffc40e2e9
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
 Package: libnetsnmp
 Version: 5.9.1-7
 Depends: libc, libnl-tiny1, libpci, libpcre2
@@ -272,6 +749,32 @@ Description:  Simple Network Management Protocol (SNMP) is a widely used protoco
  IPv4 and IPv6.
  .
  This package contains shared libraries, needed by other programs.
+
+Package: libnghttp2-14
+Version: 1.57.0-1
+Depends: libc
+Provides: libnghttp2
+License: MIT
+Section: libs
+ABIVersion: -14
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 63275
+Filename: libnghttp2-14_1.57.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 62568
+SHA256sum: 0539eb1fc0ad8ed45011c8a7403969a4e5487f2b12047c4db6006d1b410ff824
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libnghttp3
+Version: 1.1.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 178018
+Filename: libnghttp3_1.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 173242
+SHA256sum: 19fdf522dfea0f1b87e6b0407e5a7e567d776dd48032189faff394c10386e107
+Description:  nghttp3 is a thin HTTP/3 layer over an underlying QUIC stack.
 
 Package: libpam
 Version: 1.5.2-1
@@ -310,6 +813,95 @@ Size: 25799
 SHA256sum: 41de6cb3b25288d2167acde920be332f06ced1225bf900f8001426138a98b5e3
 Description:  Linux PCI Libraries
 
+Package: libpcre16
+Version: 8.45-5
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 128146
+Filename: libpcre16_8.45-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 128958
+SHA256sum: 3874aa6739858961f8c7a4f23a9cae0a1096e95a9f3a44a4b36c9967aae9738a
+Description:  A Perl Compatible Regular Expression library (16bit support)
+
+Package: libpcre32
+Version: 8.45-5
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 119901
+Filename: libpcre32_8.45-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 120786
+SHA256sum: 7ab1c8cbb98ed5349955cef5ef1631e507686c3161a9fca767b02c8b81d595ee
+Description:  A Perl Compatible Regular Expression library (32bit support)
+
+Package: libpcre
+Version: 8.45-5
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 138639
+Filename: libpcre_8.45-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 139343
+SHA256sum: c54c4d325849abe5567fa4d92f8e2b86d788de043137b6b0e50e000ed1806860
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpcrecpp
+Version: 8.45-5
+Depends: libc, libpcre, libstdcpp6
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11497
+Filename: libpcrecpp_8.45-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12225
+SHA256sum: 1e38cdcedc4321de565fceb605737b06537cff5509a3cee50ad19cec3995e8bb
+Description:  C++ wrapper for Perl Compatible Regular Expression library
+
+Package: librouteros
+Version: 2018-07-19-c485c777-2
+Depends: libc
+License: ISC
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9467
+Filename: librouteros_2018-07-19-c485c777-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10417
+SHA256sum: 3cae671afb9024d26e63e1376f14bdb0ec5bb01028ba33717f04133250d29779
+Description:  librouteros is a library to communicate with RouterOS, the operating system of MikroTik's RouterBoards.
+ It uses the API port provided by those systems to connect and talk to the devices. librouteros is a
+ low-level library in that it abstracts the network protocol used but has next to no knowledge about the
+ commands and responses available
+
+Package: librrd1
+Version: 1.0.50-5
+Depends: libc, zlib
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 135780
+Filename: librrd1_1.0.50-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 136113
+SHA256sum: 0ac6294f7d61d26a3c862a7d07869f64db03c2a95d8055ebef882d9a8758fc26
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains a shared library, used by other programs.
+
 Package: libseccomp
 Version: 2.5.4-2
 Depends: libc
@@ -322,6 +914,109 @@ Filename: libseccomp_2.5.4-2_arm_cortex-a9_vfpv3-d16.ipk
 Size: 44192
 SHA256sum: d0914045b30c1cbaab1ce8451632f5ddf9ed6d85dcc69d76607fe3f33edc1242
 Description:  This package contains the seccomp library.
+
+Package: libtirpc
+Version: 1.3.3-1
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 60399
+Filename: libtirpc_1.3.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 60855
+SHA256sum: 9e8354b72782927d3d25f96d3442761a511fe219b99939e440b7e50832bc205a
+Description:  Library TI RPC for RPC bindings
+
+Package: libucontext-tests
+Version: 1.2-1
+Depends: libc, libucontext
+License: ISC
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3256
+Filename: libucontext-tests_1.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3964
+SHA256sum: 1d693c29a03c7048e61157e8c872eaddee7e847b360e943d05f944de7ffd0791
+Description:  Test applications for libucontext
+
+Package: libucontext
+Version: 1.2-1
+Depends: libc
+License: ISC
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1943
+Filename: libucontext_1.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2720
+SHA256sum: 9d19a4a1c9496badf773455619e94dd3878daf8445fd57320c25916d622bc5d7
+Description:  Thie package is a development package aimed to be linked to
+ libraries/applications which need the SYS-V ucontext API.
+
+Package: libutp
+Version: 2023-02-14-c95738b1-1
+Depends: libc, libstdcpp6
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 18572
+Filename: libutp_2023-02-14-c95738b1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19391
+SHA256sum: 49329bd5f8766f5ac9a04bcbbe0a76264a8196c883feb201ffef1ebb93265dc3
+Description:  The uTorrent Transport Protocol library
+
+Package: libuv1
+Version: 1.48.0-1
+Depends: libc, libpthread, librt
+Provides: libuv
+License: MIT
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:libuv_project:libuv
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 62459
+Filename: libuv1_1.48.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 63137
+SHA256sum: e08326942735fab2eda60f8a0e3c899b10cf77d386ebae88d7c554ebe69d312b
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libwebp
+Version: 1.3.2-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 192389
+Filename: libwebp_1.3.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 193207
+SHA256sum: b563c5984340cdeff10fbb8f2c9ba9a94abe5aa773c2c04f4cbf998cfb2908dd
+Description:  The libwebp package contains a library for the WebP format.
+
+Package: libwrap
+Version: 7.6-4
+Depends: libc
+License: BSD
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10887
+Filename: libwrap_7.6-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11582
+SHA256sum: 7cefbe2a0723cf9c662f00eacc601031c172ddba52772c8e2e8ef83e328697b0
+Description:  Security wrapper library for TCP services
+
+Package: libyaml
+Version: 0.2.5-1
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:pyyaml_project:pyyaml
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 38523
+Filename: libyaml_0.2.5-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 39365
+SHA256sum: cbf0f5ee1aeb2640544f968c856040b14978aa0566de8fba1b9e73fc4e01c329
+Description:  Fast YAML 1.1 parser and emitter library
 
 Package: libzstd
 Version: 1.5.2-2
@@ -380,6 +1075,80 @@ Size: 3681
 SHA256sum: 38c9558f031d0b066dc5e8e07fd880a3b62eafa7cefbc7be37272cbe1b562721
 Description:  Contains: lzmainfo 
 
+Package: miniupnpc
+Version: 2.2.3-1
+Depends: libc, libminiupnpc
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:miniupnp_project:miniupnp
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10320
+Filename: miniupnpc_2.2.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11066
+SHA256sum: 50d1bc65f0467ada6030717111d3d62e3c8cb3ff63563767927d024ab58137c4
+Description:  Lightweight UPnP client
+
+Package: natmap
+Version: 20240303-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19345
+Filename: natmap_20240303-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20181
+SHA256sum: 62f83b60c5214156ef2408f935e6df155acd9dea01b56eab341b91b28689ad63
+Description:  TCP/UDP port mapping tool for full cone NAT
+
+Package: natpmpc
+Version: 20150609-3
+Depends: libc, libnatpmp1
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3431
+Filename: natpmpc_20150609-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4304
+SHA256sum: 4b2a7ff1c4943c98bc68603aa45f90b61f563dcc72d5192868cfd14066188ae0
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the natpmp client.
+
+Package: openpgm
+Version: 5.3.128-1
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:openpgm:openpgm
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 174194
+Filename: openpgm_5.3.128-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 174961
+SHA256sum: 7e9e7c58c8e7187cf82df50dad01d8fea367688d8ef873a94bc6d9d45dad37a2
+Description:  OpenPGM is a library implementing the PGM reliable multicast
+ network protocol. For more information about OpenPGM, see:
+ http://openpgm.googlecode.com/
+
+Package: p910nd
+Version: 0.97-11
+Depends: libc
+License: GPLv2
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11756
+Filename: p910nd_0.97-11_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12766
+SHA256sum: 29434afc72bae4857e33c244127bfb02f250afd6cc67077f1799b0de9cbb216e
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
 Package: parted
 Version: 3.6-1
 Depends: libc, libparted, libreadline8, libncurses6
@@ -419,6 +1188,66 @@ SHA256sum: 0f2ec400cebcf8ced6d9bad749d291d3a7f651bcef620e354e2e26999d8afa92
 Description:  contains collection of programs for inspecting and manipulating configuration
  of PCI devices
 
+Package: polipo
+Version: 1.1.1-2
+Depends: libc
+Section: net
+CPE-ID: cpe:/a:pps.jussieu:polipo
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 109628
+Filename: polipo_1.1.1-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 110580
+SHA256sum: 59e65cb677f9cdc9312532088ef1b4538efef0cdf9be6c734e204883bdf4aa18
+Description:  Polipo is a small and fast caching web proxy (a web cache, an HTTP proxy,
+ a proxy server). While Polipo was designed to be used by one person or a
+ small group of people, there is nothing that prevents it from being used
+ by a larger group.
+
+Package: rrdcgi1
+Version: 1.0.50-5
+Depends: libc, librrd1
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6758
+Filename: rrdcgi1_1.0.50-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7958
+SHA256sum: 859d14eac3a03ccd9c3f07298e7e9eb75b883a80f7390d20e394f72647c7de58
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains the rrdcgi tool used to create web pages containing
+ RRD graphs based on templates.
+
+Package: rrdtool1
+Version: 1.0.50-5
+Depends: libc, librrd1
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10606
+Filename: rrdtool1_1.0.50-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11707
+SHA256sum: b7b02f54b6b81733034506bc86c657760643da61029146f6ff8adbf689fcecea
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains command line tools used to manage RRDs.
+
 Package: runc
 Version: 1.1.12-1
 Depends: libc, libseccomp
@@ -430,6 +1259,24 @@ Filename: runc_1.1.12-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 3387851
 SHA256sum: 4d32a2655a79664166590f7368cdac501b2a69396f7c9bff61a5bcd7c8a019ff
 Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
+Package: sed
+Version: 4.9-1
+Depends: libc
+Alternatives: 300:/bin/sed:/usr/libexec/sed-gnu
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:sed
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 71983
+Filename: sed_4.9-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 73014
+SHA256sum: b01dd2bd659539cfcd0c24126f46409c7a85279630046b62e5f59af7e5fca689
+Description:  sed (stream editor) is a non-interactive command-line text editor. sed is commonly 
+ used to filter text, i.e., it takes text input, performs some operation (or set of 
+ operations) on it, and outputs the modified text. sed is typically used for 
+ extracting part of a file using pattern matching or substituting multiple 
+ occurrences of a string within a file.
 
 Package: snmp-mibs
 Version: 5.9.1-7
@@ -525,6 +1372,37 @@ Size: 36389
 SHA256sum: f6478bc95f39ecbcea92ddb8dac89a4f86b0256577328de12b09cc72ff4f56fd
 Description:  A tiny but valid init process for containers.
 
+Package: tinyproxy
+Version: 1.11.1-2
+Depends: libc
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:banu:tinyproxy
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 37647
+Filename: tinyproxy_1.11.1-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 38485
+SHA256sum: 65af86d9506c781edd5382d28afff804430f86822afd2f4ef12a6f43abcfc00b
+Description:  Tinyproxy is a lightweight HTTP and HTTPS proxy
+
+Package: udpxy
+Version: 1.0-25.1-1
+Depends: libc
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 35596
+Filename: udpxy_1.0-25.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 36627
+SHA256sum: bd6f57862f589fa5ee7cee38be15b3536653ca7966ccf3e66c43efe33f271f37
+Description:  udproxy makes it possible to convert UDP IPTV streams into HTTP
+ streams which can be viewed even over WLANs. HTTP streams do
+ not generate huge amounts of multicast traffic, so a sd stream
+ only takes about 300k. Interesting for peoply who have IPTV at
+ home and do not want to rent multiple decoders from their
+ provider but just use their own streaming client (for example
+ popcornhour/mediatomb/vlc).
+
 Package: usbids
 Version: 0.359-1
 Depends: libc
@@ -536,6 +1414,59 @@ Filename: usbids_0.359-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 251512
 SHA256sum: 7e2b88f42d0c284f1e9db74f4ff259cf8d61d0903a7e9e7de8f7de2dafde0e51
 Description:  USB ID list
+
+Package: vpnc-scripts
+Version: 20151220-3
+Depends: libc
+Section: net
+Architecture: all
+Installed-Size: 2295
+Filename: vpnc-scripts_20151220-3_all.ipk
+Size: 3080
+SHA256sum: 7a80c4898c2a0e0d3fdad6ef33c8a05fbaab535b99a71afa81cc8f5f0190fe61
+Description:  This package contains the vpnc-script which is used by vpnc
+ and OpenConnect to configure the tunnel interface.
+
+Package: watchcat
+Version: 1-17
+Depends: libc
+License: GPL-2.0
+Section: utils
+Architecture: all
+Installed-Size: 3638
+Filename: watchcat_1-17_all.ipk
+Size: 4428
+SHA256sum: 84fb20b844be853ec54a0ed84361d3d0028280b6c6f4ca05805e3ae9020a003e
+Description:  Restart network interfaces or reboot if pings to hosts fail, or set up periodic reboots. Configured via UCI /etc/config/watchcat
+
+Package: wifischedule
+Version: 1-3
+Depends: libc
+License: PRPL
+Section: net
+Architecture: all
+Installed-Size: 3144
+Filename: wifischedule_1-3_all.ipk
+Size: 3918
+SHA256sum: 8d8a4da1d7fd88d373be0837ccddf3e0bc8025f8068626c04e36a45a2eb28603
+Description:  Turns WiFi on and off according to a schedule defined in UCI.
+
+Package: xinetd
+Version: 2.3.15-15
+Depends: libc
+License: xinetd
+Section: net
+CPE-ID: cpe:/a:xinetd:xinetd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 64302
+Filename: xinetd_2.3.15-15_arm_cortex-a9_vfpv3-d16.ipk
+Size: 65130
+SHA256sum: 617f5a1448e354fba7c90cf0e6cf811856761e798dd6a952e3b85669a2b03398
+Description:  xinetd has access control mechanisms, extensive logging capabilities,
+ the ability to make services available based on time, can place limits
+ on the number of servers that can be started, and has deployable
+ defence mechanisms to protect against port scanners, among other
+ things.
 
 Package: xz-utils
 Version: 5.4.6-1
