@@ -76,6 +76,91 @@ Description:  bcp38 implements IETF BCP38 for home routers.
  This package provides BCP38 for IPv4 only - IPv6 uses source
  specific default routes, so no firewall configuration is needed.
 
+Package: bluez-daemon
+Version: 5.66-1
+Depends: libc, bluez-libs, bluez-utils, bluez-utils-extra, glib2, libncurses6, libreadline8, dbus, libical
+Source: feeds/packages/utils/bluez
+SourceName: bluez-daemon
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 723244
+Filename: bluez-daemon_5.66-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 715143
+SHA256sum: 6a5389d161cdc86a0d0f656191bb43f336e941a1460a6d4031d5989a17ac8af5
+Description:  Bluetooth daemon
+
+Package: bluez-libs
+Version: 5.66-1
+Depends: libc, libpthread, kmod-bluetooth
+Source: feeds/packages/utils/bluez
+SourceName: bluez-libs
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 68094
+Filename: bluez-libs_5.66-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 67060
+SHA256sum: 1c93211a53129253daf32316a4687ac26bf353cd81ae572ac0cdaa1e244addd1
+Description:  Bluetooth library
+
+Package: bluez-utils-btmon
+Version: 5.66-1
+Depends: libc, bluez-libs, glib2
+Source: feeds/packages/utils/bluez
+SourceName: bluez-utils-btmon
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 324960
+Filename: bluez-utils-btmon_5.66-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 321609
+SHA256sum: 55c89e356bdf9eb567ec33878895c36b9389c75eea3d2482749398d7ca096c9d
+Description:  Bluetooth utilities
+
+Package: bluez-utils-extra
+Version: 5.66-1
+Depends: libc, bluez-libs, libpthread, librt, glib2, libncurses6, libreadline8, dbus
+Source: feeds/packages/utils/bluez
+SourceName: bluez-utils-extra
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 150385
+Filename: bluez-utils-extra_5.66-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 150749
+SHA256sum: 9e8e8486d038679a269b6b9904ee75a1fc19edf4494e5bd4a456bf3e8744efef
+Description:  Bluetooth additional utilities
+
+Package: bluez-utils
+Version: 5.66-1
+Depends: libc, bluez-libs
+Source: feeds/packages/utils/bluez
+SourceName: bluez-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:bluez:bluez
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 346630
+Filename: bluez-utils_5.66-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 340716
+SHA256sum: f2de633f952025cd48253fe977d603930d10eb69220620d774adddc53c7c362f
+Description:  Bluetooth utilities
+
 Package: btrfs-progs
 Version: 6.5.1-1
 Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs, libzstd
@@ -232,6 +317,38 @@ Description:  Crowdsec bouncer written in golang for firewalls.
  
  This package contains the main program.
 
+Package: dbus-utils
+Version: 1.13.18-12
+Depends: libc, dbus
+Source: feeds/packages/utils/dbus
+SourceName: dbus-utils
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 17947
+Filename: dbus-utils_1.13.18-12_arm_cortex-a9_vfpv3-d16.ipk
+Size: 18494
+SHA256sum: 854ba5832eb3d916cb00bfa2f7d4dcc9c76765ae6ce087676f8dfd970e33d37b
+Description:  Simple interprocess messaging system (utilities)
+
+Package: dbus
+Version: 1.13.18-12
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+SourceName: dbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 122573
+Filename: dbus_1.13.18-12_arm_cortex-a9_vfpv3-d16.ipk
+Size: 122524
+SHA256sum: 7d7f3e71e59dbe6fb01816ec9880ba755d28d174c6f05dd584adda1620d9bc9d
+Description:  Simple interprocess messaging system (daemon)
+
 Package: dockerd
 Version: 25.0.3-1
 Depends: libc, ca-certificates, containerd, iptables, iptables-mod-extra, ip6tables, kmod-ipt-nat6, libseccomp, kmod-ipt-nat, kmod-ipt-physdev, kmod-nf-ipvs, kmod-veth, tini, uci-firewall
@@ -375,6 +492,24 @@ SHA256sum: 6927d292716c7755e8bdd7d7431951cd05710026a6f3b4d006d6284007fe3dd3
 Description:  giflib is a library for reading and writing gif images.
  It is API and ABI compatible with libungif which was in wide use while
  the LZW compression algorithm was patented.
+
+Package: glib2
+Version: 2.74.0-5
+Depends: libc, zlib, libpthread, libffi, libattr, libpcre2
+Source: feeds/packages/libs/glib2
+SourceName: glib2
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:gnome:glib
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1148555
+Filename: glib2_2.74.0-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1143094
+SHA256sum: ec5321bffd61c3b15b919d591df6f1659acce55f3b610ea203c30166e4e6c1ab
+Description:  The GLib library of C routines
 
 Package: golang-src
 Version: 1.21.7-1
@@ -681,6 +816,22 @@ Size: 15235
 SHA256sum: cf86d99aabb79b475b32d62ad758ba13d197dd22836ff44aff322971077de136
 Description:  libcbor is a C library for parsing and generating CBOR, the general-purpose schema-less binary data format.
 
+Package: libdbus
+Version: 1.13.18-12
+Depends: libc, libpthread
+Source: feeds/packages/utils/dbus
+SourceName: libdbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 137262
+Filename: libdbus_1.13.18-12_arm_cortex-a9_vfpv3-d16.ipk
+Size: 137380
+SHA256sum: 2354391bec5195a5cb0efb37b7dab9043fca06abba440fa1ef17fe5cfd86c7ce
+Description:  Simple interprocess messaging system (library)
+
 Package: libdcwsocket
 Version: 1.1.0-2
 Depends: libc
@@ -773,6 +924,22 @@ Size: 19880
 SHA256sum: a9e95b9c311e12d6db75dd476c9d80a5c8e825c67cb62282d889fc4c161e27e7
 Description:  Kademlia Distributed Hash Table (DHT) library
 
+Package: libedit
+Version: 20221030-3.1-1
+Depends: libc, libncurses6
+Source: feeds/packages/libs/libedit
+SourceName: libedit
+License: BSD-3-Clause
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 67614
+Filename: libedit_20221030-3.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 68191
+SHA256sum: ac0a55fc36981d4a793379acdda0c66395ff7a873e4bc421c65450ec709e2057
+Description:  Generic line editing, history, and tokenization functions similar to GNU Readline.
+
 Package: libevdev
 Version: 1.13.0-1
 Depends: libc
@@ -795,6 +962,69 @@ Description:  libevdev is a wrapper library for evdev devices. it moves the comm
  The eventual goal is that libevdev wraps all ioctls available to
  evdev devices, thus making direct access unnecessary.
 
+Package: libexpat
+Version: 2.5.0-1
+Depends: libc
+Source: feeds/packages/libs/expat
+SourceName: libexpat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:libexpat:expat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 40831
+Filename: libexpat_2.5.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 41672
+SHA256sum: ff9acd106d402d6c228a84de919a78a05be552aecbcb6175e9d85c6ac9949611
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.4.2-2
+Depends: libc
+Source: feeds/packages/libs/libffi
+SourceName: libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 18283
+Filename: libffi_3.4.2-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19263
+SHA256sum: 8f0d016e3bd82988138ccf9e121bfdfbc8fd904bc8327b2ded436585a2516693
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.21-2
+Depends: libc
+Source: feeds/packages/libs/gdbm
+SourceName: libgdbm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 27718
+Filename: libgdbm_1.21-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 28374
+SHA256sum: 051aee807b16fd1bc4ab08f5699ee91c253327c3011270e17c9a1e60f48f5d5d
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
 Package: libhttp-parser
 Version: 2.9.4-1
 Depends: libc
@@ -816,6 +1046,27 @@ Description:  A parser for HTTP messages written in C. It parses both requests a
  it can be interrupted at anytime. Depending on your architecture,
  it only requires about 40 bytes of data per message stream
  (in a web server that is per connection).
+
+Package: libical
+Version: 3.0.9-2
+Depends: libc, libpthread
+Source: feeds/packages/libs/libical
+SourceName: libical
+License: LGPL-2.1-or-later MPL-2.0
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Jose Zapater <jzapater@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 156455
+Filename: libical_3.0.9-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 153811
+SHA256sum: cdb10872c1d8a3d3173e7eeb75ad797c913c2eca9f10c562485173b0c05bdd2e
+Description:  Libical is an Open Source implementation of the iCalendar protocols and protocol
+ data units. The iCalendar specification describes how calendar clients can
+ communicate with calendar servers so users can store their calendar data and
+ arrange meetings with other users.
+ Libical implements RFC2445, RFC2446 and some of RFC2447.
 
 Package: libidn2
 Version: 2.3.4-1
@@ -1133,6 +1384,37 @@ Size: 12225
 SHA256sum: 1e38cdcedc4321de565fceb605737b06537cff5509a3cee50ad19cec3995e8bb
 Description:  C++ wrapper for Perl Compatible Regular Expression library
 
+Package: libpython3-3.11
+Version: 3.11.7-1
+Depends: libc, libpthread
+Provides: libpython3
+Source: feeds/packages/lang/python/python3
+SourceName: libpython3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+ABIVersion: -3.11
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1268704
+Filename: libpython3-3.11_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1256547
+SHA256sum: 39f90100b31d3e06ad9411cf43404b869edf466305f51e13a3c6111e7d12f36b
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains only core Python library.
+
 Package: librouteros
 Version: 2018-07-19-c485c777-2
 Depends: libc
@@ -1196,6 +1478,27 @@ Filename: libseccomp_2.5.4-2_arm_cortex-a9_vfpv3-d16.ipk
 Size: 44192
 SHA256sum: d0914045b30c1cbaab1ce8451632f5ddf9ed6d85dcc69d76607fe3f33edc1242
 Description:  This package contains the seccomp library.
+
+Package: libsqlite3-0
+Version: 3410200-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+Source: feeds/packages/libs/sqlite3
+SourceName: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+SourceDateEpoch: 1710266352
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 530125
+Filename: libsqlite3-0_3410200-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 530193
+SHA256sum: 8956b6a154679747e8ad1493e91cbffd9c0f00cf6c3caa6f8fed8c8e29401e78
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
 
 Package: libtirpc
 Version: 1.3.3-1
@@ -1354,6 +1657,23 @@ SHA256sum: 7f8ec03a17bcb2c8d2cf8f540771635dac9315e62cb557cbcd109a0775859c99
 Description:  Zstandard - Fast real-time compression algorithm.
  This package provides libzstd library.
 
+Package: luajit
+Version: 2.1.0-beta3-7
+Depends: libc
+Source: feeds/packages/lang/luajit
+SourceName: luajit
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1710266352
+Maintainer: Morteza Milani <milani@pichak.co>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 207387
+Filename: luajit_2.1.0-beta3-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 207717
+SHA256sum: de74d2d1d4acb9e19cbb49ea299cf67cdac71dfcb2b69378ef6d5e51b92c873d
+Description:  LuaJIT is a Just-In-Time (JIT) compiler for the Lua programming language. *** Requires GCC Multilib on host system to build! ***
+
 Package: lvm2-selinux
 Version: 2.03.22-1
 Depends: libc, libreadline8, libncurses6, libaio, libdevmapper-selinux
@@ -1464,6 +1784,297 @@ Description:  libnatpmp is an attempt to make a portable and fully compliant imp
  all calls of the API are asynchronous. It is therefore very easy to integrate
  the NAT-PMP code to any event driven code.
  This package contains the natpmp client.
+
+Package: nginx-full
+Version: 1.25.0-4
+Depends: nginx-ssl-util (>=1.5-1) (<2), libc, libopenssl3, libpthread, libpcre, nginx-ssl-util, zlib, libxml2
+Provides: nginx-ssl
+Source: feeds/packages/net/nginx
+SourceName: nginx-full
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 410450
+Filename: nginx-full_1.25.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 408024
+SHA256sum: 087ebcc426fff0f983975c520f31901e72bab8b667a0c3e023f903c9ec2bd163
+Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. This variant is compiled with ALL module selected.
+
+Package: nginx-mod-brotli
+Version: 1.25.0-4
+Depends: libc, nginx-ssl
+Source: feeds/packages/net/nginx
+SourceName: nginx-mod-brotli
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 299620
+Filename: nginx-mod-brotli_1.25.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 297373
+SHA256sum: fa1c52b63136b2b4c242ad978ecbabb30581de14dd4e0befe8f275cd9accffc8
+Description:  Add support for brotli compression module.
+
+Package: nginx-mod-dav-ext
+Version: 1.25.0-4
+Depends: libc, nginx-ssl, libxml2
+Source: feeds/packages/net/nginx
+SourceName: nginx-mod-dav-ext
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10381
+Filename: nginx-mod-dav-ext_1.25.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11238
+SHA256sum: a821f63143ec6e08618377522ca6d4fb217f75c7ba0acededaed974292c9d13d
+Description:  Enable the WebDAV methods PROPFIND OPTIONS LOCK UNLOCK.
+
+Package: nginx-mod-headers-more
+Version: 1.25.0-4
+Depends: libc, nginx-ssl
+Source: feeds/packages/net/nginx
+SourceName: nginx-mod-headers-more
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7939
+Filename: nginx-mod-headers-more_1.25.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8769
+SHA256sum: c0db18bf16213972e2c2730f6cef4ceefd5a2f88db89fb6bf4e31d0ad23d471b
+Description:  Set and clear input and output headers...more than "add"!
+
+Package: nginx-mod-lua
+Version: 1.25.0-4
+Depends: libc, nginx-ssl, luajit
+Source: feeds/packages/net/nginx
+SourceName: nginx-mod-lua
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 141367
+Filename: nginx-mod-lua_1.25.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 141453
+SHA256sum: 917a3c83aa53fd54e3fe2d2ee318e094a3675957e6bce5d954cf5396eb130a96
+Description:  Enable Lua module
+
+Package: nginx-mod-luci-ssl
+Version: 1.25.0-4
+Depends: libc, nginx-mod-luci
+Source: feeds/packages/net/nginx
+SourceName: nginx-mod-luci-ssl
+License: 2-clause BSD-like license
+Section: opt
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: all
+Installed-Size: 129
+Filename: nginx-mod-luci-ssl_1.25.0-4_all.ipk
+Size: 919
+SHA256sum: 3c170764cc6976b49f8189fe749570d02e262f922fe7145f9cdf2c10e14d3cb4
+Description:  Dummy package for transition when upgrading.
+
+Package: nginx-mod-luci
+Version: 1.25.0-4
+Depends: libc, uwsgi, uwsgi-luci-support, nginx, nginx-mod-ubus
+Source: feeds/packages/net/nginx
+SourceName: nginx-mod-luci
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 776
+Filename: nginx-mod-luci_1.25.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1644
+SHA256sum: c260c1164380fda6308b22395f95535a8e4ee150e0868076ceb6b2f4e2a85f94
+Description:  Support file for LuCI in nginx. Include custom nginx configuration, autostart script for uwsgi.
+
+Package: nginx-mod-naxsi
+Version: 1.25.0-4
+Depends: libc, nginx-ssl
+Source: feeds/packages/net/nginx
+SourceName: nginx-mod-naxsi
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 88583
+Filename: nginx-mod-naxsi_1.25.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 66942
+SHA256sum: 8b1870f9ec83667ada2cef4642b0d257c3f9765836c81b72dbe8bc7d03b4af72
+Description:  Enable NAXSI module.
+
+Package: nginx-mod-rtmp
+Version: 1.25.0-4
+Depends: libc, nginx-ssl
+Source: feeds/packages/net/nginx
+SourceName: nginx-mod-rtmp
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 115884
+Filename: nginx-mod-rtmp_1.25.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 116358
+SHA256sum: c3c1d3a1425f4c930a10161f0cfe89048f6c074f2460a7277232884b4398c103
+Description:  Add support for NGINX-based Media Streaming Server module. DASH enhanced - https://github.com/ut0mt8/nginx-rtmp-module
+
+Package: nginx-mod-stream
+Version: 1.25.0-4
+Depends: libc, nginx-ssl
+Source: feeds/packages/net/nginx
+SourceName: nginx-mod-stream
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 56945
+Filename: nginx-mod-stream_1.25.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 57637
+SHA256sum: c6e4989a0808a754172ebe4c2429e3192e399f759c3a52ed7a4605337ad930b3
+Description:  Add support for NGINX request streaming.
+
+Package: nginx-mod-ts
+Version: 1.25.0-4
+Depends: libc, nginx-ssl
+Source: feeds/packages/net/nginx
+SourceName: nginx-mod-ts
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20812
+Filename: nginx-mod-ts_1.25.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21624
+SHA256sum: 7bf7a7880bc35ac4cb724a1b5a295ddddc99ff0d3fbac854c3bd7fbac126c8ac
+Description:  Add support for MPEG-TS Live Module module.
+
+Package: nginx-mod-ubus
+Version: 1.25.0-4
+Depends: libc, nginx-ssl, libubus20230605, libjson-c5, libblobmsg-json20230523
+Source: feeds/packages/net/nginx
+SourceName: nginx-mod-ubus
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7634
+Filename: nginx-mod-ubus_1.25.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8494
+SHA256sum: db5d045df1dc399a4d0f9377a2b57d77048c4d0e251b4a42d15d62abdeaf771a
+Description:  Enable UBUS api support directly from the server.
+
+Package: nginx-ssl-util-nopcre
+Version: 1.6-18
+Depends: nginx-util (>=1.4-2), libc, libstdcpp6, libuci20130104, libubus20230605, libubox20230523, libpthread, libopenssl3, nginx-util
+Conflicts: nginx-ssl-util
+Source: feeds/packages/net/nginx-util
+SourceName: nginx-ssl-util-nopcre
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Peter Stadler <peter.stadler@student.uibk.ac.at>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 100117
+Filename: nginx-ssl-util-nopcre_1.6-18_arm_cortex-a9_vfpv3-d16.ipk
+Size: 101000
+SHA256sum: 15c975d9aad00a3827ba24f3c5f563b047aac92dcd12cd06ef4b0aad3a9a14b6
+Description:  Utility that builds dynamically LAN listen directives for Nginx.
+ Furthermore, it manages SSL directives for its server parts and can create
+ corresponding (self-signed) certificates. It uses the standard regex library of C++.
+
+Package: nginx-ssl-util
+Version: 1.6-18
+Depends: nginx-util (>=1.4-2), libc, libstdcpp6, libuci20130104, libubus20230605, libubox20230523, libpthread, libopenssl3, nginx-util, libpcre
+Conflicts: nginx-ssl-util-nopcre
+Source: feeds/packages/net/nginx-util
+SourceName: nginx-ssl-util
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Peter Stadler <peter.stadler@student.uibk.ac.at>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 63667
+Filename: nginx-ssl-util_1.6-18_arm_cortex-a9_vfpv3-d16.ipk
+Size: 64711
+SHA256sum: f1b1d553e154c0e7d376a2d19afe1443edf26b1d70a1cb4d83ec92d779fc2031
+Description:  Utility that builds dynamically LAN listen directives for Nginx.
+ Furthermore, it manages SSL directives for its server parts and can create
+ corresponding (self-signed) certificates. It uses the PCRE library for performance.
+
+Package: nginx-ssl
+Version: 1.25.0-4
+Depends: nginx-ssl-util (>=1.5-1) (<2), libc, libopenssl3, libpthread, libpcre, nginx-ssl-util, zlib, libxml2
+Conflicts: nginx-full
+Source: feeds/packages/net/nginx
+SourceName: nginx-ssl
+License: 2-clause BSD-like license
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 411081
+Filename: nginx-ssl_1.25.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 408647
+SHA256sum: 2651d6d4a4a954898100b8d454e589be853e6d1fbe26b801bd99494bae1d5fe5
+Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. This variant is compiled with SSL support enabled. To enable additional module select them in the nginx default configuration menu.
+
+Package: nginx-util
+Version: 1.6-18
+Depends: libc, libstdcpp6, libubus20230605, libubox20230523, libpthread
+Source: feeds/packages/net/nginx-util
+SourceName: nginx-util
+Section: opt
+SourceDateEpoch: 1710266352
+Maintainer: Peter Stadler <peter.stadler@student.uibk.ac.at>
+Architecture: all
+Installed-Size: 129
+Filename: nginx-util_1.6-18_all.ipk
+Size: 878
+SHA256sum: 7914a962d5ee42469a3971e91017ba25060dc93fe7dccdc2e739231d16a46309
+Description:  Dummy package for removing nginx-util when upgrading.
+
+Package: nginx
+Version: 1.25.0-4
+Depends: libc, nginx-ssl
+Source: feeds/packages/net/nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: opt
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nginx:nginx
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: all
+Installed-Size: 223
+Filename: nginx_1.25.0-4_all.ipk
+Size: 1045
+SHA256sum: 07d3d621d3704c63e303e9e1facee1f7188c4ac9742a1490d1cf7ccc4ee23af1
+Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev.
 
 Package: openpgm
 Version: 5.3.128-1
@@ -1580,6 +2191,1602 @@ Description:  Polipo is a small and fast caching web proxy (a web cache, an HTTP
  a proxy server). While Polipo was designed to be used by one person or a
  small group of people, there is nothing that prevents it from being used
  by a larger group.
+
+Package: python3-asyncio-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-asyncio-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 108344
+Filename: python3-asyncio-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 109639
+SHA256sum: 692f6ac10550ad3476939dcb139bf8904154e2d0f21d482a9da19ade9f69aae6
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the asyncio module.
+ 
+ This package contains the Python source files for python3-asyncio.
+
+Package: python3-asyncio
+Version: 3.11.7-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-asyncio
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 246815
+Filename: python3-asyncio_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 248140
+SHA256sum: fb6c44b6b615358788a13741f695f72f5c2526d6b685166de285b923f1f72ba0
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the asyncio module.
+
+Package: python3-base-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-base-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 263943
+Filename: python3-base-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 255761
+SHA256sum: 39697adaa91c8340572f128f92382443640c94c81fc2b5bfbfd0e30193369f0a
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains only the interpreter and the bare minimum for the
+ interpreter to start.
+ 
+ This package contains the Python source files for python3-base.
+
+Package: python3-base
+Version: 3.11.7-1
+Depends: libc, libpython3-3.11
+Source: feeds/packages/lang/python/python3
+SourceName: python3-base
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 225883
+Filename: python3-base_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 222248
+SHA256sum: c14742b8470470483d7929da9ffd8061363381413598816621d50fb9aec538be
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains only the interpreter and the bare minimum for the
+ interpreter to start.
+
+Package: python3-cgi-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgi-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9778
+Filename: python3-cgi-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11023
+SHA256sum: 6057455594873bdadcbd25986d8d4a5aa00c0573ce58f273ef4a7c89637e393f
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the cgi module.
+ 
+ This package contains the Python source files for python3-cgi.
+
+Package: python3-cgi
+Version: 3.11.7-1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgi
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 18895
+Filename: python3-cgi_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20140
+SHA256sum: 2f28ca462361ca998cfa396f71c4b0abecca963e2683e7a8ce469b5f7f169f5a
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the cgi module.
+
+Package: python3-cgitb-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgitb-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3849
+Filename: python3-cgitb-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5071
+SHA256sum: 55187764a6b30f263860bd583fb20cd322f522afc939e852905b0fadef82f747
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the cgitb module.
+ 
+ This package contains the Python source files for python3-cgitb.
+
+Package: python3-cgitb
+Version: 3.11.7-1
+Depends: libc, python3-light, python3-cgi, python3-pydoc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgitb
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8996
+Filename: python3-cgitb_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10224
+SHA256sum: 83d7016098965acd8e6f86d39a52110580add15dc58c649fb44ec6711643c0dc
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the cgitb module.
+
+Package: python3-codecs-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-codecs-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 95
+Filename: python3-codecs-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1334
+SHA256sum: 0994c0abfb0a4718048c3797646aca8b324adfe7ee7eb50ad67053f3a25955d9
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains codecs and Unicode support.
+ 
+ This package contains the Python source files for python3-codecs.
+
+Package: python3-codecs
+Version: 3.11.7-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-codecs
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 766959
+Filename: python3-codecs_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 739390
+SHA256sum: b1ef45379bc083dc66783e0c554d4c8dddccc63401886795b0f97b2f73620ec8
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains codecs and Unicode support.
+
+Package: python3-ctypes-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ctypes-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 17625
+Filename: python3-ctypes-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 18856
+SHA256sum: d3e263b2da9406b9777a51cc01da00c9bcf40e10321d418db76c045c4a27f8b9
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ctypes module.
+ 
+ This package contains the Python source files for python3-ctypes.
+
+Package: python3-ctypes
+Version: 3.11.7-1
+Depends: libc, python3-light, libffi
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ctypes
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 75009
+Filename: python3-ctypes_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 76181
+SHA256sum: 472fa175dc7350fa9fc319e0aa5a3ac54db46a25d0c0211107775d38d96df1fc
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ctypes module.
+
+Package: python3-dbm-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dbm-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5851
+Filename: python3-dbm-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7042
+SHA256sum: d8268b2754919c9554fad9fe443994098bf4110d2ab2fe3eeb41b8341109cdc6
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the dbm module.
+ 
+ This package contains the Python source files for python3-dbm.
+
+Package: python3-dbm
+Version: 3.11.7-1
+Depends: libc, python3-light, libgdbm
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dbm
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19712
+Filename: python3-dbm_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20940
+SHA256sum: 73c9297adbe2d4ef2a73c87194641730fe0fa2eb0605f4df71fec9c39d28134c
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the dbm module.
+
+Package: python3-decimal-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-decimal-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 281
+Filename: python3-decimal-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1514
+SHA256sum: d6aff3a5d193a2c28cc93203dac317a29e9da602bbb5cf619297f02f9a7c10ad
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the decimal module.
+ 
+ This package contains the Python source files for python3-decimal.
+
+Package: python3-decimal
+Version: 3.11.7-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-decimal
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 77205
+Filename: python3-decimal_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 78161
+SHA256sum: 607894a9a296d2d5a609b2954424cdf014acf89ecfb371b78436d8341043d428
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the decimal module.
+
+Package: python3-dev-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dev-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1000
+Filename: python3-dev-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2257
+SHA256sum: c5532f2823a1b00f2add41877a4bd4be32e88268c5c00902d7b65b118fc7d65f
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains files for building Python modules, extending the
+ Python interpreter, or embedded Python in applications.
+ 
+ This package contains the Python source files for python3-dev.
+
+Package: python3-dev
+Version: 3.11.7-1
+Depends: libc, python3, python3-lib2to3
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dev
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 36498530
+Filename: python3-dev_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 36289013
+SHA256sum: 15464fbe45eeb6c34a5983a99a52927370f495deb31cfbfb123cf1e5f0ac9a4d
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains files for building Python modules, extending the
+ Python interpreter, or embedded Python in applications.
+
+Package: python3-distutils-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-distutils-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 154102
+Filename: python3-distutils-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 155475
+SHA256sum: 1f5b43edf7e2198b8e4ed1b59077ff1796a663be38f3e9191218b890ab46e4e9
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the distutils module.
+ 
+ This package contains the Python source files for python3-distutils.
+
+Package: python3-distutils
+Version: 3.11.7-1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-distutils
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 260994
+Filename: python3-distutils_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 262342
+SHA256sum: 2736f660406ef3099456e57259f3a49e31288300ff1dfb39615d86d29bfcf722
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the distutils module.
+
+Package: python3-email-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-email-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 95043
+Filename: python3-email-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 96369
+SHA256sum: 4b7ff5b18104531bed7c83b72627b14883c9a867cd2d57b2bb23cf2d6ec49ca3
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the email module.
+ 
+ This package contains the Python source files for python3-email.
+
+Package: python3-email
+Version: 3.11.7-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-email
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 183298
+Filename: python3-email_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 184641
+SHA256sum: e134a44fd94fd91c5fa0d6833bb208b68480d8250b2336992ea72dee9f3fc2dc
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the email module.
+
+Package: python3-lib2to3-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lib2to3-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 74969
+Filename: python3-lib2to3-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 76274
+SHA256sum: f4648794507ac4ad49f075869ed8ef4f9de8113013b8275210f5be8aab050e66
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the lib2to3 module.
+ 
+ This package contains the Python source files for python3-lib2to3.
+
+Package: python3-lib2to3
+Version: 3.11.7-1
+Depends: libc, python3
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lib2to3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 172801
+Filename: python3-lib2to3_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 174138
+SHA256sum: dbcbb08a9216af851133ada85a67079fbb8970c0df432f494852da4826518373
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the lib2to3 module.
+
+Package: python3-light-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-light-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1249597
+Filename: python3-light-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1250840
+SHA256sum: a7d65d44a557feb3a44ec8c112366d500ea4ec48f21d94bbed2e81f7d2346342
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package installs the base interpreter package and contains the most
+ commonly used parts of the standard library.
+ 
+ This package contains the Python source files for python3-light.
+
+Package: python3-light
+Version: 3.11.7-1
+Depends: libc, python3-base, libbz2-1.0, zlib
+Source: feeds/packages/lang/python/python3
+SourceName: python3-light
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2830342
+Filename: python3-light_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2828803
+SHA256sum: 0b90c9616f7c551ed79691e868105b0337d9de8d646fa4b955c6979f43ada46d
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package installs the base interpreter package and contains the most
+ commonly used parts of the standard library.
+
+Package: python3-logging-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-logging-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 46444
+Filename: python3-logging-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 47678
+SHA256sum: ac9c6bc76d00d66e83f56ee1b9853efe0f34fc41907c8590c9b637656a89770f
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the logging module.
+ 
+ This package contains the Python source files for python3-logging.
+
+Package: python3-logging
+Version: 3.11.7-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-logging
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 84093
+Filename: python3-logging_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 85420
+SHA256sum: e8391f38ceefbbda9961f5ea6679150899893766badb0cb763de55b55aff8c47
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the logging module.
+
+Package: python3-lzma-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lzma-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4215
+Filename: python3-lzma-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5440
+SHA256sum: d5173c43348560d2b2af9674ddb8db93e60157ed80e9daea99e3ccba84a110d9
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the lzma module.
+ 
+ This package contains the Python source files for python3-lzma.
+
+Package: python3-lzma
+Version: 3.11.7-1
+Depends: libc, python3-light, liblzma
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lzma
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 17669
+Filename: python3-lzma_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 18888
+SHA256sum: 00920164a105a882b45cd1ecd361c25f5b34c110d82ca68d551250737fa5e01a
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the lzma module.
+
+Package: python3-multiprocessing-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-multiprocessing-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 66277
+Filename: python3-multiprocessing-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 67603
+SHA256sum: fdf8ee6f8cc73461398430df31c841e8939008c6a7647cddfc5319cf9d3c69cd
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the multiprocessing module.
+ 
+ This package contains the Python source files for python3-multiprocessing.
+
+Package: python3-multiprocessing
+Version: 3.11.7-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-multiprocessing
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 173364
+Filename: python3-multiprocessing_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 174711
+SHA256sum: 429f825d9ee937fadca9fe3059e486e7d2a67f6ece0cc034ef27c0840fdea1c3
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the multiprocessing module.
+
+Package: python3-ncurses-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ncurses-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6184
+Filename: python3-ncurses-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7448
+SHA256sum: 4e0f804b5d849b6810f8fceb0d2dc0061a58acb77aa266307f8c6fe0f5d080b7
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ncurses module.
+ 
+ This package contains the Python source files for python3-ncurses.
+
+Package: python3-ncurses
+Version: 3.11.7-1
+Depends: libc, python3-light, libncursesw6
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ncurses
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 50901
+Filename: python3-ncurses_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 51971
+SHA256sum: 4eba51b12527fbe0b4e5ceb1bee871ab71b558b75d13d8f6ca172a38a9c721c5
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ncurses module.
+
+Package: python3-openssl-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-openssl-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 95
+Filename: python3-openssl-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1329
+SHA256sum: 9fb793edb7c091ffc914d7cd3c567726f751231f4b8dcc01da2764a8c36e5ce3
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ssl module.
+ 
+ This package contains the Python source files for python3-openssl.
+
+Package: python3-openssl
+Version: 3.11.7-1
+Depends: libc, python3-light, libopenssl3, ca-certs
+Source: feeds/packages/lang/python/python3
+SourceName: python3-openssl
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 69768
+Filename: python3-openssl_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 69014
+SHA256sum: 886834b6fb749d3b69a358f8b529bdf6213739b0ee383b3beb8e04073b9870a5
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ssl module.
+
+Package: python3-pydoc-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pydoc-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 216020
+Filename: python3-pydoc-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 217366
+SHA256sum: a74a3aef28b8b3f28c7d0f4e6c3b062ca5d327ab577bc9e9b100d299c8546538
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the pydoc module.
+ 
+ This package contains the Python source files for python3-pydoc.
+
+Package: python3-pydoc
+Version: 3.11.7-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pydoc
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 247816
+Filename: python3-pydoc_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 249156
+SHA256sum: 180237c9b4ff2f7892131501d588cf6cc11b8f19343e1d8477436f70a0cdfb10
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the pydoc module.
+
+Package: python3-readline-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-readline-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 95
+Filename: python3-readline-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1332
+SHA256sum: 143113606a2e9e0c3bdf1c91ca0539b7ab592a3e7e8cfc6bc4eb7484e3c4e5e2
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the readline module.
+ 
+ This package contains the Python source files for python3-readline.
+
+Package: python3-readline
+Version: 3.11.7-1
+Depends: libc, python3-light, libreadline8
+Source: feeds/packages/lang/python/python3
+SourceName: python3-readline
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9232
+Filename: python3-readline_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10410
+SHA256sum: a66b75496d19f2796edca3f4031eb58896ac6a572a6506462436cd6771cbe3bb
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the readline module.
+
+Package: python3-sqlite3-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-sqlite3-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3482
+Filename: python3-sqlite3-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4702
+SHA256sum: 14cf6bfc8278db62b709802263696b08a84a01b88b9e68ae6786841daa25f108
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the sqlite3 module.
+ 
+ This package contains the Python source files for python3-sqlite3.
+
+Package: python3-sqlite3
+Version: 3.11.7-1
+Depends: libc, python3-light, libsqlite3-0
+Source: feeds/packages/lang/python/python3
+SourceName: python3-sqlite3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 37784
+Filename: python3-sqlite3_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 38907
+SHA256sum: dba08ccb620918fccea755fcfbc58f19fddee88c1659d39c6253169a39d04306
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the sqlite3 module.
+
+Package: python3-unittest-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-unittest-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 58699
+Filename: python3-unittest-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 60043
+SHA256sum: 38209f4680ed4795c3d866f3f4578f7a465a257dd94c1da5445e3ac78f91ec82
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the unittest module.
+ 
+ This package contains the Python source files for python3-unittest.
+
+Package: python3-unittest
+Version: 3.11.7-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-unittest
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 130188
+Filename: python3-unittest_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 131542
+SHA256sum: 547b6a08889ab6712b520862f9b3ba91f856f5b135c2ee21869f90eaa811c5bf
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the unittest module.
+
+Package: python3-urllib-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-urllib-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 42300
+Filename: python3-urllib-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 43605
+SHA256sum: d4111761b42586718b22568852334f9a4a7512ea91e765bbc761b187c0fc47a0
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the URL handling modules.
+ 
+ This package contains the Python source files for python3-urllib.
+
+Package: python3-urllib
+Version: 3.11.7-1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-urllib
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 84264
+Filename: python3-urllib_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 85602
+SHA256sum: 1798d4c8144b3c029018418462d3c03e344ecfc39d9756998d0980d5d750508e
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the URL handling modules.
+
+Package: python3-uuid-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-uuid-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8582
+Filename: python3-uuid-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9817
+SHA256sum: 994f33f199c85022842c74e248a3ec6aa7af2a7dce3cfdf4d201f5e8a6744d3a
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the uuid module.
+ 
+ This package contains the Python source files for python3-uuid.
+
+Package: python3-uuid
+Version: 3.11.7-1
+Depends: libc, python3-light, libuuid1
+Source: feeds/packages/lang/python/python3
+SourceName: python3-uuid
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 15336
+Filename: python3-uuid_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16511
+SHA256sum: e289cec2c65a7508d0f186d673001446dbdcbaea85ba49771a6ad276cf9fb76f
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the uuid module.
+
+Package: python3-venv-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-venv-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9758
+Filename: python3-venv-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10995
+SHA256sum: 56679beb719b1d6f811201e4591f00810fda7130eb4c2c62371d2b6385579115
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the venv module.
+ 
+ This package contains the Python source files for python3-venv.
+
+Package: python3-venv
+Version: 3.11.7-1
+Depends: libc, python3
+Source: feeds/packages/lang/python/python3
+SourceName: python3-venv
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3269512
+Filename: python3-venv_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3271302
+SHA256sum: 7297ead114ac7ac325ad916e68fceb8a5d4a0e3983656b88676198895fa7fdb2
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the venv module.
+
+Package: python3-xml-src
+Version: 3.11.7-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-xml-src
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 91266
+Filename: python3-xml-src_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 92606
+SHA256sum: 645bda875ff97839ccc2d7e3f5637b81fe2a65f9a267b4397511f0561abcb3c9
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the XML modules.
+ 
+ This package contains the Python source files for python3-xml.
+
+Package: python3-xml
+Version: 3.11.7-1
+Depends: libc, python3-light, python3-urllib
+Source: feeds/packages/lang/python/python3
+SourceName: python3-xml
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 268647
+Filename: python3-xml_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 269207
+SHA256sum: de9e0ecda2216fafcc00401079d6b027eccd0007a0de4dde389f8e4c3419280c
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the XML modules.
+
+Package: python3
+Version: 3.11.7-1
+Depends: libc, python3-light, python3-asyncio, python3-cgi, python3-cgitb, python3-codecs, python3-ctypes, python3-dbm, python3-decimal, python3-distutils, python3-email, python3-logging, python3-lzma, python3-multiprocessing, python3-ncurses, python3-openssl, python3-pydoc, python3-readline, python3-sqlite3, python3-unittest, python3-urllib, python3-uuid, python3-xml
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 95
+Filename: python3_3.11.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1443
+SHA256sum: 46a2bc6ebadb99f9c5eddd72248aac0caed6e9f8b3cf8a89cba44b3d78ba7ca4
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package installs almost all parts of the standard Python
+ installation.
 
 Package: rrdcgi1
 Version: 1.0.50-5
@@ -1772,6 +3979,26 @@ Description:  Simple Network Management Protocol (SNMP) is a widely used protoco
  .
  This package contains the SNMP notification receiver.
 
+Package: sqlite3-cli
+Version: 3410200-1
+Depends: libc, libsqlite3-0, libedit
+Source: feeds/packages/libs/sqlite3
+SourceName: sqlite3-cli
+License: PUBLICDOMAIN
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 125983
+Filename: sqlite3-cli_3410200-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 126143
+SHA256sum: 0ce2b7fe8fa7c255ddf609aa13edc2a8dfc8db17bf6c8253cece1cdeb62c6452
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains a terminal-based front-end to the SQLite (v3.x) library
+ that can evaluate queries interactively and display the results in multiple
+ formats.
+
 Package: tini
 Version: 0.19.0-2
 Depends: libc
@@ -1845,6 +4072,108 @@ Filename: usbids_0.359-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 251512
 SHA256sum: 7e2b88f42d0c284f1e9db74f4ff259cf8d61d0903a7e9e7de8f7de2dafde0e51
 Description:  USB ID list
+
+Package: uwsgi-cgi-plugin
+Version: 2.0.21-1
+Depends: libc, uwsgi
+Source: feeds/packages/net/uwsgi
+SourceName: uwsgi-cgi-plugin
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9259
+Filename: uwsgi-cgi-plugin_2.0.21-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10021
+SHA256sum: 233a23acf5adc164b23b0d91e863613365d49a5eb9af6533c844bf87b08227ac
+Description:  The CGI plugin for the uWSGI project.
+
+Package: uwsgi-logfile-plugin
+Version: 2.0.21-1
+Depends: libc, uwsgi
+Source: feeds/packages/net/uwsgi
+SourceName: uwsgi-logfile-plugin
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1824
+Filename: uwsgi-logfile-plugin_2.0.21-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2613
+SHA256sum: ed049c377d25d8602dc3be6c86134b0487f9e38ff98a33376b3a5039418602d3
+Description:  The Logfile plugin for the uWSGI project.
+
+Package: uwsgi-luci-support
+Version: 2.0.21-1
+Depends: libc, uwsgi, uwsgi-syslog-plugin, uwsgi-cgi-plugin
+Source: feeds/packages/net/uwsgi
+SourceName: uwsgi-luci-support
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1262
+Filename: uwsgi-luci-support_2.0.21-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2058
+SHA256sum: 48772840abdb8a77fbe20fe24c60411fe2955048848564468855b9c0acd7640f
+Description:  Support files for LuCI on Nginx
+
+Package: uwsgi-python3-plugin
+Version: 2.0.21-1
+Depends: libc, uwsgi, python3-light
+Source: feeds/packages/net/uwsgi
+SourceName: uwsgi-python3-plugin
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 59359
+Filename: uwsgi-python3-plugin_2.0.21-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 59419
+SHA256sum: 529c8033bdfb34c00bfc49dc5d2cddf2c890edc4f14fd03725f156029ef5f58a
+Description:  The Python3 plugin for the uWSGI project.
+
+Package: uwsgi-syslog-plugin
+Version: 2.0.21-1
+Depends: libc, uwsgi
+Source: feeds/packages/net/uwsgi
+SourceName: uwsgi-syslog-plugin
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1591
+Filename: uwsgi-syslog-plugin_2.0.21-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2379
+SHA256sum: 7bc8d291a42aca724b2bb7aeeeb002750eb37d59048d510883a2fab2f1db2e43
+Description:  The Syslog plugin for the uWSGI project.
+
+Package: uwsgi
+Version: 2.0.21-1
+Depends: libc, libpcre, libcap, libuuid1
+Source: feeds/packages/net/uwsgi
+SourceName: uwsgi
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 331765
+Filename: uwsgi_2.0.21-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 329530
+SHA256sum: e4114b6f34bae0f0d40dbb15f1a0733d6dd2ef0487fe865218a081497df9b107
+Description:  The uWSGI project (to be used together with nginx or nginx-ssl).
 
 Package: vpnc-scripts
 Version: 20151220-3
