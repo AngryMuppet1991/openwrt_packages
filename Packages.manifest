@@ -36,6 +36,80 @@ Size: 3219
 SHA256sum: 5ecd36c41d672eb6c188e14ef05770bcd5c242ae4a503910f1c45ab1a6dbe61c
 Description:  ACME client wrapper common files.
 
+Package: alsa-lib
+Version: 1.2.9-1
+Depends: libc, kmod-sound-core, libpthread, librt
+Source: feeds/packages/libs/alsa-lib
+SourceName: alsa-lib
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Ted Hess <thess@kitschensync.net>, Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 385726
+Filename: alsa-lib_1.2.9-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 382528
+SHA256sum: d5de3424cd050f27dfd90c25d703d9c40ba49fd1a32909b0f8d6cb6734b444c3
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
+Package: apinger-rrd
+Version: 2015-04-09-78eb3287-5
+Depends: libc, apinger, rrdtool1, rrdcgi1
+Source: feeds/packages/net/apinger
+SourceName: apinger-rrd
+License: GPL-2.0-only
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Alex Samorukov <samm@os2.kiev.ua>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 667
+Filename: apinger-rrd_2015-04-09-78eb3287-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1449
+SHA256sum: 7b58bb6a0de25a98859583be975d8a823f03e73077b6ce5ede99095dbd4bdbb6
+Description:  Generate RRD Graphs from Apinger Data
+
+Package: apinger
+Version: 2015-04-09-78eb3287-5
+Depends: libc
+Source: feeds/packages/net/apinger
+SourceName: apinger
+License: GPL-2.0-only
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Alex Samorukov <samm@os2.kiev.ua>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 33045
+Filename: apinger_2015-04-09-78eb3287-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 34104
+SHA256sum: b372d64194fa7626ddd377a49045094f7ebe23a6a88a56c15ba2a50a150cd41e
+Description:  Alarm Pinger (apinger) is a little tool which monitors various IP devices by
+ simple ICMP echo requests. There are various other tools, that can do this,
+ but most of them are shell or perl scripts, spawning many processes, thus much
+ CPU-expensive, especially when one wants continuous monitoring and fast
+ response on target failure.  Alarm Pinger is a single program written in C, so
+ it doesn't need much CPU power even when monitoring many targets with frequent
+ probes.  Alarm Pinger supports both IPv4 and IPv6. The code have been tested
+ on Linux and FreeBSD.
+
+Package: aserver
+Version: 1.2.9-1
+Depends: libc, alsa-lib
+Source: feeds/packages/libs/alsa-lib
+SourceName: aserver
+License: GPL-2.0-or-later
+LicenseFiles: aserver/COPYING
+Section: sound
+SourceDateEpoch: 1710266352
+Maintainer: Ted Hess <thess@kitschensync.net>, Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9449
+Filename: aserver_1.2.9-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10242
+SHA256sum: 75d0d19f321eec6c5dc15433ddc4a85d4592f2578681158ae6e0df9bce1f65aa
+Description:  This is the aserver application for ALSA.
+
 Package: attr
 Version: 2.5.1-1
 Depends: libc, libattr
@@ -284,10 +358,10 @@ Section: net
 SourceDateEpoch: 1710266352
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8616134
+Installed-Size: 8619427
 Filename: cloudflared_2024.2.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8476664
-SHA256sum: eb7bf47456ea2c61d87fdf63c381a523e1131125e8b1514ee765103ce93481a0
+Size: 8481215
+SHA256sum: 00a64709b60f9ff4d706d7e88508d4e6929b42c49d402d239ba73c853481755d
 Description:  Contains the command-line client for Cloudflare Tunnel, a tunneling
  daemon that proxies traffic from the Cloudflare network to your origins.
  
@@ -2366,6 +2440,23 @@ Size: 122524
 SHA256sum: 7d7f3e71e59dbe6fb01816ec9880ba755d28d174c6f05dd584adda1620d9bc9d
 Description:  Simple interprocess messaging system (daemon)
 
+Package: docker
+Version: 25.0.3-1
+Depends: libc
+Source: feeds/packages/utils/docker
+SourceName: docker
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8217668
+Filename: docker_25.0.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8202112
+SHA256sum: e1918caf088aa42c3c641b88b8fae1b15ba6cf7dabf86cf4570479fa4a32cc7f
+Description:  The CLI used in the Docker CE and Docker EE products.
+
 Package: dockerd
 Version: 25.0.3-1
 Depends: libc, ca-certificates, containerd, iptables, iptables-mod-extra, ip6tables, kmod-ipt-nat6, libseccomp, kmod-ipt-nat, kmod-ipt-physdev, kmod-nf-ipvs, kmod-veth, tini, uci-firewall
@@ -2383,6 +2474,40 @@ Filename: dockerd_25.0.3-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 19691252
 SHA256sum: b364f8ff30cb9a27598ccf9cb2298797cf18427bf51dbc9d74516ab776e72870
 Description:  The Docker CE Engine.
+
+Package: dynapoint
+Version: 3
+Depends: libc, lua, libubus-lua, libuci-lua, libubox-lua, luci-lib-nixio
+Source: feeds/packages/net/dynapoint
+SourceName: dynapoint
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Tobias Ilte <tobias.ilte@campus.tu-berlin.de>
+Architecture: all
+Installed-Size: 2457
+Filename: dynapoint_3_all.ipk
+Size: 3300
+SHA256sum: 5e85f1d3ad96537f846ab116e472d6dbd69362075642959d40e56ab8d34baf90
+Description:  Dynapoint uses LUA scripts to allow dynamic access point creation
+ and deletion depending on changes of certain network conditions.
+
+Package: eoip
+Version: 0.5-1
+Depends: libc, kmod-tun, libpthread, liblzo2
+Source: feeds/packages/net/eoip
+SourceName: eoip
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Bogdan Shatik <bogdikxxx@mail.ru>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8808
+Filename: eoip_0.5-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9702
+SHA256sum: eed10b497283970436bb181d380b37618f44e81cef505d42d3fad7ee12b8aeb7
+Description:  linux-eoip can create ethernet tunnels compatible with Mikrotik EoIP tunnel.
+ At current moment it is easiest way to create stateless tunnel with Mikrotik.
 
 Package: etherwake
 Version: 1.09-5
@@ -2472,6 +2597,23 @@ Description:  external protocol is a general protocol for assisting
  it can be used on so many other things, naming became
  mis-leading and it was renamed to external protocol.
 
+Package: fdk-aac
+Version: 2.0.1-5
+Depends: libc
+Source: feeds/packages/sound/fdk-aac
+SourceName: fdk-aac
+License: Fraunhofer-FDK-AAC-for-Android
+LicenseFiles: NOTICE
+Section: sound
+SourceDateEpoch: 1710266352
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 313029
+Filename: fdk-aac_2.0.1-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 313827
+SHA256sum: 1d03d6a7209bde6cf05685b0528fcb704cf090f1e3a8eb69ce706b9d24413688
+Description:  Port of the Fraunhofer FDK AAC Codec Library for Android
+
 Package: file
 Version: 5.44-1
 Depends: libc, libmagic
@@ -2559,6 +2701,42 @@ Size: 842
 SHA256sum: db870600e1772f00af41e8c740b4bda928e1b5927af4498d685d5d3de29a5f04
 Description:  GNU Find Utilities (all)
 
+Package: frpc
+Version: 0.51.3-1
+Depends: libc
+Source: feeds/packages/net/frp
+SourceName: frpc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Richard Yu <yurichard3839@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5208054
+Filename: frpc_0.51.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5133872
+SHA256sum: d2416e0763122d5a1ac9dd249448f705deae195e29f5dec96aaf4dc29590abe2
+Description:  frpc is a fast reverse proxy client to help you expose a local server behind
+ a NAT or firewall to the internet.
+
+Package: frps
+Version: 0.51.3-1
+Depends: libc
+Source: feeds/packages/net/frp
+SourceName: frps
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Richard Yu <yurichard3839@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6075596
+Filename: frps_0.51.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5992781
+SHA256sum: 53ed052061dcfe2c52592d344dfa448f38aa810c45bc8e7d78fb3838260d618e
+Description:  frps is a fast reverse proxy server to help you expose a local server behind
+ a NAT or firewall to the internet.
+
 Package: giflib-utils
 Version: 5.2.1-1
 Depends: libc
@@ -2614,6 +2792,25 @@ Filename: glib2_2.74.0-5_arm_cortex-a9_vfpv3-d16.ipk
 Size: 1143094
 SHA256sum: ec5321bffd61c3b15b919d591df6f1659acce55f3b610ea203c30166e4e6c1ab
 Description:  The GLib library of C routines
+
+Package: golang-github-nextdns-nextdns-dev
+Version: 1.42.0-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/nextdns
+SourceName: golang-github-nextdns-nextdns-dev
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1710266352
+Maintainer: Olivier Poitrey <rs@nextdns.io>
+Architecture: all
+Installed-Size: 114335
+Filename: golang-github-nextdns-nextdns-dev_1.42.0-1_all.ipk
+Size: 115227
+SHA256sum: c1871267450f3981abb1552adcd9b6b56cf23cbed573c512d119a11a6545906d
+Description:  Official NextDNS DNS over HTTPS Proxy.
+ 
+ This package provides the source files for the client/bridge program.
 
 Package: golang-src
 Version: 1.21.7-1
@@ -2675,6 +2872,82 @@ Description:  The Go programming language is an open source project to make
  This package provides an assembler, compiler, linker, and compiled
  libraries for the Go programming language.
 
+Package: gpsd-clients
+Version: 3.25-1
+Depends: libc, libusb-1.0-0, libncurses6
+Source: feeds/packages/utils/gpsd
+SourceName: gpsd-clients
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:berlios:gps_daemon
+Maintainer: Pushpal Sidhu <psidhu.devel@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1043734
+Filename: gpsd-clients_3.25-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1042736
+SHA256sum: 167513a0cb90d4fc2821c6ca9bd06ec865bf1097ebd7cee776538718be65524b
+Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
+ and their clients. gpsd listens on port 2947 for clients requesting
+ position/time/velocity information.  The receivers are expected to generate
+ position information in a well-known format -- as NMEA-0183 sentences, SiRF
+ binary, Rockwell binary, Garmin binary format, or other vendor binary
+ protocols.  gpsd takes this information from the GPS and translates it into
+ something uniform and easier to understand for clients.
+ This package contains auxiliary tools and example clients for monitoring and
+ testing the GPS daemon.
+
+Package: gpsd-utils
+Version: 3.25-1
+Depends: libc, libusb-1.0-0
+Source: feeds/packages/utils/gpsd
+SourceName: gpsd-utils
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:berlios:gps_daemon
+Maintainer: Pushpal Sidhu <psidhu.devel@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3644
+Filename: gpsd-utils_3.25-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4715
+SHA256sum: 9d341ac7b6206ee1916dd1ceb4dad130af64a692c4c7b2ba2756e993d4ac572f
+Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
+ and their clients. gpsd listens on port 2947 for clients requesting
+ position/time/velocity information.  The receivers are expected to generate
+ position information in a well-known format -- as NMEA-0183 sentences, SiRF
+ binary, Rockwell binary, Garmin binary format, or other vendor binary
+ protocols.  gpsd takes this information from the GPS and translates it into
+ something uniform and easier to understand for clients.
+ This package contains utilities for interacting with GPS daemon.
+
+Package: gpsd
+Version: 3.25-1
+Depends: libc, libusb-1.0-0
+Source: feeds/packages/utils/gpsd
+SourceName: gpsd
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:berlios:gps_daemon
+Maintainer: Pushpal Sidhu <psidhu.devel@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 293742
+Filename: gpsd_3.25-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 294311
+SHA256sum: e2c7ef9498fee231f9a1497467c250a13d4ff2cb7987bc1077d7ee2a913f7dc8
+Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
+ and their clients. gpsd listens on port 2947 for clients requesting
+ position/time/velocity information.  The receivers are expected to generate
+ position information in a well-known format -- as NMEA-0183 sentences, SiRF
+ binary, Rockwell binary, Garmin binary format, or other vendor binary
+ protocols.  gpsd takes this information from the GPS and translates it into
+ something uniform and easier to understand for clients.
+ This package contains the GPS daemon.
+
 Package: grep
 Version: 3.8-2
 Depends: libc, libpcre2
@@ -2695,6 +2968,22 @@ SHA256sum: 2d58a9b32e3416d1af7e94594050c2faf84687d06a5d26dc7ce0828b3c909a4d
 Description:  The grep command searches one or more input files for lines
  containing a match to a specified pattern. By default, grep
  prints the matching lines.
+
+Package: hd-idle
+Version: 1.05-2
+Depends: libc
+Source: feeds/packages/utils/hd-idle
+SourceName: hd-idle
+License: GPL-2.0
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Lim Guo Wei <limguowei@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4789
+Filename: hd-idle_1.05-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5594
+SHA256sum: 52e5bcfc1b37c6c904cac7d42848586c361ccae15e1eef825af3cff375f3050c
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
 
 Package: idn2
 Version: 2.3.4-1
@@ -2719,6 +3008,54 @@ Description:  Libidn2 is a free software implementation of IDNA2008,
  
  Command line tool using libidn2
  
+
+Package: inotifywait
+Version: 3.20.11.0-2
+Depends: libc, libinotifytools
+Source: feeds/packages/utils/inotify-tools
+SourceName: inotifywait
+License: GPLv2
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9202
+Filename: inotifywait_3.20.11.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10181
+SHA256sum: 5f0be340454576b3d47af39f187ade4d9f43a89a1192d845417c2f8a46716d5b
+Description:  inotify-tools is a C library and a set of command-line programs for
+ Linux providing a simple interface to inotify. These programs can be
+ used to monitor and act upon filesystem events. A more detailed
+ description of the programs is further down the page. The programs are
+ written in C and have no dependencies other than a Linux kernel
+ supporting inotify.
+ 
+ This package provides the inotifywait tool.
+
+Package: inotifywatch
+Version: 3.20.11.0-2
+Depends: libc, libinotifytools
+Source: feeds/packages/utils/inotify-tools
+SourceName: inotifywatch
+License: GPLv2
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8631
+Filename: inotifywatch_3.20.11.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9609
+SHA256sum: 0827132b7209fd38551e1d22ae7e0d3a70c2d3728d0223b1a7bd702d433783ac
+Description:  inotify-tools is a C library and a set of command-line programs for
+ Linux providing a simple interface to inotify. These programs can be
+ used to monitor and act upon filesystem events. A more detailed
+ description of the programs is further down the page. The programs are
+ written in C and have no dependencies other than a Linux kernel
+ supporting inotify.
+ 
+ This package provides the inotifywatch tool.
 
 Package: kmod
 Version: 31-1
@@ -2812,6 +3149,42 @@ Size: 114799
 SHA256sum: e942946a1038b93d3c169d80b9105abab87f7a4bdb738af9843e8a0cc74a13e5
 Description:  Kerberos 5 Server
 
+Package: lame-lib
+Version: 3.100-1
+Depends: libc
+Source: feeds/packages/sound/lame
+SourceName: lame-lib
+License: LGPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: sound
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:lame_project:lame
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 174185
+Filename: lame-lib_3.100-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 174526
+SHA256sum: e2214d94395e6454ab9b17bd9a49c6abc731e460f6e70fd7b29380cca716c066
+Description:  lame mp3 encoder libs
+
+Package: lame
+Version: 3.100-1
+Depends: libc, libncurses6, lame-lib
+Source: feeds/packages/sound/lame
+SourceName: lame
+License: LGPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: sound
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:lame_project:lame
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 43493
+Filename: lame_3.100-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 44062
+SHA256sum: a355f53079079853f18c15d74c2c8fbbe8bb7b81f6a0e45a28313bb5f0af4dc8
+Description:  lame mp3 encoder
+
 Package: libacl
 Version: 2.3.1-2
 Depends: libc, libattr
@@ -2845,6 +3218,46 @@ Filename: libaio_0.3.113-2_arm_cortex-a9_vfpv3-d16.ipk
 Size: 2869
 SHA256sum: 4915bd3464fefc0f00bc6c9b8e0fb4aff5afffd8411ee9daebe4efc63da67e68
 Description:  Linux kernel AIO interface access library
+
+Package: libassuan
+Version: 2.5.5-3
+Depends: libc, libgpg-error
+Source: feeds/packages/libs/libassuan
+SourceName: libassuan
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 27515
+Filename: libassuan_2.5.5-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 28403
+SHA256sum: 2bee94735f7d318b330d6819819576f4026465020b6db57b787af849b442645f
+Description:  Libassuan is a small library implementing the so-called Assuan
+ protocol. This protocol is used for IPC between most newer GnuPG
+ components. Both, server and client side functions are provided. 
+
+Package: libatasmart
+Version: 2012-05-21-de625894-1
+Depends: libc, libudev
+Source: feeds/packages/libs/libatasmart
+SourceName: libatasmart
+License: LGPL-2.1
+LicenseFiles: LGPL
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19740
+Filename: libatasmart_2012-05-21-de625894-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20683
+SHA256sum: cafaf8bdb93d7ecaf0e9f86482aa9246b3dc21bbfd0a9b8197a20d301d4b12e9
+Description:  This library is supposed to be lean and small and thus
+ supports only a subset of the S.M.A.R.T. functionality.
+ However, I claim that it implements the relevant part of it.
+ If you need full control over all S.M.A.R.T. functionality of
+ your hardware please refer to smartmontools.
 
 Package: libattr
 Version: 2.5.1-1
@@ -2940,6 +3353,66 @@ Filename: libcbor0_0.8.0-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 15235
 SHA256sum: cf86d99aabb79b475b32d62ad758ba13d197dd22836ff44aff322971077de136
 Description:  libcbor is a C library for parsing and generating CBOR, the general-purpose schema-less binary data format.
+
+Package: libdaemon
+Version: 0.14-5
+Depends: libc
+Source: feeds/packages/libs/libdaemon
+SourceName: libdaemon
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8450
+Filename: libdaemon_0.14-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9494
+SHA256sum: eb8d2a71d9640784c6648187d20b70576065a9937ff32a46e8d8a5e17f3bdc28
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdb47
+Version: 4.7.25.4.NC-7
+Depends: libc
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+SourceName: libdb47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 541207
+Filename: libdb47_4.7.25.4.NC-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 539365
+SHA256sum: edb0fea01d84c3ea6258fb2566fb0e5a33289e59382f7faa77811977bdbe9561
+Description:  Berkeley DB library (4.7).
+
+Package: libdb47xx
+Version: 4.7.25.4.NC-7
+Depends: libc, libdb47, libstdcpp6
+Provides: libdb47xx-full
+Source: feeds/packages/libs/db47
+SourceName: libdb47xx
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 570543
+Filename: libdb47xx_4.7.25.4.NC-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 568303
+SHA256sum: f1b2724ddf061a2f07d0de516eb82a8639ef2d4764ff99e2cb7a82efe51cec8e
+Description:  Berkeley DB library (4.7).  C++ wrapper.
 
 Package: libdbus
 Version: 1.13.18-12
@@ -3065,6 +3538,23 @@ Size: 68191
 SHA256sum: ac0a55fc36981d4a793379acdda0c66395ff7a873e4bc421c65450ec709e2057
 Description:  Generic line editing, history, and tokenization functions similar to GNU Readline.
 
+Package: libev
+Version: 4.33-2
+Depends: libc
+Source: feeds/packages/libs/libev
+SourceName: libev
+License: BSD-2-Clause
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20689
+Filename: libev_4.33-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21389
+SHA256sum: 5b8ad00e78a500dcc30a228bcd83f3ed89a0f14aa3872207bdb6f98df2d67b3f
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
 Package: libevdev
 Version: 1.13.0-1
 Depends: libc
@@ -3086,6 +3576,25 @@ Description:  libevdev is a wrapper library for evdev devices. it moves the comm
  
  The eventual goal is that libevdev wraps all ioctls available to
  evdev devices, thus making direct access unnecessary.
+
+Package: libexif
+Version: 0.6.24-1
+Depends: libc
+Source: feeds/packages/libs/libexif
+SourceName: libexif
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:libexif:libexif
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 70898
+Filename: libexif_0.6.24-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 70521
+SHA256sum: a3e13e7d5d9ee4d0dd7ec22b2a687735cf81fb72a2ce17d71178cce060bff0fa
+Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
+ intended to replace lots of redundant implementations in command-line
+ utilities and programs with GUIs.
 
 Package: libexpat
 Version: 2.5.0-1
@@ -3131,6 +3640,70 @@ Description:  The libffi library provides a portable, high level programming int
  A layer must exist above libffi that handles type conversions for values passed
  between the two languages.
 
+Package: libflac
+Version: 1.3.4-1
+Depends: libc
+Source: feeds/packages/libs/flac
+SourceName: libflac
+License: GFDL-1.2 GPL-2 LGPL-2.1 BSD-3-Clause
+LicenseFiles: README COPYING.FDL COPYING.GPL COPYING.LGPL COPYING.Xiph
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:flac_project:flac
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 176461
+Filename: libflac_1.3.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 176674
+SHA256sum: 8bc942d5635beb7542946682e83b77157abc253508b7de9cb42d68c6a58615b6
+Description:  Free Lossless Audio Codec library
+
+Package: libfreetype
+Version: 2.11.1-1
+Depends: libc, zlib, libpng
+Source: feeds/packages/libs/freetype
+SourceName: libfreetype
+License: FTL GPL-2.0-only MIT ZLIB GPL-3.0-or-later
+LicenseFiles: docs/LICENSE.TXT docs/FTL.TXT docs/GPLv2.TXT src/bdf/README src/pcf/README src/gzip/zlib.h builds/unix/config.sub builds/unix/config.guess builds/unix/libtool 
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:freetype:freetype2
+Maintainer: Val Kulkov <val.kulkov@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 290060
+Filename: libfreetype_2.11.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 290282
+SHA256sum: 270f6f69efa860941fae23e4e9fc40020de8266cd1716ff2a28b8af7deaffcf9
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+
+Package: libgcrypt
+Version: 1.10.2-1
+Depends: libc, libgpg-error
+Source: feeds/packages/libs/libgcrypt
+SourceName: libgcrypt
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:gnupg:libgcrypt
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 397957
+Filename: libgcrypt_1.10.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 397000
+SHA256sum: 4af60d0c71a539c06febfc308d138fea265b351b3a7bc09be54a190d09186a30
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
 Package: libgdbm
 Version: 1.21-2
 Depends: libc
@@ -3149,6 +3722,54 @@ SHA256sum: 051aee807b16fd1bc4ab08f5699ee91c253327c3011270e17c9a1e60f48f5d5d
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
+
+Package: libgpg-error
+Version: 1.47-1
+Depends: libc
+Source: feeds/packages/libs/libgpg-error
+SourceName: libgpg-error
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 52834
+Filename: libgpg-error_1.47-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 53745
+SHA256sum: 78e58b69805bd944423753f5dace737d34be924c9d0a789c30998ae3fe31e291
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libgps30
+Version: 3.25-1
+Depends: libc, libusb-1.0-0
+Provides: libgps
+Source: feeds/packages/utils/gpsd
+SourceName: libgps
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+ABIVersion: 30
+CPE-ID: cpe:/a:berlios:gps_daemon
+Maintainer: Pushpal Sidhu <psidhu.devel@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 59892
+Filename: libgps30_3.25-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 60841
+SHA256sum: 30491795276fc6a3edf28a2d49722e4bb6935f114893c56ca7cbda67b79e15e7
+Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
+ and their clients. gpsd listens on port 2947 for clients requesting
+ position/time/velocity information.  The receivers are expected to generate
+ position information in a well-known format -- as NMEA-0183 sentences, SiRF
+ binary, Rockwell binary, Garmin binary format, or other vendor binary
+ protocols.  gpsd takes this information from the GPS and translates it into
+ something uniform and easier to understand for clients.
+ This package contains the libgps library.
 
 Package: libhttp-parser
 Version: 2.9.4-1
@@ -3193,6 +3814,25 @@ Description:  Libical is an Open Source implementation of the iCalendar protocol
  arrange meetings with other users.
  Libical implements RFC2445, RFC2446 and some of RFC2447.
 
+Package: libid3tag
+Version: 0.15.1b-4
+Depends: libc, zlib
+Source: feeds/packages/libs/libid3tag
+SourceName: libid3tag
+License: GPL-2
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:media-libs:libid3tag
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 25451
+Filename: libid3tag_0.15.1b-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26039
+SHA256sum: cfd47dba987d5b87f192ece33ca0010bdaca739b420d99adb3bb41a8f4bb80d5
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
+ ID3v1 and the various versions of ID3v2.
+
 Package: libidn2
 Version: 2.3.4-1
 Depends: libc, libunistring
@@ -3216,6 +3856,66 @@ Description:  Libidn2 is a free software implementation of IDNA2008,
  
  Library only package
  
+
+Package: libinotifytools
+Version: 3.20.11.0-2
+Depends: libc
+Source: feeds/packages/utils/inotify-tools
+SourceName: libinotifytools
+License: GPLv2
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13045
+Filename: libinotifytools_3.20.11.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13935
+SHA256sum: 050e895e11011bad897a1fdc71df0885a75b7cfb9395160bbb9b6997776d8056
+Description:  inotify-tools is a C library and a set of command-line programs for
+ Linux providing a simple interface to inotify. These programs can be
+ used to monitor and act upon filesystem events. A more detailed
+ description of the programs is further down the page. The programs are
+ written in C and have no dependencies other than a Linux kernel
+ supporting inotify.
+ 
+ This package provides the libinotifytools shared library.
+
+Package: libjpeg-turbo-utils
+Version: 2.1.4-2
+Depends: libc, libjpeg-turbo
+Provides: jpeg-tools
+Source: feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo-utils
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 48359
+Filename: libjpeg-turbo-utils_2.1.4-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 49213
+SHA256sum: dd54a12d3919201afa2bddbfaf120980ee6693742641f6d14d7ee03fd1d2e1e3
+Description:  These are the JPEG utilities that come with libjpeg-turbo.
+
+Package: libjpeg-turbo
+Version: 2.1.4-2
+Depends: libc
+Provides: libjpeg
+Source: feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 82032
+Filename: libjpeg-turbo_2.1.4-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 82837
+SHA256sum: a18231400467f3d7940abdd4146985588a7bcaa833ed449ff56d898ca72848f1
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.
 
 Package: libkmod
 Version: 31-1
@@ -3343,6 +4043,26 @@ Description:  libnatpmp is an attempt to make a portable and fully compliant imp
  the NAT-PMP code to any event driven code.
  This package contains the shared library.
 
+Package: libnetfilter-queue1
+Version: 1.0.5-4
+Depends: libc, libmnl0, libnfnetlink0
+Provides: libnetfilter-queue
+Source: feeds/packages/libs/libnetfilter-queue
+SourceName: libnetfilter-queue
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+ABIVersion: 1
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8716
+Filename: libnetfilter-queue1_1.0.5-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9559
+SHA256sum: 36529caaf34dcb0c3ae223085928dd4a5a2029a434977e3dc73cb764c4120a34
+Description:  libnetfilter_queue is a userspace library providing a programming
+ interface (API) to packets that have been queued by the kernel
+ packet filter.
+
 Package: libnetsnmp
 Version: 5.9.1-7
 Depends: libc, libnl-tiny1, libpci, libpcre2
@@ -3401,6 +4121,86 @@ Filename: libnghttp3_1.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 173242
 SHA256sum: 19fdf522dfea0f1b87e6b0407e5a7e567d776dd48032189faff394c10386e107
 Description:  nghttp3 is a thin HTTP/3 layer over an underlying QUIC stack.
+
+Package: liboath
+Version: 2.6.5-3
+Depends: libc
+Source: feeds/packages/utils/oath-toolkit
+SourceName: liboath
+License: LGPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nongnu:oath_toolkit
+Maintainer: Fam Zheng <fam@euphon.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 38235
+Filename: liboath_2.6.5-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 39051
+SHA256sum: 2ed5c236888e62ec4d110cb5b58cbd0f4b789e5ec59a6f9112d095099e922bca
+Description:  The OATH Toolkit provide components for building one-time password
+ authentication systems. It contains shared libraries, command line
+ tools and a PAM module. Supported technologies include the event-based
+ HOTP algorithm (RFC4226) and the time-based TOTP algorithm (RFC6238).
+
+Package: libogg0
+Version: 1.3.5-1
+Depends: libc
+Provides: libogg
+Source: feeds/packages/libs/libogg
+SourceName: libogg
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+ABIVersion: 0
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16245
+Filename: libogg0_1.3.5-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17153
+SHA256sum: b31bce4bcb0c2440ebedc902f5e47f259136a25d7f2ede6d87cd0a56b5c06d0d
+Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
+ compressed bitstream into a more robust, useful form.  For example,
+ the Ogg bitstream makes seeking, time stamping and error recovery
+ possible, as well as mixing several sepearate, concurrent media
+ streams into a single physical bitstream.
+
+Package: liboping
+Version: 1.10.0-3
+Depends: libc
+Source: feeds/packages/libs/liboping
+SourceName: liboping
+License: LGPL-2.1-or-later
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7344
+Filename: liboping_1.10.0-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8135
+SHA256sum: 1ee7847fc2bdf2496e9505d38cba47331da35b56f8aa65a529ccc9ee36dcb9f7
+Description:  C library to generate ICMP echo requests.
+
+Package: libopus
+Version: 1.3.1-3
+Depends: libc
+Source: feeds/packages/libs/opus
+SourceName: libopus
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:opus-codec:opus
+Maintainer: Ted Hess <thess@kitchensync.net>, Ian Leonard <antonlacon@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 178423
+Filename: libopus_1.3.1-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 179225
+SHA256sum: 72801b66abff126e08c1c455eadda6ff20c5724bff4f8648bd432aefb542c4e5
+Description:  Opus is a totally open, royalty-free, highly versatile audio codec. Opus is
+ unmatched for interactive speech and music transmission over the Internet, but
+ is also intended for storage and streaming applications.
 
 Package: libpam
 Version: 1.5.2-1
@@ -3526,6 +4326,61 @@ Size: 12225
 SHA256sum: 1e38cdcedc4321de565fceb605737b06537cff5509a3cee50ad19cec3995e8bb
 Description:  C++ wrapper for Perl Compatible Regular Expression library
 
+Package: libpng
+Version: 1.6.39-1
+Depends: libc, zlib
+Source: feeds/packages/libs/libpng
+SourceName: libpng
+License: Libpng GPL-2.0-or-later BSD-3-Clause
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:libpng:libpng
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 85914
+Filename: libpng_1.6.39-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 86741
+SHA256sum: 1e094e7b95ca33a7029eea34ea92a5952105b4cb4c7759860846e4988d9208e4
+Description:  A PNG format files handling library
+
+Package: libprotobuf-c
+Version: 1.4.1-1
+Depends: libc
+Source: feeds/packages/libs/protobuf-c
+SourceName: libprotobuf-c
+License: BSD-2-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1710266352
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8796
+Filename: libprotobuf-c_1.4.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9666
+SHA256sum: 685b3341f04813922690ad563008f52f2ed3a2bf77d112c398d92408855ee1b8
+Description:  Runtime library to use Google Protocol Buffers from C applications.
+ Protocol Buffers are a way of encoding structured data in an efficient yet
+ extensible format. Google uses Protocol Buffers for almost all of its
+ internal RPC protocols and file formats.
+
+Package: libpsl5
+Version: 0.21.2-1
+Depends: libc, libidn2, libunistring
+Provides: libpsl
+Source: feeds/packages/libs/libpsl
+SourceName: libpsl
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1710266352
+ABIVersion: 5
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 53732
+Filename: libpsl5_0.21.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 54627
+SHA256sum: f1b2c8a381110926c6e9356a6c348099e5ed5dcc7fb12669e8bd0141761f3fcf
+Description:  C library to handle the Public Suffix List
+
 Package: libpython3-3.11
 Version: 3.11.7-1
 Depends: libc, libpthread
@@ -3556,6 +4411,41 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  Unix variants including Linux and macOS, and on Windows.
  
  This package contains only core Python library.
+
+Package: libqrencode
+Version: 4.1.1-1
+Depends: libc
+Source: feeds/packages/libs/qrencode
+SourceName: libqrencode
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 15243
+Filename: libqrencode_4.1.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16118
+SHA256sum: 1eaf641836007f980c76e2ab2e187cdeff065103bbbb2d0c2168fc4f1133c7d9
+Description:  Libqrencode is a C library for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
+Package: libradcli
+Version: 1.3.0-1
+Depends: libc, libnettle8
+Source: feeds/packages/libs/libradcli
+SourceName: libradcli
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 22586
+Filename: libradcli_1.3.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23354
+SHA256sum: 9cb10cecda8620ca5e849afadd6a3f2187fc9afaeda3fdf1a20b444b1f2809f2
+Description:  A library for radius clients
 
 Package: librouteros
 Version: 2018-07-19-c485c777-2
@@ -3603,6 +4493,26 @@ Description:  RRD is the Acronym for Round Robin Database. RRD is a system to st
  separate dynamic linked libraries.
  This package contains a shared library, used by other programs.
 
+Package: librtlsdr
+Version: 2.0.1-1
+Depends: libc, libusb-1.0-0
+Source: feeds/packages/utils/rtl-sdr
+SourceName: librtlsdr
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20718
+Filename: librtlsdr_2.0.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21560
+SHA256sum: d98053e908813d86e8f07cec3bf1fbc6aac0eda9c526c524850afeefd816cb47
+Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
+ an inexpensive SDR.
+ 
+ This package contains the librtlsdr shared library.
+
 Package: libseccomp
 Version: 2.5.4-2
 Depends: libc
@@ -3620,6 +4530,28 @@ Filename: libseccomp_2.5.4-2_arm_cortex-a9_vfpv3-d16.ipk
 Size: 44192
 SHA256sum: d0914045b30c1cbaab1ce8451632f5ddf9ed6d85dcc69d76607fe3f33edc1242
 Description:  This package contains the seccomp library.
+
+Package: libsodium
+Version: 1.0.18-4
+Depends: libc
+Source: feeds/packages/libs/libsodium
+SourceName: libsodium
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Damiano Renfer <x9w2n7xnu@relay.firefox.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 120954
+Filename: libsodium_1.0.18-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 122115
+SHA256sum: f508b3314a99237ddcf935cb04e1700304cf762d4026c1ca00dee7c31bfac9eb
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
 
 Package: libsqlite3-0
 Version: 3410200-1
@@ -3641,6 +4573,45 @@ Description:  SQLite is a small C library that implements a self-contained, embe
  zero-configuration SQL database engine.
  This package contains the SQLite (v3.x) shared library, used by other
  programs.
+
+Package: libtasn1
+Version: 4.19.0-2
+Depends: libc
+Source: feeds/packages/libs/libtasn1
+SourceName: libtasn1
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:gnu:libtasn1
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 30730
+Filename: libtasn1_4.19.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 31493
+SHA256sum: 0493b7824729bb501878d2b051bd6dcaa88e29adec5f8551e42b6d4aa4e7c71c
+Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
+ Distinguish Encoding Rules (DER) manipulation.
+
+Package: libtiff6
+Version: 4.5.0-1
+Depends: libc, zlib, libjpeg
+Provides: libtiff
+Source: feeds/packages/libs/tiff
+SourceName: libtiff
+License: BSD-3-Clause
+LicenseFiles: COPYRIGHT
+Section: libs
+SourceDateEpoch: 1710266352
+ABIVersion: 6
+CPE-ID: cpe:/a:libtiff:libtiff
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 139123
+Filename: libtiff6_4.5.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 139477
+SHA256sum: 6f7feb5c9b98f4e9f8016c9cae194cd5b5804f355396bcf857bb79715863b8d9
+Description:  TIFF library
 
 Package: libtirpc
 Version: 1.3.3-1
@@ -3712,6 +4683,26 @@ Size: 9509
 SHA256sum: 927dbec7a357eb4d16272113eb8a93b4cc66082c508388237b1c767e260fc73f
 Description:  Drop-in replacement for libudev
 
+Package: libusb-compat4
+Version: 0.1.7-2
+Depends: libc, libusb-1.0-0
+Provides: libusb-compat
+Source: feeds/packages/libs/libusb-compat
+SourceName: libusb-compat
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+ABIVersion: 4
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5746
+Filename: libusb-compat4_0.1.7-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6578
+SHA256sum: 3fbbab8076d8bf937311cbe9e19bbb7970bc7d6a602f2513c218783fe9c0eee0
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
 Package: libutp
 Version: 2023-02-14-c95738b1-1
 Depends: libc, libstdcpp6
@@ -3750,6 +4741,31 @@ SHA256sum: e08326942735fab2eda60f8a0e3c899b10cf77d386ebae88d7c554ebe69d312b
 Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
  was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
  pyuv, and others.
+
+Package: libvorbis
+Version: 1.3.7-2
+Depends: libc, libogg0
+Source: feeds/packages/libs/libvorbis
+SourceName: libvorbis
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:xiph.org:libvorbis
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 179714
+Filename: libvorbis_1.3.7-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 178409
+SHA256sum: 92d4af778bcc7c55ce52a111203bfa8d077dad726df904624d7f65112cf7a2eb
+Description:  Vorbis is a general purpose audio and music encoding format
+ contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
+ MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
+ proprietary formats such as RealAudio G2 and Windows' flavor of the
+ month), the Vorbis CODEC specification belongs to the public domain.
+ All the technical details are published and documented, and any
+ software entity may make full use of the format without license
+ fee, royalty or patent concerns.
 
 Package: libwebp
 Version: 1.3.2-1
@@ -3801,6 +4817,45 @@ Size: 39365
 SHA256sum: cbf0f5ee1aeb2640544f968c856040b14978aa0566de8fba1b9e73fc4e01c329
 Description:  Fast YAML 1.1 parser and emitter library
 
+Package: libzmq-curve
+Version: 4.3.4-4
+Depends: libc, libuuid1, libstdcpp6, libsodium, openpgm
+Provides: libzmq
+Source: feeds/packages/libs/zmq
+SourceName: libzmq-curve
+License: GPL-3.0-or-later
+LicenseFiles: LICENCE.txt
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:zeromq:libzmq
+Maintainer: Dirk Chang <dirk@kooiot.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 251072
+Filename: libzmq-curve_4.3.4-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 249440
+SHA256sum: fccf529e5bd2d456ff44a0b111c4e8b629ea97014e9073584f1e09d1981300b6
+Description:  This package contains the ZeroMQ messaging engine shared library.
+ Includes CurveZMQ security by libsodium.
+
+Package: libzmq-nc
+Version: 4.3.4-4
+Depends: libc, libuuid1, libstdcpp6, openpgm
+Provides: libzmq
+Source: feeds/packages/libs/zmq
+SourceName: libzmq-nc
+License: GPL-3.0-or-later
+LicenseFiles: LICENCE.txt
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:zeromq:libzmq
+Maintainer: Dirk Chang <dirk@kooiot.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 260008
+Filename: libzmq-nc_4.3.4-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 258352
+SHA256sum: ed0ed040d31ae86fd4d7965d48a442865c497728ebb14154ac346254cb7c6212
+Description:  This package contains the ZeroMQ messaging engine shared library.
+
 Package: libzstd
 Version: 1.5.2-2
 Depends: libc
@@ -3817,6 +4872,23 @@ Size: 329418
 SHA256sum: 7f8ec03a17bcb2c8d2cf8f540771635dac9315e62cb557cbcd109a0775859c99
 Description:  Zstandard - Fast real-time compression algorithm.
  This package provides libzstd library.
+
+Package: luafilesystem
+Version: 1.8.0-1
+Depends: libc, liblua5.1.5
+Source: feeds/packages/lang/luafilesystem
+SourceName: luafilesystem
+Section: lang
+SourceDateEpoch: 1710266352
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5127
+Filename: luafilesystem_1.8.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5915
+SHA256sum: 148911a1242d101dde62b31f06a4bb876fb875ce2444d891b529c3986a2bf914
+Description:  This package contains the LuaFileSystem library, a set of portable
+ functions for directory creation, listing and deletion and for file
+ locking.
 
 Package: luajit
 Version: 2.1.0-beta3-7
@@ -4027,6 +5099,40 @@ Description:  libnatpmp is an attempt to make a portable and fully compliant imp
  all calls of the API are asynchronous. It is therefore very easy to integrate
  the NAT-PMP code to any event driven code.
  This package contains the natpmp client.
+
+Package: nextdns
+Version: 1.42.0-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/nextdns
+SourceName: nextdns
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Olivier Poitrey <rs@nextdns.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2990861
+Filename: nextdns_1.42.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2961294
+SHA256sum: e08717ebffd23372b49a04e6f19960d98d1290d27ca42838f8390dc4b30019cc
+Description:  Official NextDNS DNS over HTTPS Proxy.
+
+Package: nft-qos
+Version: 1.0.6-4
+Depends: libc, kmod-nft-netdev, kmod-nft-bridge, nftables
+Source: feeds/packages/net/nft-qos
+SourceName: nft-qos
+License: GPL-2.0
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Rosy Song <rosysong@rosinson.com>
+Architecture: all
+Installed-Size: 4800
+Filename: nft-qos_1.0.6-4_all.ipk
+Size: 5648
+SHA256sum: 8fd19964b4bcae2b1399fdcef03890c43792d289a9c0de340b4ec45c8b8dec26
+Description:  This package provides implementation for qos over nftables.
+ Currently, static/dynamic qos and traffic shaping are supported.
 
 Package: nginx-full
 Version: 1.25.0-4
@@ -4319,6 +5425,39 @@ Size: 1045
 SHA256sum: 07d3d621d3704c63e303e9e1facee1f7188c4ac9742a1490d1cf7ccc4ee23af1
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev.
 
+Package: nlbwmon
+Version: 2021-09-01-d82c910c-1
+Depends: libc, libubox20230523, libnl-tiny1, zlib, kmod-nf-conntrack-netlink
+Source: feeds/packages/net/nlbwmon
+SourceName: nlbwmon
+License: ISC
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21029
+Filename: nlbwmon_2021-09-01-d82c910c-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21850
+SHA256sum: 4e70dec0431ce4534af444790525efc3a1e883ddd5186dac7409bc8b5bd655ca
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: noping
+Version: 1.10.0-3
+Depends: libc, liboping, libncurses6
+Source: feeds/packages/libs/liboping
+SourceName: noping
+License: LGPL-2.1-or-later
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12257
+Filename: noping_1.10.0-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13042
+SHA256sum: 7487d6080f04f4f00ab72f9e72bdc23e84eff649ba471d67e774a5261719f1be
+Description:  Ncurses application to send ICMP echo request to network hosts
+
 Package: ntp-keygen
 Version: 4.2.8p15-4
 Depends: libc, libopenssl3, libpthread, libcap, libevent2-core7
@@ -4408,6 +5547,48 @@ Description:  The ISC ntp suite is a collection of tools used to synchronize the
  .
  This package contains ntpdate.
 
+Package: oath-pam
+Version: 2.6.5-3
+Depends: libc, libpam, liboath
+Source: feeds/packages/utils/oath-toolkit
+SourceName: oath-pam
+License: LGPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nongnu:oath_toolkit
+Maintainer: Fam Zheng <fam@euphon.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4123
+Filename: oath-pam_2.6.5-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5054
+SHA256sum: 499d340048b11e29f95863dd1d135e6e3474f7f07cf9d7931f6a40406b18dab0
+Description:  The OATH Toolkit provide components for building one-time password
+ authentication systems. It contains shared libraries, command line
+ tools and a PAM module. Supported technologies include the event-based
+ HOTP algorithm (RFC4226) and the time-based TOTP algorithm (RFC6238).
+
+Package: oath-toolkit
+Version: 2.6.5-3
+Depends: libc, liboath
+Source: feeds/packages/utils/oath-toolkit
+SourceName: oath-toolkit
+License: LGPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:nongnu:oath_toolkit
+Maintainer: Fam Zheng <fam@euphon.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 29851
+Filename: oath-toolkit_2.6.5-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 30769
+SHA256sum: 62fa532d466ab037a3a3ab503a8ed62229db6748cd134fc18b5a7f63625e65b3
+Description:  The OATH Toolkit provide components for building one-time password
+ authentication systems. It contains shared libraries, command line
+ tools and a PAM module. Supported technologies include the event-based
+ HOTP algorithm (RFC4226) and the time-based TOTP algorithm (RFC6238).
+
 Package: openpgm
 Version: 5.3.128-1
 Depends: libc
@@ -4427,6 +5608,41 @@ SHA256sum: 7e9e7c58c8e7187cf82df50dad01d8fea367688d8ef873a94bc6d9d45dad37a2
 Description:  OpenPGM is a library implementing the PGM reliable multicast
  network protocol. For more information about OpenPGM, see:
  http://openpgm.googlecode.com/
+
+Package: oping
+Version: 1.10.0-3
+Depends: libc, liboping
+Source: feeds/packages/libs/liboping
+SourceName: oping
+License: LGPL-2.1-or-later
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8795
+Filename: oping_1.10.0-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9556
+SHA256sum: 74a9c42285aa1229c545e742dc50316c63c5b921084ab8d5e5fc5666e71df20e
+Description:  Send ICMP echo request to network hosts
+
+Package: p11-kit
+Version: 0.24.1-2
+Depends: libc, libtasn1, libpthread
+Source: feeds/packages/libs/p11-kit
+SourceName: p11-kit
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 237601
+Filename: p11-kit_0.24.1-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 223598
+SHA256sum: ce549e013c45a5279b6a1a048ac036cd40ec024da1984fa96eb545040e8c0ea7
+Description:  Provides a way to load and enumerate PKCS11 modules. Provides a
+ standard configuration setup for installing PKCS11 modules in such a
+ way that they are discoverable.
 
 Package: p910nd
 Version: 0.97-11
@@ -4849,6 +6065,53 @@ Filename: proto-bonding_2021-04-09-3_all.ipk
 Size: 2636
 SHA256sum: 16f1a0787a48a87ac5e86d45a89ea31117f480dbfe67430095a9485117424dc8
 Description:  This package contains the channel bonding proto handler for netifd
+
+Package: protobuf-lite
+Version: 3.17.3-1
+Depends: libc, zlib, libpthread, libatomic1, libstdcpp6
+Source: feeds/packages/libs/protobuf
+SourceName: protobuf-lite
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:google:protobuf
+Maintainer: Ken Keys <kkeys@caida.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 142129
+Filename: protobuf-lite_3.17.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 142949
+SHA256sum: 4ceb017cd6cb15ca6c8734df72b739814c9a8a1983723efa1042d5de3879e83e
+Description:  Protocol Buffers are a way of encoding structured data in an efficient
+ yet extensible format. Google uses Protocol Buffers for almost all
+ of its internal RPC protocols and file formats.
+ 
+ This package provides the libprotobuf-lite library.
+ 
+
+Package: protobuf
+Version: 3.17.3-1
+Depends: libc, zlib, libpthread, libatomic1, libstdcpp6, protobuf-lite
+Source: feeds/packages/libs/protobuf
+SourceName: protobuf
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:google:protobuf
+Maintainer: Ken Keys <kkeys@caida.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1350507
+Filename: protobuf_3.17.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1343969
+SHA256sum: e0bb0962df1c3c81fe03410b981dddd0353730c166dbd0414b82172ff26029b9
+Description:  Protocol Buffers are a way of encoding structured data in an efficient
+ yet extensible format. Google uses Protocol Buffers for almost all
+ of its internal RPC protocols and file formats.
+ 
+ This package provides the libprotoc, libprotobuf, and libprotobuf-lite
+ libraries.  For a much smaller protobuf package, see "protobuf-lite".
+ 
 
 Package: python3-asyncio-src
 Version: 3.11.7-1
@@ -6446,6 +7709,26 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package installs almost all parts of the standard Python
  installation.
 
+Package: qrencode
+Version: 4.1.1-1
+Depends: libc, libqrencode
+Source: feeds/packages/libs/qrencode
+SourceName: qrencode
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10418
+Filename: qrencode_4.1.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11356
+SHA256sum: 14a9f19c53a4d9cd2f54b2db680b6332650ffe86a4a389ffe3231ba68d7b5abd
+Description:  Qrencode is a C program for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
 Package: rrdcgi1
 Version: 1.0.50-5
 Depends: libc, librrd1
@@ -6499,6 +7782,26 @@ Description:  RRD is the Acronym for Round Robin Database. RRD is a system to st
  separate dynamic linked libraries.
  This package contains command line tools used to manage RRDs.
 
+Package: rtl-sdr
+Version: 2.0.1-1
+Depends: libc, librt, libpthread, librtlsdr
+Source: feeds/packages/utils/rtl-sdr
+SourceName: rtl-sdr
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 43346
+Filename: rtl-sdr_2.0.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 44010
+SHA256sum: 1888cd1b1725336045dfa026251076c8b22673feb97e20dba9d69e069a94ba42
+Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
+ an inexpensive SDR.
+ 
+ This package contains the utilities and daemons.
+
 Package: runc
 Version: 1.1.12-1
 Depends: libc, libseccomp
@@ -6515,6 +7818,24 @@ Filename: runc_1.1.12-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 3387851
 SHA256sum: 4d32a2655a79664166590f7368cdac501b2a69396f7c9bff61a5bcd7c8a019ff
 Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
+Package: scmp_sys_resolver
+Version: 2.5.4-2
+Depends: libc, libseccomp
+Source: feeds/packages/libs/libseccomp
+SourceName: scmp_sys_resolver
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:libseccomp_project:libseccomp
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1588
+Filename: scmp_sys_resolver_2.5.4-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2386
+SHA256sum: d64534c58ab1036cd54214862116b28115295af84af289562c1e2124d290ad6e
+Description:  seccomp scmp_sys_resolver
 
 Package: sed
 Version: 4.9-1
@@ -7188,6 +8509,26 @@ Description:  Full versions of standard shadow utilities. Normally, you would no
  use this package, since the functionality in BusyBox is more than
  sufficient and much smaller.
 
+Package: shine
+Version: 3.1.1-1
+Depends: libc
+Source: feeds/packages/sound/shine
+SourceName: shine
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: sound
+SourceDateEpoch: 1710266352
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 26063
+Filename: shine_3.1.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26861
+SHA256sum: f57e18fe94793729dc8cfa6a2096908ca6f0e6db8e5ea828439e26d4b325767c
+Description:  savonet/shine is a blazing fast mp3 encoding library implemented in fixed-point
+ arithmetic. The library can thus be used to perform super fast mp3 encoding on
+ architectures without a FPU, such as armel, etc.. It is also, however, also
+ super fast on architectures with a FPU!
+
 Package: snmp-mibs
 Version: 5.9.1-7
 Depends: libc
@@ -7305,6 +8646,102 @@ Description:  SQLite is a small C library that implements a self-contained, embe
  This package contains a terminal-based front-end to the SQLite (v3.x) library
  that can evaluate queries interactively and display the results in multiple
  formats.
+
+Package: sudo
+Version: 1.9.14p3-1
+Depends: libc
+Source: feeds/packages/admin/sudo
+SourceName: sudo
+License: ISC
+LicenseFiles: doc/LICENSE
+Section: admin
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:todd_miller:sudo
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 510531
+Filename: sudo_1.9.14p3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 510094
+SHA256sum: 2f2be7ad5834e33aeed556c1dcb817b1588c2f3591180ea7c2096cd285b52444
+Description:  Sudo (su "do") allows a system administrator to delegate authority to
+ give certain users (or groups of users) the ability to run some (or
+ all) commands as root or another user while providing an audit trail of
+ the commands and their arguments.
+
+Package: sx1302_hal-tests
+Version: 2.1.0-1
+Depends: libc, kmod-usb-acm
+Source: feeds/packages/libs/sx1302_hal
+SourceName: sx1302_hal-tests
+License: MIT BSD-3-Clause
+LicenseFiles: LICENSE.TXT
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Marcus Schref <mschref@tdt.de>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 772987
+Filename: sx1302_hal-tests_2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 771161
+SHA256sum: 3f3ecc4554651afb0055e1a08bcfe4bd2c8381b5a2307442ec4cbc17bc00d77c
+Description:  Tests for SX1302/SX1303 Hardware Abstraction Layer
+
+Package: sx1302_hal-utils
+Version: 2.1.0-1
+Depends: libc, kmod-usb-acm
+Source: feeds/packages/libs/sx1302_hal
+SourceName: sx1302_hal-utils
+License: MIT BSD-3-Clause
+LicenseFiles: LICENSE.TXT
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Marcus Schref <mschref@tdt.de>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 205048
+Filename: sx1302_hal-utils_2.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 205128
+SHA256sum: 163f97a5e88b5e0b5a55f442e329b4739b28fdb2b9d0bd6ff478f4313666734b
+Description:  Utilities for SX1302/SX1303 Hardware Abstraction Layer
+
+Package: tcl
+Version: 8.6.11-2
+Depends: libc, libpthread, zlib
+Source: feeds/packages/lang/tcl
+SourceName: tcl
+License: TCL
+LicenseFiles: license.terms
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:tcl_tk:tcl_tk
+Maintainer: Joe Mistachkin <joe@mistachkin.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1239260
+Filename: tcl_8.6.11-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1228613
+SHA256sum: 922049af79ac9282028933f1e0b2a61959966bd2307646d97364562f21237155
+Description:  Tcl, or Tool Command Language, is a an elegant, versatile, feature-rich,
+ simple-to-learn yet very powerful industrial-strength open-source
+ programming language and development platform. It is renowned for its
+ stability and utility, and its emphasis on providing a cross-platform
+ programming API makes it an ideal choice for an enormous variety of
+ programming jobs.
+
+Package: tiff-utils
+Version: 4.5.0-1
+Depends: libc, libtiff6
+Source: feeds/packages/libs/tiff
+SourceName: tiff-utils
+License: BSD-3-Clause
+LicenseFiles: COPYRIGHT
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:libtiff:libtiff
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 157070
+Filename: tiff-utils_4.5.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 157538
+SHA256sum: 90a4ccac065d8f0efe40d08af2d752cb02a21e6641d44c843dd3506695e06159
+Description:  TIFF utilities
 
 Package: tini
 Version: 0.19.0-2
@@ -7499,6 +8936,24 @@ Size: 329530
 SHA256sum: e4114b6f34bae0f0d40dbb15f1a0733d6dd2ef0487fe865218a081497df9b107
 Description:  The uWSGI project (to be used together with nginx or nginx-ssl).
 
+Package: v2raya
+Version: 2.2.5.1-1
+Depends: libc, ca-bundle, kmod-nft-tproxy, xray-core
+Source: feeds/packages/net/v2raya
+SourceName: v2raya
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10961518
+Filename: v2raya_2.2.5.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10824596
+SHA256sum: 6326518efb040d0ecd5669e9566841a52c6c41fdc5e1138a36014147c4b3b92c
+Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
+ compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
+
 Package: vpnc-scripts
 Version: 20151220-3
 Depends: libc
@@ -7568,6 +9023,44 @@ Description:  xinetd has access control mechanisms, extensive logging capabiliti
  on the number of servers that can be started, and has deployable
  defence mechanisms to protect against port scanners, among other
  things.
+
+Package: xray-core
+Version: 1.8.7-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9902179
+Filename: xray-core_1.8.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9756546
+SHA256sum: f4633c8731d5eadc718ddf6941caf83748a983d97e80bf6bfc72d425617ba778
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-example
+Version: 1.8.7-1
+Depends: libc, xray-core
+Source: feeds/packages/net/xray-core
+SourceName: xray-example
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1710266352
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 551
+Filename: xray-example_1.8.7-1_all.ipk
+Size: 1404
+SHA256sum: 35661634f9e23989e72140202ef15915ea01d3eaecbe92b0f19161d4f1918474
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for xray-core.
 
 Package: xz-utils
 Version: 5.4.6-1
