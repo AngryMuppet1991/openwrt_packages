@@ -3245,6 +3245,74 @@ Size: 1045
 SHA256sum: 07d3d621d3704c63e303e9e1facee1f7188c4ac9742a1490d1cf7ccc4ee23af1
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev.
 
+Package: ntp-keygen
+Version: 4.2.8p15-4
+Depends: libc, libopenssl3, libpthread, libcap, libevent2-core7
+License: Unique
+Section: net
+CPE-ID: cpe:/a:ntp:ntp
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 81425
+Filename: ntp-keygen_4.2.8p15-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 82000
+SHA256sum: c9b07cf07846d3e2f1518659957cdc6ecff9181a87b49642ad2f212b7e67dd47
+Description:  The ISC ntp suite is a collection of tools used to synchronize the
+ system clock with remote NTP time servers and run/monitor local NTP
+ servers.
+ .
+ This package contains the ntp-keygen.
+
+Package: ntp-utils
+Version: 4.2.8p15-4
+Depends: libc, libopenssl3, libpthread, libcap, libevent2-pthreads7
+License: Unique
+Section: net
+CPE-ID: cpe:/a:ntp:ntp
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 362549
+Filename: ntp-utils_4.2.8p15-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 361820
+SHA256sum: 8f5a2c6fdc74d5f2d5e6596f04d9a3c964b4a8c8ec3163139567de4145087e22
+Description:  The ISC ntp suite is a collection of tools used to synchronize the
+ system clock with remote NTP time servers and run/monitor local NTP
+ servers.
+ .
+ This package contains ntpdc, ntpq, ntptime and sntp.
+
+Package: ntpd
+Version: 4.2.8p15-4
+Depends: libc, libopenssl3, libpthread, libcap, ntp-utils
+License: Unique
+Section: net
+CPE-ID: cpe:/a:ntp:ntp
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 267752
+Filename: ntpd_4.2.8p15-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 267352
+SHA256sum: 996bb458a3d432c9ff09c97c2032d96f74e25bdd89202451ab02a52e1ad614dd
+Description:  The ISC ntp suite is a collection of tools used to synchronize the
+ system clock with remote NTP time servers and run/monitor local NTP
+ servers.
+ .
+ This package contains the ntpd server.
+
+Package: ntpdate
+Version: 4.2.8p15-4
+Depends: libc, libopenssl3, libpthread, libcap
+License: Unique
+Section: net
+CPE-ID: cpe:/a:ntp:ntp
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 53267
+Filename: ntpdate_4.2.8p15-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 54014
+SHA256sum: 6114f617a1b21954b2884b86dde55cf11dfb9814d4b68e2211308e33503e10be
+Description:  The ISC ntp suite is a collection of tools used to synchronize the
+ system clock with remote NTP time servers and run/monitor local NTP
+ servers.
+ .
+ This package contains ntpdate.
+
 Package: openpgm
 Version: 5.3.128-1
 Depends: libc
@@ -3569,6 +3637,18 @@ Description:  procps is a set of command line and full-screen utilities that pro
  
  NOTE: some utilities provided by procps-ng packages (ps, uptime, kill, ...) are installed as busybox applets, by default.
  Conflicting applets should be removed from the build to avoid file conflicts.
+
+Package: proto-bonding
+Version: 2021-04-09-3
+Depends: libc, kmod-bonding
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1865
+Filename: proto-bonding_2021-04-09-3_all.ipk
+Size: 2636
+SHA256sum: 16f1a0787a48a87ac5e86d45a89ea31117f480dbfe67430095a9485117424dc8
+Description:  This package contains the channel bonding proto handler for netifd
 
 Package: python3-asyncio-src
 Version: 3.11.7-1
@@ -5867,6 +5947,152 @@ Filename: xzmore_5.4.6-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 2141
 SHA256sum: 274709e278b4fc4aa9b8cc5229b642ff6977f8ee381e1567620898ae9fbd378f
 Description:  Contains: xzmore  lzmore
+
+Package: zoneinfo-africa
+Version: 2023c-2
+Depends: libc, zoneinfo-core
+License: Public Domain
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8539
+Filename: zoneinfo-africa_2023c-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9258
+SHA256sum: 2333e8e10ccdcfe67505974de4aa2e0fe4c120879e0019134382912127f822e2
+Description:  Zone Information (Africa)
+
+Package: zoneinfo-all
+Version: 2023c-2
+Depends: libc, zoneinfo-core, zoneinfo-africa, zoneinfo-america, zoneinfo-poles, zoneinfo-asia, zoneinfo-atlantic, zoneinfo-australia-nz, zoneinfo-pacific, zoneinfo-europe, zoneinfo-indian
+License: Public Domain
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 95
+Filename: zoneinfo-all_2023c-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 891
+SHA256sum: 870081833ec9ee42bdd2b2561a3b20e3ae50ef472ff26cbc63c65e38b00ed447
+Description:  Zone Information (all zones)
+
+Package: zoneinfo-america
+Version: 2023c-2
+Depends: libc, zoneinfo-core
+Provides: zoneinfo-northamerica, zoneinfo-southamerica
+License: Public Domain
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 87284
+Filename: zoneinfo-america_2023c-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 86864
+SHA256sum: 7b8b6b5502937600e0ffe7558173e70e00436fa3199c17cc6ec713071fa061cd
+Description:  Zone Information (America North/South)
+
+Package: zoneinfo-asia
+Version: 2023c-2
+Depends: libc, zoneinfo-core
+License: Public Domain
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 30629
+Filename: zoneinfo-asia_2023c-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 31065
+SHA256sum: 309a5d628eb834fabd82ada87141fffd48257a25403cda01ad036f9fe63431e8
+Description:  Zone Information (Asia)
+
+Package: zoneinfo-atlantic
+Version: 2023c-2
+Depends: libc, zoneinfo-core
+License: Public Domain
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5793
+Filename: zoneinfo-atlantic_2023c-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6525
+SHA256sum: 7a215f2db2c81a3ac272072993cda333339160b71bb44d91c579c4f169bd6dfe
+Description:  Zone Information (Atlantic Ocean)
+
+Package: zoneinfo-australia-nz
+Version: 2023c-2
+Depends: libc, zoneinfo-core
+License: Public Domain
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6687
+Filename: zoneinfo-australia-nz_2023c-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7393
+SHA256sum: 2455e60a5ad6a059fd26ba3c8ab986f372a62892699e0c79332e71013909c273
+Description:  Zone Information (Australia-NZ)
+
+Package: zoneinfo-core
+Version: 2023c-2
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20180
+Filename: zoneinfo-core_2023c-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20617
+SHA256sum: e749ba19171d93eada810f4d09b9b55c024635f24ac483ef180389a8034c78b8
+Description:  Zone Information (core)
+
+Package: zoneinfo-europe
+Version: 2023c-2
+Depends: libc, zoneinfo-core
+License: Public Domain
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21705
+Filename: zoneinfo-europe_2023c-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22394
+SHA256sum: e4a949cf53f6c6fe41deaae47dce04626337274e22cf19dbb2040699cb4377a9
+Description:  Zone Information (Europe)
+
+Package: zoneinfo-indian
+Version: 2023c-2
+Depends: libc, zoneinfo-core
+Provides: zoneinfo-india
+License: Public Domain
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 939
+Filename: zoneinfo-indian_2023c-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1711
+SHA256sum: df17d8af15111538effca6a14e45f8a8e21daaf2f7420b0105e192f6f943180e
+Description:  Zone Information (Indian Ocean)
+
+Package: zoneinfo-pacific
+Version: 2023c-2
+Depends: libc, zoneinfo-core
+License: Public Domain
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6656
+Filename: zoneinfo-pacific_2023c-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7432
+SHA256sum: 980f13744cfb46f056cb5455d68624cc0d1d80ab93913ea9923427d2ce793b52
+Description:  Zone Information (Pacific Ocean)
+
+Package: zoneinfo-poles
+Version: 2023c-2
+Depends: libc, zoneinfo-core
+License: Public Domain
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5045
+Filename: zoneinfo-poles_2023c-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5806
+SHA256sum: ec1cf665e53a84b6d84b7f4fce6e3f0dbf27750abfa485e30e20e1e0410097db
+Description:  Zone Information (Arctic, Antarctic)
+
+Package: zoneinfo-simple
+Version: 2023c-2
+Depends: libc, zoneinfo-core
+License: Public Domain
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16827
+Filename: zoneinfo-simple_2023c-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17472
+SHA256sum: 73412a7b33ec24e71658e7374b726bed3105e902e723e33a056933a509433ece
+Description:  Zone Information (simple)
 
 Package: zstd
 Version: 1.5.2-2
