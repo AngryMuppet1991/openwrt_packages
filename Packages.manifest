@@ -1,1 +1,847 @@
+Package: acl
+Version: 2.3.1-2
+Depends: libc, libacl
+Source: feeds/packages/utils/acl
+SourceName: acl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19887
+Filename: acl_2.3.1-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20673
+SHA256sum: 7ecce22de2cf12e1b9141d445591e7493dbebc1167a3dd1e38ece9410fec5be2
+Description:  Access control list support
+ This package provides ACL manipulation utilities
+ - chacl
+ - getfacl
+ - setfacl
+
+Package: attr
+Version: 2.5.1-1
+Depends: libc, libattr
+Source: feeds/packages/utils/attr
+SourceName: attr
+License: GPL-2.0-or-later
+LicenseFiles: doc/COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12576
+Filename: attr_2.5.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13395
+SHA256sum: c8af38df5bf4fa58eadaa9d39d05105e985018f6fc9a2e848b2fe1a411cbd181
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: btrfs-progs
+Version: 6.5.1-1
+Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs, libzstd
+Source: feeds/packages/utils/btrfs-progs
+SourceName: btrfs-progs
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Karel Kočí <karel.koci@nic.cz>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1161332
+Filename: btrfs-progs_6.5.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1160425
+SHA256sum: eaabb24027aa414951d699bac3bfcd11d142dcfd2a82371aea5da2c33e11971d
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
+Package: cgroupfs-mount
+Version: 2020-06-26-05494281-2
+Depends: libc, mount-utils
+Source: feeds/packages/utils/cgroupfs-mount
+SourceName: cgroupfs-mount
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1236
+Filename: cgroupfs-mount_2020-06-26-05494281-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2046
+SHA256sum: ac448c46d2a86b93e4b27667982ca97d765e46a2986fe27c108891f0105903ae
+Description:  Simple scripts to properly mount the cgroupfs hierarchy, especially structured for Debian packaging
+
+Package: containerd
+Version: 1.7.13-1
+Depends: libc, btrfs-progs, runc
+Source: feeds/packages/utils/containerd
+SourceName: containerd
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 36374754
+Filename: containerd_1.7.13-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 36096489
+SHA256sum: cc05054cb286b86d502a9717cda99b78c1608173db59f3df64ad9a876495fdcc
+Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
+
+Package: dockerd
+Version: 25.0.3-1
+Depends: libc, ca-certificates, containerd, iptables, iptables-mod-extra, ip6tables, kmod-ipt-nat6, libseccomp, kmod-ipt-nat, kmod-ipt-physdev, kmod-nf-ipvs, kmod-veth, tini, uci-firewall
+Source: feeds/packages/utils/dockerd
+SourceName: dockerd
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+Require-User: docker:docker
+SourceDateEpoch: 1710266352
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19729084
+Filename: dockerd_25.0.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19691252
+SHA256sum: b364f8ff30cb9a27598ccf9cb2298797cf18427bf51dbc9d74516ab776e72870
+Description:  The Docker CE Engine.
+
+Package: golang-src
+Version: 1.21.7-1
+Depends: libc
+Source: feeds/packages/lang/golang/golang
+SourceName: golang-src
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:golang:go
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 26128540
+Filename: golang-src_1.21.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 25829403
+SHA256sum: fe3d996f93a7f467b8803a1e6f7505327ea73b07c94201db703b696485f4b234
+Description:  The Go programming language is an open source project to make
+ programmers more productive.
+ 
+ Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of
+ multicore and networked machines, while its novel type system enables
+ flexible and modular program construction. Go compiles quickly to
+ machine code yet has the convenience of garbage collection and the power
+ of run-time reflection. It's a fast, statically typed, compiled language
+ that feels like a dynamically typed, interpreted language.
+ 
+ This package provides the Go programming language source files needed
+ for cross-compilation.
+
+Package: golang
+Version: 1.21.7-1
+Depends: libc, golang-src
+Source: feeds/packages/lang/golang/golang
+SourceName: golang
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:golang:go
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 38959304
+Filename: golang_1.21.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 38897536
+SHA256sum: f1cfeb4dd034574823dd0c3780b696bd21b5c01b6954f7ccf06b3640b558f158
+Description:  The Go programming language is an open source project to make
+ programmers more productive.
+ 
+ Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of
+ multicore and networked machines, while its novel type system enables
+ flexible and modular program construction. Go compiles quickly to
+ machine code yet has the convenience of garbage collection and the power
+ of run-time reflection. It's a fast, statically typed, compiled language
+ that feels like a dynamically typed, interpreted language.
+ 
+ This package provides an assembler, compiler, linker, and compiled
+ libraries for the Go programming language.
+
+Package: kmod
+Version: 31-1
+Depends: libc, zlib
+Alternatives: 200:/sbin/depmod:/sbin/kmod, 200:/sbin/insmod:/sbin/kmod, 200:/sbin/lsmod:/sbin/kmod, 200:/sbin/modinfo:/sbin/kmod, 200:/sbin/modprobe:/sbin/kmod, 200:/sbin/rmmod:/sbin/kmod
+Source: feeds/packages/utils/kmod
+SourceName: kmod
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 58782
+Filename: kmod_31-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 59731
+SHA256sum: c25959bf9c9db18f234670a63504dff17e45a73dbe19e322643d058b9761dc30
+Description:  Linux kernel module handling
+ kmod is a set of tools to handle common tasks with Linux kernel modules like
+ insert, remove, list, check properties, resolve dependencies and aliases.
+
+Package: libacl
+Version: 2.3.1-2
+Depends: libc, libattr
+Source: feeds/packages/utils/acl
+SourceName: libacl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11259
+Filename: libacl_2.3.1-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12001
+SHA256sum: 2ba761bf575c34f6a4a136a50d34e8cc2b8f38a528af3165dedc6c77d22ba044
+Description:  Access control list support
+ This package provides libacl
+
+Package: libaio
+Version: 0.3.113-2
+Depends: libc
+Source: feeds/packages/libs/libaio
+SourceName: libaio
+License: LGPL-2.1-only
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2118
+Filename: libaio_0.3.113-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2869
+SHA256sum: 4915bd3464fefc0f00bc6c9b8e0fb4aff5afffd8411ee9daebe4efc63da67e68
+Description:  Linux kernel AIO interface access library
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6084
+Filename: libattr_2.5.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6850
+SHA256sum: d21456026bb4aa005846d27eaa9412fb062fe146aff686b0d134a4069ab2dea8
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libdevmapper-selinux
+Version: 1.02.196
+Depends: libc, kmod-dm, libpthread, libuuid1, librt, libblkid1, libselinux
+Provides: libdevmapper
+Source: feeds/packages/utils/lvm2
+SourceName: libdevmapper-selinux
+License: GPL-2.0 LGPL-2.1
+LicenseFiles: COPYING COPYING.lib
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:heinz_mauelshagen:lvm2
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 156196
+Filename: libdevmapper-selinux_1.02.196_arm_cortex-a9_vfpv3-d16.ipk
+Size: 156871
+SHA256sum: c4776e44ffc4173aa89d04f1c31c207d1e137833a82af00cc8b64b8ecb97a7df
+Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
+ volume management. It is required by LVM2 and EVMS.
+ This variant supports SELinux
+ 
+
+Package: libdevmapper
+Version: 1.02.196
+Depends: libc, kmod-dm, libpthread, libuuid1, librt, libblkid1
+Source: feeds/packages/utils/lvm2
+SourceName: libdevmapper
+License: GPL-2.0 LGPL-2.1
+LicenseFiles: COPYING COPYING.lib
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:heinz_mauelshagen:lvm2
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 155016
+Filename: libdevmapper_1.02.196_arm_cortex-a9_vfpv3-d16.ipk
+Size: 155562
+SHA256sum: ecc876e241ebba80ab8307bd985324235061b21f3ee0b438608e69941248a4cb
+Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
+ volume management. It is required by LVM2 and EVMS.
+
+Package: libkmod
+Version: 31-1
+Depends: libc, zlib
+Source: feeds/packages/utils/kmod
+SourceName: libkmod
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 33238
+Filename: libkmod_31-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 34010
+SHA256sum: ee6e3a680765707438b20900deb272ae8e48ecb3e84628b8d787f36535a8172a
+Description:  Linux kernel module handling (library)
+
+Package: liblzma
+Version: 5.4.6-1
+Depends: libc, libpthread
+Source: feeds/packages/utils/xz
+SourceName: liblzma
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 61087
+Filename: liblzma_5.4.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 61821
+SHA256sum: a85f6d46089e3bc3d4eb255fd1d1071cb6330418f94f0ddc4b677729211de81b
+Description:  liblzma library from XZ Utils
+
+Package: liblzo2
+Version: 2.10-4
+Depends: libc
+Provides: liblzo
+Source: feeds/packages/libs/lzo
+SourceName: liblzo
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+ABIVersion: 2
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 35691
+Filename: liblzo2_2.10-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 36513
+SHA256sum: e8263d4fd0e6dd57ff4fa0d97c08aae44d24968c5ab7c96b1ff2d5d8a7f455ea
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libnetsnmp
+Version: 5.9.1-7
+Depends: libc, libnl-tiny1, libpci, libpcre2
+Source: feeds/packages/net/net-snmp
+SourceName: libnetsnmp
+License: MIT BSD-3-Clause-Clear
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 426617
+Filename: libnetsnmp_5.9.1-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 424050
+SHA256sum: 94f084aab1a5243dbaa35b9cde2ab91f1e35470b8889687afdede570512c3f43
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains shared libraries, needed by other programs.
+
+Package: libpam
+Version: 1.5.2-1
+Depends: libc
+Source: feeds/packages/libs/libpam
+SourceName: libpam
+License: BSD-3c GPL
+LicenseFiles: COPYING Copyright
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:kernel:linux-pam
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 178290
+Filename: libpam_1.5.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 178582
+SHA256sum: 5816f2db306802c3c9b1660f634caf357a3383952ba601d169e20b91bdb3a8f1
+Description:  The Linux-PAM Pluggable Authentication Modules.
+
+Package: libparted
+Version: 3.6-1
+Depends: libc, libblkid1, libuuid1, libdevmapper
+Source: feeds/packages/utils/parted
+SourceName: libparted
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Oskari Rauta <oskari.rauta@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 191761
+Filename: libparted_3.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 191787
+SHA256sum: 379e23190d9faf141f20b345561381bf7250b1be8e8fd7cfdf53b11af30d67d1
+Description:  GNU Parted shared library
+
+Package: libpci
+Version: 3.10.0-1
+Depends: libc
+Source: feeds/packages/utils/pciutils
+SourceName: libpci
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 25116
+Filename: libpci_3.10.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 25799
+SHA256sum: 41de6cb3b25288d2167acde920be332f06ced1225bf900f8001426138a98b5e3
+Description:  Linux PCI Libraries
+
+Package: libseccomp
+Version: 2.5.4-2
+Depends: libc
+Source: feeds/packages/libs/libseccomp
+SourceName: libseccomp
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:libseccomp_project:libseccomp
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 44046
+Filename: libseccomp_2.5.4-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 44192
+SHA256sum: d0914045b30c1cbaab1ce8451632f5ddf9ed6d85dcc69d76607fe3f33edc1242
+Description:  This package contains the seccomp library.
+
+Package: libzstd
+Version: 1.5.2-2
+Depends: libc
+Source: feeds/packages/utils/zstd
+SourceName: libzstd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1710266352
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 329277
+Filename: libzstd_1.5.2-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 329418
+SHA256sum: 7f8ec03a17bcb2c8d2cf8f540771635dac9315e62cb557cbcd109a0775859c99
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides libzstd library.
+
+Package: lvm2-selinux
+Version: 2.03.22-1
+Depends: libc, libreadline8, libncurses6, libaio, libdevmapper-selinux
+Provides: lvm2
+Source: feeds/packages/utils/lvm2
+SourceName: lvm2-selinux
+License: GPL-2.0 LGPL-2.1
+LicenseFiles: COPYING COPYING.lib
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:heinz_mauelshagen:lvm2
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 990759
+Filename: lvm2-selinux_2.03.22-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 989082
+SHA256sum: f8f527aa7f04db9b0d5ba0e2bbb04de8f4d67d31f6c82ec96ca1bc317af13372
+Description:  LVM2 refers to a new userspace toolset that provide logical volume management
+ facilities on linux. It is reasonably backwards-compatible with the original
+ LVM toolset.
+ This variant supports SELinux
+ 
+
+Package: lzmadec
+Version: 5.4.6-1
+Depends: libc, xz-utils, liblzma
+Source: feeds/packages/utils/xz
+SourceName: lzmadec
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3324
+Filename: lzmadec_5.4.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4068
+SHA256sum: eb066fe45a67f366b90b3fdeec5dfc8d627b8dd30b8620479e3f6a37c27e139b
+Description:  Contains: lzmadec 
+
+Package: lzmainfo
+Version: 5.4.6-1
+Depends: libc, xz-utils, liblzma
+Source: feeds/packages/utils/xz
+SourceName: lzmainfo
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2938
+Filename: lzmainfo_5.4.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3681
+SHA256sum: 38c9558f031d0b066dc5e8e07fd880a3b62eafa7cefbc7be37272cbe1b562721
+Description:  Contains: lzmainfo 
+
+Package: parted
+Version: 3.6-1
+Depends: libc, libparted, libreadline8, libncurses6
+Source: feeds/packages/utils/parted
+SourceName: parted
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Oskari Rauta <oskari.rauta@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 29490
+Filename: parted_3.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 30199
+SHA256sum: 2ddc62b22bc05a407a300b5c8e6d4eaaca30c427d0e9305b9ef41e338f40c243
+Description:  GNU Parted manipulates partition tables. This is useful for
+ creating space for new operating systems, reorganizing
+ disk usage, copying data on hard disks and disk imaging.
+
+Package: pciids
+Version: 0.359-1
+Depends: libc
+Source: feeds/packages/utils/hwdata
+SourceName: pciids
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1710266352
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 306360
+Filename: pciids_0.359-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 306623
+SHA256sum: f5c61f156cf2b0e66a0fb9ac169ba5ca1a39208bdc86d413fcad7ccbbbe53d6c
+Description:  PCI ID list
+
+Package: pciutils
+Version: 3.10.0-1
+Depends: libc, libkmod, libpci, pciids
+Source: feeds/packages/utils/pciutils
+SourceName: pciutils
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 45393
+Filename: pciutils_3.10.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 46109
+SHA256sum: 0f2ec400cebcf8ced6d9bad749d291d3a7f651bcef620e354e2e26999d8afa92
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: runc
+Version: 1.1.12-1
+Depends: libc, libseccomp
+Source: feeds/packages/utils/runc
+SourceName: runc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3414911
+Filename: runc_1.1.12-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3387851
+SHA256sum: 4d32a2655a79664166590f7368cdac501b2a69396f7c9bff61a5bcd7c8a019ff
+Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
+Package: snmp-mibs
+Version: 5.9.1-7
+Depends: libc
+Source: feeds/packages/net/net-snmp
+SourceName: snmp-mibs
+License: MIT BSD-3-Clause-Clear
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 340307
+Filename: snmp-mibs_5.9.1-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 341282
+SHA256sum: 319b52534546b7afb59f62cfdff168a7b8ebd90c8f535aecb295fa8598c9dd06
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains SNMP MIB-Files.
+
+Package: snmp-utils
+Version: 5.9.1-7
+Depends: libc, libnetsnmp
+Source: feeds/packages/net/net-snmp
+SourceName: snmp-utils
+License: MIT BSD-3-Clause-Clear
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 15942
+Filename: snmp-utils_5.9.1-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16792
+SHA256sum: 382fd97839eb69b9d0084ab711393250964159c59080054d79eb1d2e1eee01c5
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains SNMP client utilities:
+ - snmpget
+ - snmpset
+ - snmpstatus
+ - snmptest
+ - snmptrap
+ - snmpwalk
+
+Package: snmpd
+Version: 5.9.1-7
+Depends: libc, libnetsnmp
+Source: feeds/packages/net/net-snmp
+SourceName: snmpd
+License: MIT BSD-3-Clause-Clear
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10372
+Filename: snmpd_5.9.1-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11334
+SHA256sum: 3d70d607b1d08a96c5a8eba518abef99c71efcac754a4ac602ea63dd96462f77
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP agent, dynamically linked.
+
+Package: snmptrapd
+Version: 5.9.1-7
+Depends: libc, libnetsnmp
+Source: feeds/packages/net/net-snmp
+SourceName: snmptrapd
+License: MIT BSD-3-Clause-Clear
+Section: net
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20356
+Filename: snmptrapd_5.9.1-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21290
+SHA256sum: 74a8af730a61054092b37c80b8b6edc99d996abe3cfc57f6690edeefd171dfeb
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP notification receiver.
+
+Package: tini
+Version: 0.19.0-2
+Depends: libc
+Source: feeds/packages/utils/tini
+SourceName: tini
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1710266352
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 35718
+Filename: tini_0.19.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 36389
+SHA256sum: f6478bc95f39ecbcea92ddb8dac89a4f86b0256577328de12b09cc72ff4f56fd
+Description:  A tiny but valid init process for containers.
+
+Package: usbids
+Version: 0.359-1
+Depends: libc
+Source: feeds/packages/utils/hwdata
+SourceName: usbids
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1710266352
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 251055
+Filename: usbids_0.359-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 251512
+SHA256sum: 7e2b88f42d0c284f1e9db74f4ff259cf8d61d0903a7e9e7de8f7de2dafde0e51
+Description:  USB ID list
+
+Package: xz-utils
+Version: 5.4.6-1
+Depends: libc
+Source: feeds/packages/utils/xz
+SourceName: xz-utils
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 95
+Filename: xz-utils_5.4.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 840
+SHA256sum: 5ea00c60b2d2e06cc9f71c97459a298bb44d35e6882fe2b5808f895beeadddc7
+Description:  XZ Utils (meta)
+
+Package: xz
+Version: 5.4.6-1
+Depends: libc, xz-utils, liblzma
+Alternatives: 300:/usr/bin/xz:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzcat:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unlzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unxz:/usr/libexec/xz-lzmautils, 300:/usr/bin/xzcat:/usr/libexec/xz-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xz
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 30328
+Filename: xz_5.4.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 31125
+SHA256sum: 08da9b3b11162e57b378bb18294c775d28e774700ea710fdaad4a8aa5a04d836
+Description:  Contains: xz  lzcat lzma unlzma unxz xzcat
+
+Package: xzdec
+Version: 5.4.6-1
+Depends: libc, xz-utils, liblzma
+Source: feeds/packages/utils/xz
+SourceName: xzdec
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3318
+Filename: xzdec_5.4.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4063
+SHA256sum: 89e08cb604581c4483aecce5ebf1b72a40448c708c9b057ea9a50631a5074cdd
+Description:  Contains: xzdec 
+
+Package: xzdiff
+Version: 5.4.6-1
+Depends: libc, xz-utils, xz
+Alternatives: 300:/usr/bin/xzdiff:/usr/libexec/xzdiff-lzmautils, 300:/usr/bin/lzcmp:/usr/libexec/xzdiff-lzmautils, 300:/usr/bin/lzdiff:/usr/libexec/xzdiff-lzmautils, 300:/usr/bin/xzcmp:/usr/libexec/xzdiff-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xzdiff
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2950
+Filename: xzdiff_5.4.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3746
+SHA256sum: 6c796a2f96a89f1ed9ef020a2ea5d59f01880f580b9d3c7bdf91364789d866d6
+Description:  Contains: xzdiff  lzcmp lzdiff xzcmp
+
+Package: xzgrep
+Version: 5.4.6-1
+Depends: libc, xz-utils, xz
+Alternatives: 300:/usr/bin/xzgrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/lzegrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/lzfgrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/lzgrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/xzegrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/xzfgrep:/usr/libexec/xzgrep-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xzgrep
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4485
+Filename: xzgrep_5.4.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5299
+SHA256sum: 0da00e3cd988ff9a9b6caa7d8686bbcf4886552f817d5014f0a2e669eebc417c
+Description:  Contains: xzgrep  lzegrep lzfgrep lzgrep xzegrep xzfgrep
+
+Package: xzless
+Version: 5.4.6-1
+Depends: libc, xz-utils, xz
+Alternatives: 300:/usr/bin/xzless:/usr/libexec/xzless-lzmautils, 300:/usr/bin/lzless:/usr/libexec/xzless-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xzless
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1255
+Filename: xzless_5.4.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2057
+SHA256sum: b1c27cbef9476ea73ee8b1b74ce3198324a8c320b64477e98ae8ca41d46348d5
+Description:  Contains: xzless  lzless
+
+Package: xzmore
+Version: 5.4.6-1
+Depends: libc, xz-utils, xz
+Alternatives: 300:/usr/bin/xzmore:/usr/libexec/xzmore-lzmautils, 300:/usr/bin/lzmore:/usr/libexec/xzmore-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xzmore
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1336
+Filename: xzmore_5.4.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2141
+SHA256sum: 274709e278b4fc4aa9b8cc5229b642ff6977f8ee381e1567620898ae9fbd378f
+Description:  Contains: xzmore  lzmore
+
+Package: zstd
+Version: 1.5.2-2
+Depends: libc, libzstd
+Source: feeds/packages/utils/zstd
+SourceName: zstd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1710266352
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 69939
+Filename: zstd_1.5.2-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 70692
+SHA256sum: 96240aa3ad9913d099a96929520e502bcbff0c9df55bb901e223a0df1242d688
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides the zstd binaries.
 
